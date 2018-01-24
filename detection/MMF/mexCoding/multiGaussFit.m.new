@@ -1,0 +1,45 @@
+function [solutionT,residualsT,jacMatT,sln2] = multiGaussFit( x0,image,index,psfSigma )
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+% [ret, popt, info]=sparselm(fname, jacname, 'an', p0, ncnst, x, jnnz, jtjnnz, itmax, opts, ...)
+
+maximaPosT = rand(1,3);
+maximaAmpT = rand(1,1);
+bgAmpT = 1;
+psfSigma = [1 1];
+x=100;,y=100;,z=100;,[i,j,k] = ind2sub([x y z],1:x*y*z);
+clusterPixels = [i',j',k'];
+[x0,lb,ub] = mmfInitGuessLowerUpperBounds3D(maximaPosT,maximaAmpT,bgAmpT,psfSigma,clusterPixels,1);
+image = rand(x*y*z,1);
+
+options = optimset('Jacobian','on',...
+    'MaxFunEvals', 1e4, ...
+    'MaxIter', 1e4, ...
+    'Display', 'off', ...
+    'TolX', 1e-6, ...
+    'Tolfun', 1e-6);
+tic
+[solutionT,~,residualsT,~,~,~,jacMatT] = ...
+            lsqnonlin(@fitNGaussians3D_mexCode_mex,x0,lb,ub,options,image,...
+            clusterPixels,psfSigma);
+time1 = toc
+
+
+tic
+
+user.index = clusterPixels;
+user.psfSigma = psfSigma;
+
+m = length(image);
+n = length(x0);
+
+[cwsav, lwsav, iwsav, rwsav, ifail] = e04wb('e04us');
+
+[iter, istate, c, cjac, f, fjac, clamda, objf, r, sln2, user, lwsav, iwsav, rwsav, ifail] = e04us([], lb, ub, image, 'e04udm', 'objFcn_wrapper', int64(ones(n,1)), 1, ones(m,n), ones(n,1), ones(n), x0, lwsav, iwsav, rwsav, 'm', int64(m), 'n', int64(n), 'nclin', int64(0), 'ncnln', int64(0), 'user', user);
+
+time2 = toc
+
+
+
+end
+

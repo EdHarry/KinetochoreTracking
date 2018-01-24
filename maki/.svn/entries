@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3427"
+   name=""
+   committed-date="2009-05-22T16:56:12.874145Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/maki/main"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2945"
+   name="makiMovieAnalysis.m"
+   text-time="2008-10-10T16:18:13.045625Z"
+   committed-date="2008-09-05T16:56:31.450827Z"
+   checksum="4c77a073ea87d3e59400c6037ce017dd"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:07.092500Z"/>
+<entry
+   committed-rev="2448"
+   name="makiGetVersion.m"
+   text-time="2008-04-03T11:43:51.429323Z"
+   committed-date="2007-07-29T15:22:45.809452Z"
+   checksum="c6712519505701f2e60157ef9115f0e0"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:47.928696Z"/>
+<entry
+   committed-rev="2879"
+   name="makiTrackGetAveDispEllipseAll.m"
+   text-time="2008-10-10T16:18:13.061250Z"
+   committed-date="2008-07-22T02:00:20.211305Z"
+   checksum="a705d41d2b61fc294e73213381fac10f"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:07.108125Z"/>
+<entry
+   committed-rev="2873"
+   name="makiDiffusionAnalysis.m"
+   text-time="2008-10-10T16:18:13.076875Z"
+   committed-date="2008-07-15T18:41:54.292722Z"
+   checksum="219dd809b801de80c4a54683676780cc"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:07.248750Z"/>
+<entry
+   committed-rev="2625"
+   name="makiMakeJobPlatformIndependent.m"
+   text-time="2008-04-03T11:43:51.476206Z"
+   committed-date="2008-01-10T18:11:05.425700Z"
+   checksum="fa85e8417e1d69ff2545771558dd017a"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:48.350646Z"/>
+<entry
+   committed-rev="3313"
+   name="makiSisterConnectionAnalysis.m"
+   text-time="2009-05-15T19:57:23.240375Z"
+   committed-date="2009-04-23T21:53:41.071992Z"
+   checksum="58c0ea75597dc60b89fa45c849050fd4"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-15T19:57:23.146625Z"/>
+<entry
+   committed-rev="3313"
+   name="makiSisterMotionCoupling.m"
+   text-time="2009-05-15T19:57:23.256000Z"
+   committed-date="2009-04-23T21:53:41.071992Z"
+   checksum="23297511cc9a3793ca3898978ddb236a"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-15T19:57:23.209125Z"/>
+<entry
+   committed-rev="3156"
+   name="makiCoord2Cord.m"
+   text-time="2009-03-27T11:46:51.185371Z"
+   committed-date="2009-03-11T19:55:16.226377Z"
+   checksum="c711575d210007fd0e05234a12672873"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-03-27T11:46:50.872835Z"/>
+<entry
+   committed-rev="2420"
+   name="makiFitPlanePlot.m"
+   text-time="2008-04-03T11:43:51.538717Z"
+   committed-date="2007-07-17T18:53:07.433916Z"
+   checksum="3ec7bba58ad18f534d570ffd9a34e023"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:48.975758Z"/>
+<entry
+   committed-rev="2956"
+   name="makiFitPlane.m"
+   text-time="2008-10-10T16:18:13.108125Z"
+   committed-date="2008-09-11T01:09:33.304977Z"
+   checksum="b5f6592ad6d0e511a12e65fd9098be36"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:08.108125Z"/>
+<entry
+   committed-rev="3021"
+   name="makiOverlayPlots.m"
+   text-time="2008-12-05T15:11:22.064750Z"
+   committed-date="2008-11-05T22:46:05.046909Z"
+   checksum="ee51756f3877bf05b590fbd6c39f665d"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-12-05T15:11:21.252250Z"/>
+<entry
+   committed-rev="2873"
+   name="makiBreathingOscillation.m"
+   text-time="2008-10-10T16:18:13.139375Z"
+   committed-date="2008-07-15T18:41:54.292722Z"
+   checksum="bb9325a51998fa6ee470a0938cf30cb9"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:08.155000Z"/>
+<entry
+   committed-rev="2931"
+   name="makiJitterAnalysis.m"
+   text-time="2008-10-10T16:18:13.170625Z"
+   committed-date="2008-08-26T22:33:15.742838Z"
+   checksum="3250cccda305f21d47f42c571980e5c2"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:08.155000Z"/>
+<entry
+   committed-rev="2749"
+   name="makiLoadDataFile.m"
+   text-time="2008-04-03T11:43:51.632484Z"
+   committed-date="2008-03-14T14:01:29.607421Z"
+   checksum="a2df3a6e6c256c5c574a566ffa878679"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2008-04-03T11:43:50.804211Z"/>
+<entry
+   committed-rev="2945"
+   name="makiGroupSisters.m"
+   text-time="2008-10-10T16:18:13.186250Z"
+   committed-date="2008-09-05T16:56:31.450827Z"
+   checksum="3c32e872086e359215f6ad47f0d79875"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:08.201875Z"/>
+<entry
+   committed-rev="2749"
+   name="makiPathDef.m"
+   text-time="2008-04-03T11:43:51.648112Z"
+   committed-date="2008-03-14T14:01:29.607421Z"
+   checksum="be200c6a53776a5fe188d737c8a29d32"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2008-04-03T11:43:50.960489Z"/>
+<entry
+   committed-rev="2931"
+   name="makiAnalysisAll.m"
+   text-time="2008-10-10T16:18:13.201875Z"
+   committed-date="2008-08-26T22:33:15.742838Z"
+   checksum="dce68d3cb4171dd78be106ae634ccb09"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:08.201875Z"/>
+<entry
+   committed-rev="2752"
+   name="makiEvaluateCondition.m"
+   text-time="2008-04-03T11:43:51.679368Z"
+   committed-date="2008-03-18T14:25:11.216945Z"
+   checksum="af02b17703ba4a6c492f75b233a92e92"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2008-04-03T11:43:51.163650Z"/>
+<entry
+   committed-rev="3120"
+   name="makiMonotelicVsSyntelic.m"
+   text-time="2009-03-27T11:46:51.200998Z"
+   committed-date="2009-02-12T20:03:36.615755Z"
+   checksum="235ae2151d0dfeb07c4eadf7523faca1"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-03-27T11:46:51.122864Z"/>
+<entry
+   committed-rev="2462"
+   name="makiTestAlignment.m"
+   text-time="2008-04-03T11:43:51.694995Z"
+   committed-date="2007-08-07T18:47:14.292374Z"
+   checksum="455812076fdf48cd7115299d2287c37c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:51.226161Z"/>
+<entry
+   committed-rev="3120"
+   name="makiMakeScatterPlots.m"
+   text-time="2009-03-27T11:46:51.200998Z"
+   committed-date="2009-02-12T20:03:36.615755Z"
+   checksum="28c282b6282af206cd2b423e1e89327b"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-03-27T11:46:51.138491Z"/>
+<entry
+   committed-rev="2855"
+   name="makiConstructAlignedSisters.m"
+   text-time="2008-10-10T16:18:13.217500Z"
+   committed-date="2008-06-29T19:30:22.526261Z"
+   checksum="dd70caf12db89b42ec2b584a45849578"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:08.717500Z"/>
+<entry
+   committed-rev="3421"
+   name="makiShowImaris.m"
+   text-time="2009-05-18T10:44:29.256000Z"
+   committed-date="2009-05-18T10:44:05.537574Z"
+   checksum="a4a0bdbdddcd09f4338bb6397357316b"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-18T10:44:29.256000Z"/>
+<entry
+   committed-rev="2945"
+   name="makiAlignFrames.m"
+   text-time="2008-10-10T16:18:13.248750Z"
+   committed-date="2008-09-05T16:56:31.450827Z"
+   checksum="340226bcefe15b023369e84a1b931dd9"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:08.780000Z"/>
+<entry
+   committed-rev="2625"
+   name="makiSaveDataFile.m"
+   text-time="2008-04-03T11:43:51.444951Z"
+   committed-date="2008-01-10T18:11:05.425700Z"
+   checksum="8624a8926264ffb247f4e326b034580f"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:48.147485Z"/>
+<entry
+   committed-rev="2480"
+   name="makiPlotRotatingPlanes.m"
+   text-time="2008-04-03T11:43:51.444951Z"
+   committed-date="2007-08-16T21:34:25.015083Z"
+   checksum="40664206c8f4eb4b5c29f53dbad0c15b"
+   last-author="gdanuser"
+   kind="file"
+   prop-time="2008-04-03T11:43:48.256879Z"/>
+<entry
+   committed-rev="3427"
+   name="makiInitCoord.m"
+   text-time="2009-05-22T17:05:44.153750Z"
+   committed-date="2009-05-22T16:56:12.874145Z"
+   checksum="d3f4d6bd15835de457109fee2a88ae0f"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:05:44.138125Z"/>
+<entry
+   committed-rev="2435"
+   name="makiEvalTracks.m"
+   text-time="2008-04-03T11:43:51.507462Z"
+   committed-date="2007-07-24T23:41:25.651025Z"
+   checksum="81d96abe8f5436bffc6c852bf59308eb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:48.710086Z"/>
+<entry
+   committed-rev="2879"
+   name="makiTrackCostMatCloseGaps.m"
+   text-time="2008-10-10T16:18:13.264375Z"
+   committed-date="2008-07-22T02:00:20.211305Z"
+   checksum="29928695b01e2ed11f60c0fa0b02c974"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:10.139375Z"/>
+<entry
+   committed-rev="2873"
+   name="makiAutocorrRandPairs.m"
+   text-time="2008-10-10T16:18:13.280000Z"
+   committed-date="2008-07-15T18:41:54.292722Z"
+   checksum="3ea34f4031d8dd114704e5423258c25f"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:10.170625Z"/>
+<entry
+   committed-rev="2945"
+   name="makiGenerateTracks.m"
+   text-time="2008-10-10T16:18:13.295625Z"
+   committed-date="2008-09-05T16:56:31.450827Z"
+   checksum="4fd24002470ae449e99bd37c879c244c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:10.186250Z"/>
+<entry
+   committed-rev="2980"
+   name="makiCheapVis.m"
+   text-time="2008-10-15T16:18:42.802860Z"
+   committed-date="2008-10-10T16:40:58.914587Z"
+   checksum="ec05020f136e9a68e30530e7f44dc773"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2008-10-15T16:18:42.787234Z"/>
+<entry
+   committed-rev="2625"
+   name="makiMakeAnalysisPlatformIndependent.m"
+   text-time="2008-04-03T11:43:51.569973Z"
+   committed-date="2008-01-10T18:11:05.425700Z"
+   checksum="e9c579e7d18bb0f5d228373b29b66d72"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:49.413337Z"/>
+<entry
+   committed-rev="3021"
+   name="makiSepDispSpaceTimeAnalysis.m"
+   text-time="2008-12-05T15:11:22.111625Z"
+   committed-date="2008-11-05T22:46:05.046909Z"
+   checksum="9513e8e2ef7adb959e6dd714a1268571"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-12-05T15:11:21.721000Z"/>
+<entry
+   committed-rev="3021"
+   name="makiMakeJob.m"
+   text-time="2008-12-05T15:11:22.127250Z"
+   committed-date="2008-11-05T22:46:05.046909Z"
+   checksum="c5a4845b7cf3ef4dba17af213ea4c7cb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-12-05T15:11:21.986625Z"/>
+<entry
+   committed-rev="2878"
+   name="makiCollectMovies.m"
+   text-time="2008-10-10T16:18:13.358125Z"
+   committed-date="2008-07-21T21:14:35.956656Z"
+   checksum="69282b8f220b082e7406e65f3fc5d622"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:12.217500Z"/>
+<entry
+   committed-rev="2945"
+   name="makiUpdateClass.m"
+   text-time="2008-10-10T16:18:13.373750Z"
+   committed-date="2008-09-05T16:56:31.450827Z"
+   checksum="d4ea1777ed719a2c4d91eecd7d844ee0"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:12.233125Z"/>
+<entry
+   committed-rev="2562"
+   name="makiUpdateDataFile.m"
+   text-time="2008-04-03T11:43:51.663740Z"
+   committed-date="2007-11-08T02:42:58.612970Z"
+   checksum="1452aff1ae99c1445452e6f2bd1c2484"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:51.132395Z"/>
+<entry
+   committed-rev="2562"
+   name="makiMakeDataStruct.m"
+   text-time="2008-04-03T11:43:51.663740Z"
+   committed-date="2007-11-08T02:42:58.612970Z"
+   checksum="7ff4f1d9a969ad51bca43f32b0e18ed8"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-04-03T11:43:51.148022Z"/>
+<entry
+   committed-rev="2879"
+   name="makiTrackCostMatLink.m"
+   text-time="2008-10-10T16:18:13.373750Z"
+   committed-date="2008-07-22T02:00:20.211305Z"
+   checksum="3b319abf50a580b3a785c6398bd10b82"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:12.967500Z"/>
+<entry
+   committed-rev="2931"
+   name="makiMetaPlateAnalysis.m"
+   text-time="2008-10-10T16:18:13.389375Z"
+   committed-date="2008-08-26T22:33:15.742838Z"
+   checksum="29e37c4d0a58350edf4a259b624eb1be"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:12.967500Z"/>
+<entry
+   committed-rev="2873"
+   name="makiAnalysisWrtAnaphase.m"
+   text-time="2008-10-10T16:18:13.405000Z"
+   committed-date="2008-07-15T18:41:54.292722Z"
+   checksum="8cb111c0335595207ca9183609b476fb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2008-10-10T16:18:12.983125Z"/>
+</wc-entries>

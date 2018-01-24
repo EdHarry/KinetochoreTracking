@@ -1,0 +1,9 @@
+MEX {
+	global:
+		mexFunction;
+		objFcn;
+		objFcn_initialize;
+		objFcn_terminate;
+	local:
+		*;
+};

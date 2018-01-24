@@ -1,0 +1,9 @@
+MEX {
+	global:
+		mexFunction;
+		fitNGaussians3D_mexCode_F;
+		fitNGaussians3D_mexCode_F_initialize;
+		fitNGaussians3D_mexCode_F_terminate;
+	local:
+		*;
+};

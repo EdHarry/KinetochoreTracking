@@ -1,0 +1,192 @@
+<HTML>
+<HEAD>
+<TITLE>RTW Report - fitNGaussians3D_mexCode_F_api.c </TITLE>
+</HEAD>
+<BODY BGCOLOR="#eeeeee" TEXT="#1122aa" ONLOAD="if (top) { if (top.rtwFileOnLoad) top.rtwFileOnLoad(window);}">
+<P>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%" HEIGHT="100%"><TR><TD WIDTH="100%" VALIGN="top" BGCOLOR="#ffffff">
+<H4>File: <A HREF="file:///gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/codegen/mex/fitNGaussians3D_mexCode_F/fitNGaussians3D_mexCode_F_api.c" TARGET="rtwreport_document_frame">/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/codegen/mex/fitNGaussians3D_mexCode_F/fitNGaussians3D_mexCode_F_api.c</A></H4>
+<PRE id="RTWcode">
+<FONT COLOR="#888888"><I>    1   </I></FONT><FONT COLOR="#117755"><I>/*</I></FONT>
+<FONT COLOR="#888888"><I>    2   </I></FONT><FONT COLOR="#117755"><I> * fitNGaussians3D_mexCode_F_api.c</I></FONT>
+<FONT COLOR="#888888"><I>    3   </I></FONT><FONT COLOR="#117755"><I> *</I></FONT>
+<FONT COLOR="#888888"><I>    4   </I></FONT><FONT COLOR="#117755"><I> * Code generation for function 'fitNGaussians3D_mexCode_F_api'</I></FONT>
+<FONT COLOR="#888888"><I>    5   </I></FONT><FONT COLOR="#117755"><I> *</I></FONT>
+<FONT COLOR="#888888"><I>    6   </I></FONT><FONT COLOR="#117755"><I> * C source code generated on: Mon May 21 17:33:35 2012</I></FONT>
+<FONT COLOR="#888888"><I>    7   </I></FONT><FONT COLOR="#117755"><I> *</I></FONT>
+<FONT COLOR="#888888"><I>    8   </I></FONT><FONT COLOR="#117755"><I> */</I></FONT>
+<FONT COLOR="#888888"><I>    9   </I></FONT>
+<FONT COLOR="#888888"><I>   10   </I></FONT><FONT COLOR="#117755"><I>/* Include files */</I></FONT>
+<FONT COLOR="#888888"><I>   11   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;rt_nonfinite.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   12   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;fitNGaussians3D_mexCode_F.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   13   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;fitNGaussians3D_mexCode_F_api.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   14   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;fitNGaussians3D_mexCode_F_emxutil.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   15   </I></FONT>
+<FONT COLOR="#888888"><I>   16   </I></FONT><FONT COLOR="#117755"><I>/* Type Definitions */</I></FONT>
+<FONT COLOR="#888888"><I>   17   </I></FONT>
+<FONT COLOR="#888888"><I>   18   </I></FONT><FONT COLOR="#117755"><I>/* Named Constants */</I></FONT>
+<FONT COLOR="#888888"><I>   19   </I></FONT>
+<FONT COLOR="#888888"><I>   20   </I></FONT><FONT COLOR="#117755"><I>/* Variable Declarations */</I></FONT>
+<FONT COLOR="#888888"><I>   21   </I></FONT>
+<FONT COLOR="#888888"><I>   22   </I></FONT><FONT COLOR="#117755"><I>/* Variable Definitions */</I></FONT>
+<FONT COLOR="#888888"><I>   23   </I></FONT>
+<FONT COLOR="#888888"><I>   24   </I></FONT><FONT COLOR="#117755"><I>/* Function Declarations */</I></FONT>
+<FONT COLOR="#888888"><I>   25   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_b_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *u, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *parentId, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y);
+<FONT COLOR="#888888"><I>   26   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_c_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *b_index, <FONT COLOR="#112266"><B>const</B></FONT> char_T *identifier, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y);
+<FONT COLOR="#888888"><I>   27   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_d_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_d_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">d_emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *u, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *parentId, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y);
+<FONT COLOR="#888888"><I>   28   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_e_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_e_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">e_emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *psfSigma, <FONT COLOR="#112266"><B>const</B></FONT> char_T *identifier, real_T y[2]);
+<FONT COLOR="#888888"><I>   29   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *x0, <FONT COLOR="#112266"><B>const</B></FONT> char_T *identifier, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y);
+<FONT COLOR="#888888"><I>   30   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>const</B></FONT> mxArray *<A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_emlrt_marshallOut" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emlrt_marshallOut');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrt_marshallOut</FONT></A>(<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *u);
+<FONT COLOR="#888888"><I>   31   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_f_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_f_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">f_emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *u, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *parentId, real_T y[2]);
+<FONT COLOR="#888888"><I>   32   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_g_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_g_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">g_emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *src, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *msgId, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *ret);
+<FONT COLOR="#888888"><I>   33   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_h_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_h_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">h_emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *src, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *msgId, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *ret);
+<FONT COLOR="#888888"><I>   34   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_i_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_i_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">i_emlrt_marshallIn</FONT></A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *src, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *msgId, real_T ret[2]);
+<FONT COLOR="#888888"><I>   35   </I></FONT>
+<FONT COLOR="#888888"><I>   36   </I></FONT><FONT COLOR="#117755"><I>/* Function Definitions */</I></FONT>
+<FONT COLOR="#888888"><I>   37   </I></FONT>
+<FONT COLOR="#888888"><I>   38   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_b_emlrt_marshallIn">b_emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *u, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *parentId, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y)
+<FONT COLOR="#888888"><I>   39   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>   40   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_g_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_g_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">g_emlrt_marshallIn</FONT></A>(emlrtAlias(u), parentId, y);
+<FONT COLOR="#888888"><I>   41   </I></FONT>    emlrtDestroyArray(&amp;u);
+<FONT COLOR="#888888"><I>   42   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>   43   </I></FONT>
+<FONT COLOR="#888888"><I>   44   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_c_emlrt_marshallIn">c_emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *b_index, <FONT COLOR="#112266"><B>const</B></FONT> char_T *identifier, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y)
+<FONT COLOR="#888888"><I>   45   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>   46   </I></FONT>    emlrtMsgIdentifier thisId;
+<FONT COLOR="#888888"><I>   47   </I></FONT>    thisId.fIdentifier = identifier;
+<FONT COLOR="#888888"><I>   48   </I></FONT>    thisId.fParent = NULL;
+<FONT COLOR="#888888"><I>   49   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_d_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_d_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">d_emlrt_marshallIn</FONT></A>(emlrtAlias(b_index), &amp;thisId, y);
+<FONT COLOR="#888888"><I>   50   </I></FONT>    emlrtDestroyArray(&amp;b_index);
+<FONT COLOR="#888888"><I>   51   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>   52   </I></FONT>
+<FONT COLOR="#888888"><I>   53   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_d_emlrt_marshallIn">d_emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *u, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *parentId, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y)
+<FONT COLOR="#888888"><I>   54   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>   55   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_h_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_h_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">h_emlrt_marshallIn</FONT></A>(emlrtAlias(u), parentId, y);
+<FONT COLOR="#888888"><I>   56   </I></FONT>    emlrtDestroyArray(&amp;u);
+<FONT COLOR="#888888"><I>   57   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>   58   </I></FONT>
+<FONT COLOR="#888888"><I>   59   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_e_emlrt_marshallIn">e_emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *psfSigma, <FONT COLOR="#112266"><B>const</B></FONT> char_T *identifier, real_T y[2])
+<FONT COLOR="#888888"><I>   60   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>   61   </I></FONT>    emlrtMsgIdentifier thisId;
+<FONT COLOR="#888888"><I>   62   </I></FONT>    thisId.fIdentifier = identifier;
+<FONT COLOR="#888888"><I>   63   </I></FONT>    thisId.fParent = NULL;
+<FONT COLOR="#888888"><I>   64   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_f_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_f_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">f_emlrt_marshallIn</FONT></A>(emlrtAlias(psfSigma), &amp;thisId, y);
+<FONT COLOR="#888888"><I>   65   </I></FONT>    emlrtDestroyArray(&amp;psfSigma);
+<FONT COLOR="#888888"><I>   66   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>   67   </I></FONT>
+<FONT COLOR="#888888"><I>   68   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_emlrt_marshallIn">emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *x0, <FONT COLOR="#112266"><B>const</B></FONT> char_T *identifier, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y)
+<FONT COLOR="#888888"><I>   69   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>   70   </I></FONT>    emlrtMsgIdentifier thisId;
+<FONT COLOR="#888888"><I>   71   </I></FONT>    thisId.fIdentifier = identifier;
+<FONT COLOR="#888888"><I>   72   </I></FONT>    thisId.fParent = NULL;
+<FONT COLOR="#888888"><I>   73   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_b_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_emlrt_marshallIn</FONT></A>(emlrtAlias(x0), &amp;thisId, y);
+<FONT COLOR="#888888"><I>   74   </I></FONT>    emlrtDestroyArray(&amp;x0);
+<FONT COLOR="#888888"><I>   75   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>   76   </I></FONT>
+<FONT COLOR="#888888"><I>   77   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>const</B></FONT> mxArray *<A NAME="fcn_emlrt_marshallOut">emlrt_marshallOut</A>(<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *u)
+<FONT COLOR="#888888"><I>   78   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>   79   </I></FONT>    <FONT COLOR="#112266"><B>const</B></FONT> mxArray *y;
+<FONT COLOR="#888888"><I>   80   </I></FONT>    <FONT COLOR="#112266"><B>const</B></FONT> mxArray *m0;
+<FONT COLOR="#888888"><I>   81   </I></FONT>    real_T (*pData)[];
+<FONT COLOR="#888888"><I>   82   </I></FONT>    int32_T i0;
+<FONT COLOR="#888888"><I>   83   </I></FONT>    int32_T i;
+<FONT COLOR="#888888"><I>   84   </I></FONT>    int32_T b_i;
+<FONT COLOR="#888888"><I>   85   </I></FONT>    y = NULL;
+<FONT COLOR="#888888"><I>   86   </I></FONT>    m0 = mxCreateNumericArray(2, u-&gt;size, mxDOUBLE_CLASS, mxREAL);
+<FONT COLOR="#888888"><I>   87   </I></FONT>    pData = (real_T (*)[])mxGetPr(m0);
+<FONT COLOR="#888888"><I>   88   </I></FONT>    i0 = 0;
+<FONT COLOR="#888888"><I>   89   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt; u-&gt;size[1]; i++) <B>{</B>
+<FONT COLOR="#888888"><I>   90   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (b_i = 0; b_i &lt; u-&gt;size[0]; b_i++) <B>{</B>
+<FONT COLOR="#888888"><I>   91   </I></FONT>            (*pData)[i0] = u-&gt;data[b_i + u-&gt;size[0] * i];
+<FONT COLOR="#888888"><I>   92   </I></FONT>            i0++;
+<FONT COLOR="#888888"><I>   93   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>   94   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>   95   </I></FONT>    emlrtAssign(&amp;y, m0);
+<FONT COLOR="#888888"><I>   96   </I></FONT>    <FONT COLOR="#112266"><B>return</B></FONT> y;
+<FONT COLOR="#888888"><I>   97   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>   98   </I></FONT>
+<FONT COLOR="#888888"><I>   99   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_f_emlrt_marshallIn">f_emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *u, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *parentId, real_T y[2])
+<FONT COLOR="#888888"><I>  100   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>  101   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_i_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_i_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">i_emlrt_marshallIn</FONT></A>(emlrtAlias(u), parentId, y);
+<FONT COLOR="#888888"><I>  102   </I></FONT>    emlrtDestroyArray(&amp;u);
+<FONT COLOR="#888888"><I>  103   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>  104   </I></FONT>
+<FONT COLOR="#888888"><I>  105   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_g_emlrt_marshallIn">g_emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *src, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *msgId, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *ret)
+<FONT COLOR="#888888"><I>  106   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>  107   </I></FONT>    int32_T iv3[1];
+<FONT COLOR="#888888"><I>  108   </I></FONT>    boolean_T bv0[1];
+<FONT COLOR="#888888"><I>  109   </I></FONT>    int32_T i1;
+<FONT COLOR="#888888"><I>  110   </I></FONT>    iv3[0] = -1;
+<FONT COLOR="#888888"><I>  111   </I></FONT>    bv0[0] = TRUE;
+<FONT COLOR="#888888"><I>  112   </I></FONT>    emlrtCheckVsBuiltInR2011a(msgId, src, <FONT COLOR="#1122ff">&quot;double&quot;</FONT>, FALSE, 1U, iv3, bv0, ret-&gt;size);
+<FONT COLOR="#888888"><I>  113   </I></FONT>    i1 = ret-&gt;size[0];
+<FONT COLOR="#888888"><I>  114   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)ret, i1, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  115   </I></FONT>    emlrtImportArrayR2008b(src, ret-&gt;data, 8);
+<FONT COLOR="#888888"><I>  116   </I></FONT>    emlrtDestroyArray(&amp;src);
+<FONT COLOR="#888888"><I>  117   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>  118   </I></FONT>
+<FONT COLOR="#888888"><I>  119   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_h_emlrt_marshallIn">h_emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *src, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *msgId, <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *ret)
+<FONT COLOR="#888888"><I>  120   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>  121   </I></FONT>    int32_T i2;
+<FONT COLOR="#888888"><I>  122   </I></FONT>    int32_T iv4[2];
+<FONT COLOR="#888888"><I>  123   </I></FONT>    <FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>const</B></FONT> boolean_T bv1[2] = <B>{</B> TRUE, FALSE <B>}</B>;
+<FONT COLOR="#888888"><I>  124   </I></FONT>    boolean_T bv2[2];
+<FONT COLOR="#888888"><I>  125   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i2 = 0; i2 &lt; 2; i2++) <B>{</B>
+<FONT COLOR="#888888"><I>  126   </I></FONT>        iv4[i2] = (i2 &lt;&lt; 2) - 1;
+<FONT COLOR="#888888"><I>  127   </I></FONT>        bv2[i2] = bv1[i2];
+<FONT COLOR="#888888"><I>  128   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  129   </I></FONT>    emlrtCheckVsBuiltInR2011a(msgId, src, <FONT COLOR="#1122ff">&quot;double&quot;</FONT>, FALSE, 2U, iv4, bv2, ret-&gt;size);
+<FONT COLOR="#888888"><I>  130   </I></FONT>    i2 = ret-&gt;size[0] * ret-&gt;size[1];
+<FONT COLOR="#888888"><I>  131   </I></FONT>    ret-&gt;size[1] = 3;
+<FONT COLOR="#888888"><I>  132   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)ret, i2, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  133   </I></FONT>    emlrtImportArrayR2008b(src, ret-&gt;data, 8);
+<FONT COLOR="#888888"><I>  134   </I></FONT>    emlrtDestroyArray(&amp;src);
+<FONT COLOR="#888888"><I>  135   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>  136   </I></FONT>
+<FONT COLOR="#888888"><I>  137   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> <FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_i_emlrt_marshallIn">i_emlrt_marshallIn</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray *src, <FONT COLOR="#112266"><B>const</B></FONT> emlrtMsgIdentifier *msgId, real_T ret[2])
+<FONT COLOR="#888888"><I>  138   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>  139   </I></FONT>    int32_T i3;
+<FONT COLOR="#888888"><I>  140   </I></FONT>    int32_T iv5[2];
+<FONT COLOR="#888888"><I>  141   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i3 = 0; i3 &lt; 2; i3++) <B>{</B>
+<FONT COLOR="#888888"><I>  142   </I></FONT>        iv5[i3] = 1 + i3;
+<FONT COLOR="#888888"><I>  143   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  144   </I></FONT>    emlrtCheckBuiltInR2011a(msgId, src, <FONT COLOR="#1122ff">&quot;double&quot;</FONT>, FALSE, 2U, iv5);
+<FONT COLOR="#888888"><I>  145   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i3 = 0; i3 &lt; 2; i3++) <B>{</B>
+<FONT COLOR="#888888"><I>  146   </I></FONT>        ret[i3] = (*(real_T (*)[2])mxGetData(src))[i3];
+<FONT COLOR="#888888"><I>  147   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  148   </I></FONT>    emlrtDestroyArray(&amp;src);
+<FONT COLOR="#888888"><I>  149   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>  150   </I></FONT>
+<FONT COLOR="#888888"><I>  151   </I></FONT><FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_fitNGaussians3D_mexCode_F_api">fitNGaussians3D_mexCode_F_api</A>(<FONT COLOR="#112266"><B>const</B></FONT> mxArray * <FONT COLOR="#112266"><B>const</B></FONT> prhs[4], <FONT COLOR="#112266"><B>const</B></FONT> mxArray *plhs[1])
+<FONT COLOR="#888888"><I>  152   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>  153   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *x0;
+<FONT COLOR="#888888"><I>  154   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *image;
+<FONT COLOR="#888888"><I>  155   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *b_index;
+<FONT COLOR="#888888"><I>  156   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *F;
+<FONT COLOR="#888888"><I>  157   </I></FONT>    real_T psfSigma[2];
+<FONT COLOR="#888888"><I>  158   </I></FONT>    emlrtHeapReferenceStackEnterFcn();
+<FONT COLOR="#888888"><I>  159   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;x0, 1, TRUE);
+<FONT COLOR="#888888"><I>  160   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;image, 1, TRUE);
+<FONT COLOR="#888888"><I>  161   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;b_index, 2, TRUE);
+<FONT COLOR="#888888"><I>  162   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;F, 2, TRUE);
+<FONT COLOR="#888888"><I>  163   </I></FONT>    <FONT COLOR="#117755"><I>/* Marshall function inputs */</I></FONT>
+<FONT COLOR="#888888"><I>  164   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrt_marshallIn</FONT></A>(emlrtAliasP(prhs[0]), <FONT COLOR="#1122ff">&quot;x0&quot;</FONT>, x0);
+<FONT COLOR="#888888"><I>  165   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrt_marshallIn</FONT></A>(emlrtAliasP(prhs[1]), <FONT COLOR="#1122ff">&quot;image&quot;</FONT>, image);
+<FONT COLOR="#888888"><I>  166   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_c_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emlrt_marshallIn</FONT></A>(emlrtAliasP(prhs[2]), <FONT COLOR="#1122ff">&quot;index&quot;</FONT>, b_index);
+<FONT COLOR="#888888"><I>  167   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_e_emlrt_marshallIn" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_e_emlrt_marshallIn');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">e_emlrt_marshallIn</FONT></A>(emlrtAliasP(prhs[3]), <FONT COLOR="#1122ff">&quot;psfSigma&quot;</FONT>, psfSigma);
+<FONT COLOR="#888888"><I>  168   </I></FONT>    <FONT COLOR="#117755"><I>/* Invoke the target function */</I></FONT>
+<FONT COLOR="#888888"><I>  169   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_c.html#fcn_fitNGaussians3D_mexCode_F" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_fitNGaussians3D_mexCode_F');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">fitNGaussians3D_mexCode_F</FONT></A>(x0, image, b_index, psfSigma, F);
+<FONT COLOR="#888888"><I>  170   </I></FONT>    <FONT COLOR="#117755"><I>/* Marshall function outputs */</I></FONT>
+<FONT COLOR="#888888"><I>  171   </I></FONT>    plhs[0] = <A HREF="fitNGaussians3D_mexCode_F_api_c.html#fcn_emlrt_marshallOut" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emlrt_marshallOut');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrt_marshallOut</FONT></A>(F);
+<FONT COLOR="#888888"><I>  172   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;F);
+<FONT COLOR="#888888"><I>  173   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;b_index);
+<FONT COLOR="#888888"><I>  174   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;image);
+<FONT COLOR="#888888"><I>  175   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;x0);
+<FONT COLOR="#888888"><I>  176   </I></FONT>    emlrtHeapReferenceStackLeaveFcn();
+<FONT COLOR="#888888"><I>  177   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>  178   </I></FONT><FONT COLOR="#117755"><I>/* End of code generation (fitNGaussians3D_mexCode_F_api.c) */</I></FONT>
+<FONT COLOR="#888888"><I>  179   </I></FONT></PRE>
+</TD></TR></TABLE>
+</P>
+</BODY>
+</HTML>

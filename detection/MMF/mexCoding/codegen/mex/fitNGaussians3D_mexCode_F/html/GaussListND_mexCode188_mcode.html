@@ -1,0 +1,186 @@
+<pre class="code">
+<span class="srcline"><span class="lineno"><a href="66,1" id="srcline1">  1</a></span><span class="line"><span class="keyword">function</span> <span class="var type1" id="S2T38U3">gaussList</span> = GaussListND_mexCode(<span class="var type1" id="S3T1U6">coordList</span>,<span class="var type1" id="S4T2U7">sigma</span>,<span class="var type1" id="S5T2U8">center</span>,<span class="var type2" id="S6T0U9">intNorm</span>)</span></span>
+<span class="srcline"><span class="lineno"><a href="66,2" id="srcline2">  2</a></span><span class="line"><span class="comment">%GAUSSLISTND calculates the value of a N-D Gaussian at specific pixel/voxel coordinates</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,3" id="srcline3">  3</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,4" id="srcline4">  4</a></span><span class="line"><span class="comment">% SYNOPSIS gaussList = GaussListND(coordList,sigma,center,intNorm,rotation)</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,5" id="srcline5">  5</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,6" id="srcline6">  6</a></span><span class="line"><span class="comment">% INPUT    coordList : m-by-n list of coordinates, where m is the number of</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,7" id="srcline7">  7</a></span><span class="line"><span class="comment">%                      coordinates and n the number of dimensions</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,8" id="srcline8">  8</a></span><span class="line"><span class="comment">%          sigma     : 1-by-n (or scalar): sigma of Gaussian</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,9" id="srcline9">  9</a></span><span class="line"><span class="comment">%          center    : (opt) 1-by-n vector of center of Gaussian.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,10" id="srcline10"> 10</a></span><span class="line"><span class="comment">%                      Default: zeros(1,n)</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,11" id="srcline11"> 11</a></span><span class="line"><span class="comment">%          intNorm   : (opt) switch for how the Gaussian should be normed</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,12" id="srcline12"> 12</a></span><span class="line"><span class="comment">%                      Default: 0</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,13" id="srcline13"> 13</a></span><span class="line"><span class="comment">%                      0 - no norming. Max of Gaussian == 1</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,14" id="srcline14"> 14</a></span><span class="line"><span class="comment">%                      1 - normed so that integral of infinite Gaussian = 1</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,15" id="srcline15"> 15</a></span><span class="line"><span class="comment">%          rotation  : (opt) Equal to the number of degree you want the</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,16" id="srcline16"> 16</a></span><span class="line"><span class="comment">%                            coordinate to be rotate for. If rotation is</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,17" id="srcline17"> 17</a></span><span class="line"><span class="comment">%                            equal to 1, rotation will be random.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,18" id="srcline18"> 18</a></span><span class="line"><span class="comment">%                            Default: 0; </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,19" id="srcline19"> 19</a></span><span class="line"><span class="comment">%                            Rotation is only supported for 2D and 3D case</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,20" id="srcline20"> 20</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,21" id="srcline21"> 21</a></span><span class="line"><span class="comment">% OUTPUT   gaussList : m-by-1 list of intensities. Intensity is the</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,22" id="srcline22"> 22</a></span><span class="line"><span class="comment">%                      integral of the Gaussian over the pixel/voxel</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,23" id="srcline23"> 23</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,24" id="srcline24"> 24</a></span><span class="line"><span class="comment">% REMARKS  The code assumes that a pixel has the edge length 1!</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,25" id="srcline25"> 25</a></span><span class="line"><span class="comment">%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,26" id="srcline26"> 26</a></span><span class="line"><span class="comment">% c: 2/05 jonas</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,27" id="srcline27"> 27</a></span><span class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,28" id="srcline28"> 28</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,29" id="srcline29"> 29</a></span><span class="line"><span class="comment">%======================</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,30" id="srcline30"> 30</a></span><span class="line"><span class="comment">% TEST INPUT</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,31" id="srcline31"> 31</a></span><span class="line"><span class="comment">%======================</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,32" id="srcline32"> 32</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,33" id="srcline33"> 33</a></span><span class="line"><span class="comment">% check number of input arguments</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,34" id="srcline34"> 34</a></span><span class="line"><span class="mxinfo" id="T2:U5"><span class="var type1" id="S7T2U12">nIn</span> = <span class="mxinfo" id="T2:U7">nargin</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,35" id="srcline35"> 35</a></span><span class="line"><span class="comment">% the following doesn't work with Matlab 6.5.0</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,36" id="srcline36"> 36</a></span><span class="line"><span class="comment">% error(nargchk(2,4,nIn,'struct'));</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,37" id="srcline37"> 37</a></span><span class="line"><span class="keyword">if</span> <span class="var type1" id="S7T2U19">nIn</span> &lt; 2 || <span class="var type1" id="S7T2U22">nIn</span> &gt; 5</span></span>
+<span class="srcline"><span class="lineno"><a href="66,38" id="srcline38"> 38</a></span><span class="line">    error(<span class="string">'wrong number of input arguments!'</span>)</span></span>
+<span class="srcline"><span class="lineno"><a href="66,39" id="srcline39"> 39</a></span><span class="line"><span class="keyword">end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,40" id="srcline40"> 40</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,41" id="srcline41"> 41</a></span><span class="line"><span class="comment">% check dimensionality of coordList.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,42" id="srcline42"> 42</a></span><span class="line"><span class="keyword">if</span> <span class="mxinfo" id="T8:U10">isempty(<span class="var type1" id="S3T1U32">coordList</span>)</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,43" id="srcline43"> 43</a></span><span class="line">    error(<span class="string">'you have to supply a list of coordinates for GaussList23D'</span>)</span></span>
+<span class="srcline"><span class="lineno"><a href="66,44" id="srcline44"> 44</a></span><span class="line"><span class="keyword">else</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,45" id="srcline45"> 45</a></span><span class="line">    <span class="mxinfo" id="T2:U12">[<span class="var type1" id="S11T2U41">nCoords</span>,<span class="var type1" id="S12T2U42">nDims</span>] = size(<span class="var type1" id="S3T1U45">coordList</span>)</span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,46" id="srcline46"> 46</a></span><span class="line"><span class="keyword">end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,47" id="srcline47"> 47</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,48" id="srcline48"> 48</a></span><span class="line"><span class="comment">% % sigma</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,49" id="srcline49"> 49</a></span><span class="line"><span class="comment">% ls = length(sigma);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,50" id="srcline50"> 50</a></span><span class="line"><span class="comment">% switch ls</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,51" id="srcline51"> 51</a></span><span class="line"><span class="comment">%     case nDims</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,52" id="srcline52"> 52</a></span><span class="line"><span class="comment">%         % make as long as coords</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,53" id="srcline53"> 53</a></span><span class="line"><span class="comment">%         sigma = repmat(sigma,[nCoords,1]);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,54" id="srcline54"> 54</a></span><span class="line"><span class="comment">%     case 1</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,55" id="srcline55"> 55</a></span><span class="line"><span class="comment">%         sigma = repmat(sigma,[nCoords,nDims]);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,56" id="srcline56"> 56</a></span><span class="line"><span class="comment">%     otherwise</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,57" id="srcline57"> 57</a></span><span class="line"><span class="comment">%         error('sigma has to be a scalar or a 1-by-n vector!')</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,58" id="srcline58"> 58</a></span><span class="line"><span class="comment">% end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,59" id="srcline59"> 59</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,60" id="srcline60"> 60</a></span><span class="line"><span class="comment">% center</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,61" id="srcline61"> 61</a></span><span class="line"><span class="comment">% if nIn &lt; 3 || isempty(center)</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,62" id="srcline62"> 62</a></span><span class="line"><span class="comment">%     center = zeros(nCoords,nDims);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,63" id="srcline63"> 63</a></span><span class="line"><span class="comment">% else</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,64" id="srcline64"> 64</a></span><span class="line"><span class="comment">%     lc = length(center);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,65" id="srcline65"> 65</a></span><span class="line"><span class="comment">%     switch lc</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,66" id="srcline66"> 66</a></span><span class="line"><span class="comment">%         case nDims</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,67" id="srcline67"> 67</a></span><span class="line"><span class="comment">%             center = repmat(center, [nCoords,1]);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,68" id="srcline68"> 68</a></span><span class="line"><span class="comment">%         case 1</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,69" id="srcline69"> 69</a></span><span class="line"><span class="comment">%             center = repmat(center, [nCoords,3]);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,70" id="srcline70"> 70</a></span><span class="line"><span class="comment">%         otherwise</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,71" id="srcline71"> 71</a></span><span class="line"><span class="comment">%             error('center has to be a scalar or a 1-by-n vector!')</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,72" id="srcline72"> 72</a></span><span class="line"><span class="comment">%     end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,73" id="srcline73"> 73</a></span><span class="line"><span class="comment">% end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,74" id="srcline74"> 74</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,75" id="srcline75"> 75</a></span><span class="line"><span class="mxinfo" id="T39:U16"><span class="var type1" id="S14T39U48">center2</span> = <span class="mxinfo" id="T39:U18">repmat(<span class="var type1" id="S5T2U51">center</span>, <span class="mxinfo" id="T11:U20">[<span class="var type1" id="S11T2U54">nCoords</span>,<span class="mxinfo" id="T2:U22">1</span>]</span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,76" id="srcline76"> 76</a></span><span class="line"><span class="comment">%clear center</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,77" id="srcline77"> 77</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,78" id="srcline78"> 78</a></span><span class="line"><span class="comment">% intNorm</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,79" id="srcline79"> 79</a></span><span class="line"><span class="keyword">if</span> <span class="var type1" id="S7T2U60">nIn</span> &lt; 4 || isempty(<span class="var type2" id="S6T0U64">intNorm</span>)</span></span>
+<span class="srcline"><span class="lineno"><a href="66,80" id="srcline80"> 80</a></span><span class="line">    <span class="mxinfo" id="T2:U24"><span class="var type1" id="S6T2U67">intNorm</span> = <span class="mxinfo" id="T2:U26">0</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,81" id="srcline81"> 81</a></span><span class="line"><span class="keyword">end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,82" id="srcline82"> 82</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,83" id="srcline83"> 83</a></span><span class="line"><span class="comment">%rotation</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,84" id="srcline84"> 84</a></span><span class="line"><span class="comment">% coordDim = size(coordList,2);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,85" id="srcline85"> 85</a></span><span class="line"><span class="comment">% if nIn &lt; 5 || isempty(rotation) || rotation == 0</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,86" id="srcline86"> 86</a></span><span class="line"><span class="comment">%     rotation = 0;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,87" id="srcline87"> 87</a></span><span class="line"><span class="comment">%     alp = 0;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,88" id="srcline88"> 88</a></span><span class="line"><span class="comment">%     bet = 0;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,89" id="srcline89"> 89</a></span><span class="line"><span class="comment">%     delt = 0;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,90" id="srcline90"> 90</a></span><span class="line"><span class="comment">% elseif rotation == 1 &amp;&amp; coordDim &lt;= 2</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,91" id="srcline91"> 91</a></span><span class="line"><span class="comment">%     rotation = floor(rand(1) * 360);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,92" id="srcline92"> 92</a></span><span class="line"><span class="comment">% elseif rotation == 1 &amp;&amp; coordDim == 3</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,93" id="srcline93"> 93</a></span><span class="line"><span class="comment">%     alp = floor(rand(1) * 180);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,94" id="srcline94"> 94</a></span><span class="line"><span class="comment">%     bet = floor(rand(1) * 180);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,95" id="srcline95"> 95</a></span><span class="line"><span class="comment">%     delt = floor(rand(1) * 360);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,96" id="srcline96"> 96</a></span><span class="line"><span class="comment">% end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,97" id="srcline97"> 97</a></span><span class="line"><span class="comment">% if rotation &amp;&amp; (nDims &lt; 2 || nDims &gt; 3)</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,98" id="srcline98"> 98</a></span><span class="line"><span class="comment">%     error('rotation is only supported for 2-3 dimensions')</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,99" id="srcline99"> 99</a></span><span class="line"><span class="comment">% end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,100" id="srcline100">100</a></span><span class="line"><span class="comment">%======================</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,101" id="srcline101">101</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,102" id="srcline102">102</a></span><span class="line"><span class="comment">%======================</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,103" id="srcline103">103</a></span><span class="line"><span class="comment">% CALC GAUSSLIST</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,104" id="srcline104">104</a></span><span class="line"><span class="comment">%======================</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,105" id="srcline105">105</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,106" id="srcline106">106</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,107" id="srcline107">107</a></span><span class="line"><span class="comment">% instead of calculating Gauss-values for very complicated geometries, we</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,108" id="srcline108">108</a></span><span class="line"><span class="comment">% make a coordinate transformation so that we can use sigma=1 in all</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,109" id="srcline109">109</a></span><span class="line"><span class="comment">% dimensions</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,110" id="srcline110">110</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,111" id="srcline111">111</a></span><span class="line"><span class="comment">% if rotation ~= 0</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,112" id="srcline112">112</a></span><span class="line"><span class="comment">%     </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,113" id="srcline113">113</a></span><span class="line"><span class="comment">%     %Translate center to origin.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,114" id="srcline114">114</a></span><span class="line"><span class="comment">%     coordList = coordList - center2;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,115" id="srcline115">115</a></span><span class="line"><span class="comment">%     </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,116" id="srcline116">116</a></span><span class="line"><span class="comment">%     if coordDim == 2</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,117" id="srcline117">117</a></span><span class="line"><span class="comment">%         </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,118" id="srcline118">118</a></span><span class="line"><span class="comment">%         % 2 Dimension rotation.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,119" id="srcline119">119</a></span><span class="line"><span class="comment">%         %Rotation.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,120" id="srcline120">120</a></span><span class="line"><span class="comment">%         %Rotation of the coordinate. x' = xcos@ - ysin@. y' = xsin@ + ycos@.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,121" id="srcline121">121</a></span><span class="line"><span class="comment">%         tmpX = coordList(:,1) .* cosd(rotation) - coordList(:,2) .* sind(rotation);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,122" id="srcline122">122</a></span><span class="line"><span class="comment">%         tmpY = coordList(:,1) .* sind(rotation) + coordList(:,2) .* cosd(rotation);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,123" id="srcline123">123</a></span><span class="line"><span class="comment">%         </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,124" id="srcline124">124</a></span><span class="line"><span class="comment">%         %Translation back to original center.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,125" id="srcline125">125</a></span><span class="line"><span class="comment">%         coordList(:,1) = tmpX(:,1) + center2(:,1);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,126" id="srcline126">126</a></span><span class="line"><span class="comment">%         coordList(:,2) = tmpY(:,1) + center2(:,2);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,127" id="srcline127">127</a></span><span class="line"><span class="comment">%         </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,128" id="srcline128">128</a></span><span class="line"><span class="comment">%     elseif coordDim == 3</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,129" id="srcline129">129</a></span><span class="line"><span class="comment">%         </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,130" id="srcline130">130</a></span><span class="line"><span class="comment">%         % 3 Dimension rotation.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,131" id="srcline131">131</a></span><span class="line"><span class="comment">%         %Rotation of the coordinate.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,132" id="srcline132">132</a></span><span class="line"><span class="comment">%         c1 = cos(alp); c2 = cos(bet); c3 = cos(delt);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,133" id="srcline133">133</a></span><span class="line"><span class="comment">%         s1 = sin(alp); s2 = sin(bet); s3 = sin(delt);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,134" id="srcline134">134</a></span><span class="line"><span class="comment">%         </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,135" id="srcline135">135</a></span><span class="line"><span class="comment">%         l1 = (c2 * c3) - (c1*s2*s3); l2 = -(c2 * s3) - (c1 * s2 * c3);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,136" id="srcline136">136</a></span><span class="line"><span class="comment">%         l3 = s1*s2;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,137" id="srcline137">137</a></span><span class="line"><span class="comment">%         m1 = (s2*s3 + c1*c2*s3); m2 = -(s2*s3) + (c1*c2*c3);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,138" id="srcline138">138</a></span><span class="line"><span class="comment">%         m3 = -(s1*c2);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,139" id="srcline139">139</a></span><span class="line"><span class="comment">%         n1 = s1*s3; n2 = s1*c3; n3 = c1;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,140" id="srcline140">140</a></span><span class="line"><span class="comment">%         %Calculation of my new coordinate in function of the rotation.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,141" id="srcline141">141</a></span><span class="line"><span class="comment">%         tmpX = coordList(:,1) .* l1 + coordList(:,2) .* l2 + coordList(:,3) .* l3;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,142" id="srcline142">142</a></span><span class="line"><span class="comment">%         tmpY = coordList(:,1) .* m1 + coordList(:,2) .* m2 + coordList(:,3) .* m3;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,143" id="srcline143">143</a></span><span class="line"><span class="comment">%         tmpZ = coordList(:,1) .* n1 + coordList(:,3) .* n2 + coordList(:,3) .* n3;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,144" id="srcline144">144</a></span><span class="line"><span class="comment">%         </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,145" id="srcline145">145</a></span><span class="line"><span class="comment">%         %Translation back to original center - KJ addition to make</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,146" id="srcline146">146</a></span><span class="line"><span class="comment">%         %consistent with 2D case</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,147" id="srcline147">147</a></span><span class="line"><span class="comment">%         %otherwise the code returns nonsense</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,148" id="srcline148">148</a></span><span class="line"><span class="comment">%         coordList(:,1) = tmpX(:,1) + center2(:,1);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,149" id="srcline149">149</a></span><span class="line"><span class="comment">%         coordList(:,2) = tmpY(:,1) + center2(:,2);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,150" id="srcline150">150</a></span><span class="line"><span class="comment">%         coordList(:,3) = tmpZ(:,1) + center2(:,3);</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,151" id="srcline151">151</a></span><span class="line"><span class="comment">%         </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,152" id="srcline152">152</a></span><span class="line"><span class="comment">%     end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,153" id="srcline153">153</a></span><span class="line"><span class="comment">%  </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,154" id="srcline154">154</a></span><span class="line"><span class="comment">%     </span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,155" id="srcline155">155</a></span><span class="line"><span class="comment">% end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,156" id="srcline156">156</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,157" id="srcline157">157</a></span><span class="line"><span class="comment">% 0.5*erfc(-(x+0.5)/sqrt(2))-0.5*erfc(-(x-0.5)/sqrt(2)) gives the integral on the</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,158" id="srcline158">158</a></span><span class="line"><span class="comment">% pixel at 1 of a Gaussian with mean 0 and sigma 1</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,159" id="srcline159">159</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,160" id="srcline160">160</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,161" id="srcline161">161</a></span><span class="line"><span class="mxinfo" id="T1:U27"><span class="var type1" id="S16T1U71">center3</span> = <span class="mxinfo" id="T1:U29"><span class="var type1" id="S14T39U73">center2</span>(:,<span class="mxinfo" id="T2:U31">1</span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,162" id="srcline162">162</a></span><span class="line"><span class="comment">%clear center2</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,163" id="srcline163">163</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,164" id="srcline164">164</a></span><span class="line"><span class="comment">% convert coordList to 0/1</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,165" id="srcline165">165</a></span><span class="line"><span class="mxinfo" id="T1:U32"><span class="var type1" id="S17T1U78">coordList2</span> = <span class="mxinfo" id="T1:U34">(<span class="mxinfo" id="T1:U35"><span class="mxinfo" id="T1:U36"><span class="var type1" id="S3T1U83">coordList</span>(<span class="mxinfo" id="T2:U38">1</span>:<span class="var type1" id="S11T2U86">nCoords</span>)</span> - <span class="mxinfo" id="T1:U40"><span class="var type1" id="S16T1U88">center3</span>(<span class="mxinfo" id="T2:U42">1</span>:<span class="var type1" id="S11T2U91">nCoords</span>)</span></span>)./<span class="var type1" id="S4T2U92">sigma</span></span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,166" id="srcline166">166</a></span><span class="line"><span class="comment">%clear coordList center3</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,167" id="srcline167">167</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,168" id="srcline168">168</a></span><span class="line"><span class="comment">% double coordList as preparation for erfc</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,169" id="srcline169">169</a></span><span class="line"><span class="comment">%fixed bug: must divide the 0.5 by sigma - KJ</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,170" id="srcline170">170</a></span><span class="line"><span class="mxinfo" id="T40:U45"><span class="var type1" id="S17T40U95">coordList2</span> = <span class="mxinfo" id="T40:U47">cat(3,<span class="mxinfo" id="T1:U48"><span class="var type1" id="S17T1U100">coordList2</span>-<span class="mxinfo" id="T2:U50"><span class="mxinfo" id="T2:U51">0.5</span>./<span class="var type1" id="S4T2U103">sigma</span></span></span>, <span class="mxinfo" id="T1:U53"><span class="var type1" id="S17T1U105">coordList2</span>+<span class="mxinfo" id="T2:U55"><span class="mxinfo" id="T2:U56">0.5</span>./<span class="var type1" id="S4T2U108">sigma</span></span></span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,171" id="srcline171">171</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,172" id="srcline172">172</a></span><span class="line"><span class="comment">% calculate gaussList</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,173" id="srcline173">173</a></span><span class="line"><span class="comment">%Jonas was missing the minus sign in erfc. I corrected that - KJ</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,174" id="srcline174">174</a></span><span class="line"><span class="mxinfo" id="T41:U58"><span class="var type1" id="S2T41U111">gaussList</span> = <span class="mxinfo" id="T41:U60">diff(<span class="mxinfo" id="T40:U61">0.5 * <span class="mxinfo" id="T40:U62">erfc(<span class="mxinfo" id="T40:U63"><span class="mxinfo" id="T40:U64">-<span class="var type1" id="S17T40U120">coordList2</span></span>/<span class="mxinfo" id="T2:U66">sqrt(2)</span></span>)</span></span>,1,3)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,175" id="srcline175">175</a></span><span class="line"><span class="mxinfo" id="T38:U67"><span class="var type1" id="S2T38U128">gaussList</span> = <span class="mxinfo" id="T38:U69">prod(<span class="var type1" id="S2T41U131">gaussList</span>,2)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,176" id="srcline176">176</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="66,177" id="srcline177">177</a></span><span class="line"><span class="comment">% norm gaussList</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,178" id="srcline178">178</a></span><span class="line"><span class="keyword">switch</span> <span class="var type1" id="S6T2U134">intNorm</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,179" id="srcline179">179</a></span><span class="line">    <span class="keyword">case</span> 0</span></span>
+<span class="srcline"><span class="lineno"><a href="66,180" id="srcline180">180</a></span><span class="line">        <span class="comment">% "un-norm" Gaussian</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,181" id="srcline181">181</a></span><span class="line">        <span class="mxinfo" id="T38:U72"><span class="var type1" id="S2T38U139">gaussList</span> = <span class="mxinfo" id="T38:U74"><span class="var type1" id="S2T38U141">gaussList</span>*(<span class="mxinfo" id="T2:U76"><span class="mxinfo" id="T2:U77">(2*pi)^(0.5*<span class="var type1" id="S12T2U153">nDims</span>)</span>*<span class="mxinfo" id="T2:U79">prod(<span class="var type1" id="S4T2U157">sigma</span>(1,:))</span></span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="66,182" id="srcline182">182</a></span><span class="line">    <span class="keyword">case</span> 1</span></span>
+<span class="srcline"><span class="lineno"><a href="66,183" id="srcline183">183</a></span><span class="line">        <span class="comment">% gaussList is already normed</span></span></span>
+<span class="srcline"><span class="lineno"><a href="66,184" id="srcline184">184</a></span><span class="line"><span class="keyword"><span class="keyword">end</span></span></span></span>
+</pre>

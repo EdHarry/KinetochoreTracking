@@ -1,0 +1,915 @@
+<HTML>
+<HEAD>
+<TITLE>RTW Report - fitNGaussians3D_mexCode_F.c </TITLE>
+</HEAD>
+<BODY BGCOLOR="#eeeeee" TEXT="#1122aa" ONLOAD="if (top) { if (top.rtwFileOnLoad) top.rtwFileOnLoad(window);}">
+<P>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%" HEIGHT="100%"><TR><TD WIDTH="100%" VALIGN="top" BGCOLOR="#ffffff">
+<H4>File: <A HREF="file:///gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/codegen/mex/fitNGaussians3D_mexCode_F/fitNGaussians3D_mexCode_F.c" TARGET="rtwreport_document_frame">/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/codegen/mex/fitNGaussians3D_mexCode_F/fitNGaussians3D_mexCode_F.c</A></H4>
+<PRE id="RTWcode">
+<FONT COLOR="#888888"><I>    1   </I></FONT><FONT COLOR="#117755"><I>/*</I></FONT>
+<FONT COLOR="#888888"><I>    2   </I></FONT><FONT COLOR="#117755"><I> * fitNGaussians3D_mexCode_F.c</I></FONT>
+<FONT COLOR="#888888"><I>    3   </I></FONT><FONT COLOR="#117755"><I> *</I></FONT>
+<FONT COLOR="#888888"><I>    4   </I></FONT><FONT COLOR="#117755"><I> * Code generation for function 'fitNGaussians3D_mexCode_F'</I></FONT>
+<FONT COLOR="#888888"><I>    5   </I></FONT><FONT COLOR="#117755"><I> *</I></FONT>
+<FONT COLOR="#888888"><I>    6   </I></FONT><FONT COLOR="#117755"><I> * C source code generated on: Mon May 21 17:33:35 2012</I></FONT>
+<FONT COLOR="#888888"><I>    7   </I></FONT><FONT COLOR="#117755"><I> *</I></FONT>
+<FONT COLOR="#888888"><I>    8   </I></FONT><FONT COLOR="#117755"><I> */</I></FONT>
+<FONT COLOR="#888888"><I>    9   </I></FONT>
+<FONT COLOR="#888888"><I>   10   </I></FONT><FONT COLOR="#117755"><I>/* Include files */</I></FONT>
+<FONT COLOR="#888888"><I>   11   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;rt_nonfinite.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   12   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;fitNGaussians3D_mexCode_F.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   13   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;squeeze.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   14   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;GaussListND_mexCode.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   15   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;fitNGaussians3D_mexCode_F_emxutil.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   16   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;max.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   17   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;min.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   18   </I></FONT><FONT COLOR="#992211">#</FONT><FONT COLOR="#992211"><B>include</B></FONT> <FONT COLOR="#992211">&quot;length.h&quot;</FONT>
+<FONT COLOR="#888888"><I>   19   </I></FONT>
+<FONT COLOR="#888888"><I>   20   </I></FONT><FONT COLOR="#117755"><I>/* Type Definitions */</I></FONT>
+<FONT COLOR="#888888"><I>   21   </I></FONT>
+<FONT COLOR="#888888"><I>   22   </I></FONT><FONT COLOR="#117755"><I>/* Named Constants */</I></FONT>
+<FONT COLOR="#888888"><I>   23   </I></FONT>
+<FONT COLOR="#888888"><I>   24   </I></FONT><FONT COLOR="#117755"><I>/* Variable Declarations */</I></FONT>
+<FONT COLOR="#888888"><I>   25   </I></FONT>
+<FONT COLOR="#888888"><I>   26   </I></FONT><FONT COLOR="#117755"><I>/* Variable Definitions */</I></FONT>
+<FONT COLOR="#888888"><I>   27   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_emlrtDCI">emlrtDCI</A> = <B>{</B> 79, 19, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   28   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_b_emlrtDCI">b_emlrtDCI</A> = <B>{</B> 79, 39, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   29   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_c_emlrtDCI">c_emlrtDCI</A> = <B>{</B> 93, 19, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   30   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_d_emlrtDCI">d_emlrtDCI</A> = <B>{</B> 107, 19, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   31   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_e_emlrtDCI">e_emlrtDCI</A> = <B>{</B> 79, 19, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   32   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_f_emlrtDCI">f_emlrtDCI</A> = <B>{</B> 79, 39, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   33   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_g_emlrtDCI">g_emlrtDCI</A> = <B>{</B> 93, 19, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   34   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_h_emlrtDCI">h_emlrtDCI</A> = <B>{</B> 107, 19, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   35   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_i_emlrtDCI">i_emlrtDCI</A> = <B>{</B> 160, 47, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   36   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_j_emlrtDCI">j_emlrtDCI</A> = <B>{</B> 160, 71, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   37   </I></FONT><FONT COLOR="#112266"><B>static</B></FONT> emlrtDCInfo <A NAME="var_k_emlrtDCI">k_emlrtDCI</A> = <B>{</B> 160, 95, <FONT COLOR="#1122ff">&quot;fitNGaussians3D_mexCode_F&quot;</FONT>, <FONT COLOR="#1122ff">&quot;/gpfs/home/sysbio/msrfby/MATLAB/MATLAB/newTracking/detection/MMF/mexCoding/fitNGaussians3D_mexCode_F.m&quot;</FONT>, 1 <B>}</B>;
+<FONT COLOR="#888888"><I>   38   </I></FONT>
+<FONT COLOR="#888888"><I>   39   </I></FONT><FONT COLOR="#117755"><I>/* Function Declarations */</I></FONT>
+<FONT COLOR="#888888"><I>   40   </I></FONT>
+<FONT COLOR="#888888"><I>   41   </I></FONT><FONT COLOR="#117755"><I>/* Function Definitions */</I></FONT>
+<FONT COLOR="#888888"><I>   42   </I></FONT>
+<FONT COLOR="#888888"><I>   43   </I></FONT><FONT COLOR="#117755"><I>/*</I></FONT>
+<FONT COLOR="#888888"><I>   44   </I></FONT><FONT COLOR="#117755"><I> * function F = fitNGaussians3D_mexCode_F(x0,image,index,psfSigma)</I></FONT>
+<FONT COLOR="#888888"><I>   45   </I></FONT><FONT COLOR="#117755"><I> */</I></FONT>
+<FONT COLOR="#888888"><I>   46   </I></FONT><FONT COLOR="#112266"><B>void</B></FONT> <A NAME="fcn_fitNGaussians3D_mexCode_F">fitNGaussians3D_mexCode_F</A>(<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *x0, <FONT COLOR="#112266"><B>const</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *image, <FONT COLOR="#112266"><B>const</B></FONT> <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *b_index, <FONT COLOR="#112266"><B>const</B></FONT> real_T psfSigma[2], <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *F)
+<FONT COLOR="#888888"><I>   47   </I></FONT><B>{</B>
+<FONT COLOR="#888888"><I>   48   </I></FONT>    real_T bgAmp;
+<FONT COLOR="#888888"><I>   49   </I></FONT>    int32_T i;
+<FONT COLOR="#888888"><I>   50   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *b_x0;
+<FONT COLOR="#888888"><I>   51   </I></FONT>    int32_T nx;
+<FONT COLOR="#888888"><I>   52   </I></FONT>    int32_T ia;
+<FONT COLOR="#888888"><I>   53   </I></FONT>    real_T numPSF;
+<FONT COLOR="#888888"><I>   54   </I></FONT>    int32_T sz[2];
+<FONT COLOR="#888888"><I>   55   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *c_x0;
+<FONT COLOR="#888888"><I>   56   </I></FONT>    real_T minIndxX;
+<FONT COLOR="#888888"><I>   57   </I></FONT>    int32_T k;
+<FONT COLOR="#888888"><I>   58   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *d_x0;
+<FONT COLOR="#888888"><I>   59   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *c_index;
+<FONT COLOR="#888888"><I>   60   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *d_index;
+<FONT COLOR="#888888"><I>   61   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *e_index;
+<FONT COLOR="#888888"><I>   62   </I></FONT>    real_T maxIndxX;
+<FONT COLOR="#888888"><I>   63   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *f_index;
+<FONT COLOR="#888888"><I>   64   </I></FONT>    real_T minIndxY;
+<FONT COLOR="#888888"><I>   65   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *g_index;
+<FONT COLOR="#888888"><I>   66   </I></FONT>    real_T maxIndxY;
+<FONT COLOR="#888888"><I>   67   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *h_index;
+<FONT COLOR="#888888"><I>   68   </I></FONT>    real_T minIndxZ;
+<FONT COLOR="#888888"><I>   69   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *psfIntegX;
+<FONT COLOR="#888888"><I>   70   </I></FONT>    real_T maxIndxZ;
+<FONT COLOR="#888888"><I>   71   </I></FONT>    uint32_T b_i;
+<FONT COLOR="#888888"><I>   72   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *temp;
+<FONT COLOR="#888888"><I>   73   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *temp2;
+<FONT COLOR="#888888"><I>   74   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *y;
+<FONT COLOR="#888888"><I>   75   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *b_y;
+<FONT COLOR="#888888"><I>   76   </I></FONT>    int32_T iy;
+<FONT COLOR="#888888"><I>   77   </I></FONT>    real_T anew;
+<FONT COLOR="#888888"><I>   78   </I></FONT>    real_T apnd;
+<FONT COLOR="#888888"><I>   79   </I></FONT>    real_T ndbl;
+<FONT COLOR="#888888"><I>   80   </I></FONT>    real_T cdiff;
+<FONT COLOR="#888888"><I>   81   </I></FONT>    real_T absa;
+<FONT COLOR="#888888"><I>   82   </I></FONT>    real_T absb;
+<FONT COLOR="#888888"><I>   83   </I></FONT>    int32_T ib;
+<FONT COLOR="#888888"><I>   84   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *psfIntegY;
+<FONT COLOR="#888888"><I>   85   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *c_y;
+<FONT COLOR="#888888"><I>   86   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *psfIntegZ;
+<FONT COLOR="#888888"><I>   87   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *d_y;
+<FONT COLOR="#888888"><I>   88   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_int32_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_int32_T</FONT></A> *r0;
+<FONT COLOR="#888888"><I>   89   </I></FONT>    int32_T iv0[2];
+<FONT COLOR="#888888"><I>   90   </I></FONT>    int32_T iv1[2];
+<FONT COLOR="#888888"><I>   91   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *x;
+<FONT COLOR="#888888"><I>   92   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_int32_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_int32_T</FONT></A> *r1;
+<FONT COLOR="#888888"><I>   93   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *r2;
+<FONT COLOR="#888888"><I>   94   </I></FONT>    uint32_T b_sz[2];
+<FONT COLOR="#888888"><I>   95   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *r3;
+<FONT COLOR="#888888"><I>   96   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_boolean_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_boolean_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_boolean_T</FONT></A> *indxPixel;
+<FONT COLOR="#888888"><I>   97   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_int32_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_int32_T</FONT></A> *r4;
+<FONT COLOR="#888888"><I>   98   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *b_F;
+<FONT COLOR="#888888"><I>   99   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> *c_F;
+<FONT COLOR="#888888"><I>  100   </I></FONT>    int32_T d_F[2];
+<FONT COLOR="#888888"><I>  101   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray_real_T')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray_real_T</FONT></A> e_F;
+<FONT COLOR="#888888"><I>  102   </I></FONT>    emlrtHeapReferenceStackEnterFcn();
+<FONT COLOR="#888888"><I>  103   </I></FONT>    <FONT COLOR="#117755"><I>/*  Edit of fitNGaussians2D to work in 3D */</I></FONT>
+<FONT COLOR="#888888"><I>  104   </I></FONT>    <FONT COLOR="#117755"><I>/*    EHarry March 2012 */</I></FONT>
+<FONT COLOR="#888888"><I>  105   </I></FONT>    <FONT COLOR="#117755"><I>/* % ORIGINAL HEADER */</I></FONT>
+<FONT COLOR="#888888"><I>  106   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %FITNGAUSSIANS2D yields F, the difference between an image and a theoretical image produced by N Gaussians, and J, the Jacobian of F. */</I></FONT>
+<FONT COLOR="#888888"><I>  107   </I></FONT>    <FONT COLOR="#117755"><I>/*  % % */</I></FONT>
+<FONT COLOR="#888888"><I>  108   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %SYNOPSIS [F,J] = fitNGaussians2D(x0,image,index,psfSigma) */</I></FONT>
+<FONT COLOR="#888888"><I>  109   </I></FONT>    <FONT COLOR="#117755"><I>/*  % % */</I></FONT>
+<FONT COLOR="#888888"><I>  110   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %INPUT  x0      : initial guess of PSF positions and amplitudes and */</I></FONT>
+<FONT COLOR="#888888"><I>  111   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %                 background noise. */</I></FONT>
+<FONT COLOR="#888888"><I>  112   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %       image   : Image part being analyzed. */</I></FONT>
+<FONT COLOR="#888888"><I>  113   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %       index   : x,y-indices of pixels considered. */</I></FONT>
+<FONT COLOR="#888888"><I>  114   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %       psfSigma: Standard deviation of point spread function (in pixels). */</I></FONT>
+<FONT COLOR="#888888"><I>  115   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  116   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %OUTPUT F       : Residuals from fitting an image with supplied */</I></FONT>
+<FONT COLOR="#888888"><I>  117   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %                 Gaussians. */</I></FONT>
+<FONT COLOR="#888888"><I>  118   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %       J       : The Jacobian matrix of F. */</I></FONT>
+<FONT COLOR="#888888"><I>  119   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %       errFlag : 0 if function executes normally, 1 otherwise. */</I></FONT>
+<FONT COLOR="#888888"><I>  120   </I></FONT>    <FONT COLOR="#117755"><I>/*  % % */</I></FONT>
+<FONT COLOR="#888888"><I>  121   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %REMARKS F = model image - real image, important to know if the sign of the */</I></FONT>
+<FONT COLOR="#888888"><I>  122   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %residuals matters. */</I></FONT>
+<FONT COLOR="#888888"><I>  123   </I></FONT>    <FONT COLOR="#117755"><I>/*  % % */</I></FONT>
+<FONT COLOR="#888888"><I>  124   </I></FONT>    <FONT COLOR="#117755"><I>/*  % %Khuloud Jaqaman, August 2005 */</I></FONT>
+<FONT COLOR="#888888"><I>  125   </I></FONT>    <FONT COLOR="#117755"><I>/* % Output */</I></FONT>
+<FONT COLOR="#888888"><I>  126   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:28' F = []; */</I></FONT>
+<FONT COLOR="#888888"><I>  127   </I></FONT>    <FONT COLOR="#117755"><I>/*  J = []; */</I></FONT>
+<FONT COLOR="#888888"><I>  128   </I></FONT>    <FONT COLOR="#117755"><I>/* % Input */</I></FONT>
+<FONT COLOR="#888888"><I>  129   </I></FONT>    <FONT COLOR="#117755"><I>/*  %check whether correct number of input arguments was used */</I></FONT>
+<FONT COLOR="#888888"><I>  130   </I></FONT>    <FONT COLOR="#117755"><I>/*  if nargin ~= 4 */</I></FONT>
+<FONT COLOR="#888888"><I>  131   </I></FONT>    <FONT COLOR="#117755"><I>/*      disp('--fitNGaussians2D: Incorrect number of input arguments!'); */</I></FONT>
+<FONT COLOR="#888888"><I>  132   </I></FONT>    <FONT COLOR="#117755"><I>/*      return */</I></FONT>
+<FONT COLOR="#888888"><I>  133   </I></FONT>    <FONT COLOR="#117755"><I>/*  end */</I></FONT>
+<FONT COLOR="#888888"><I>  134   </I></FONT>    <FONT COLOR="#117755"><I>/* check whether correct number of input arguments was used */</I></FONT>
+<FONT COLOR="#888888"><I>  135   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:39' if nargin ~= 4 */</I></FONT>
+<FONT COLOR="#888888"><I>  136   </I></FONT>    <FONT COLOR="#117755"><I>/* % Calculating F &amp; J */</I></FONT>
+<FONT COLOR="#888888"><I>  137   </I></FONT>    <FONT COLOR="#117755"><I>/* extract background intensity from x0 and remove from vector */</I></FONT>
+<FONT COLOR="#888888"><I>  138   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:47' bgAmp = x0(end); */</I></FONT>
+<FONT COLOR="#888888"><I>  139   </I></FONT>    bgAmp = x0-&gt;data[x0-&gt;size[0] - 1];
+<FONT COLOR="#888888"><I>  140   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:48' x0 = x0(1:end-1); */</I></FONT>
+<FONT COLOR="#888888"><I>  141   </I></FONT>    i = x0-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  142   </I></FONT>    <FONT COLOR="#112266"><B>if</B></FONT> (1 &gt; i) <B>{</B>
+<FONT COLOR="#888888"><I>  143   </I></FONT>        i = 0;
+<FONT COLOR="#888888"><I>  144   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  145   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;b_x0, 1, TRUE);
+<FONT COLOR="#888888"><I>  146   </I></FONT>    nx = b_x0-&gt;size[0];
+<FONT COLOR="#888888"><I>  147   </I></FONT>    b_x0-&gt;size[0] = i;
+<FONT COLOR="#888888"><I>  148   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)b_x0, nx, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  149   </I></FONT>    ia = i - 1;
+<FONT COLOR="#888888"><I>  150   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  151   </I></FONT>        b_x0-&gt;data[i] = x0-&gt;data[i];
+<FONT COLOR="#888888"><I>  152   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  153   </I></FONT>    i = x0-&gt;size[0];
+<FONT COLOR="#888888"><I>  154   </I></FONT>    x0-&gt;size[0] = b_x0-&gt;size[0];
+<FONT COLOR="#888888"><I>  155   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)x0, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  156   </I></FONT>    ia = b_x0-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  157   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  158   </I></FONT>        x0-&gt;data[i] = b_x0-&gt;data[i];
+<FONT COLOR="#888888"><I>  159   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  160   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;b_x0);
+<FONT COLOR="#888888"><I>  161   </I></FONT>    <FONT COLOR="#117755"><I>/* get number of PSFs considered */</I></FONT>
+<FONT COLOR="#888888"><I>  162   </I></FONT>    <FONT COLOR="#117755"><I>/*  numPSF = length(x0)/3; */</I></FONT>
+<FONT COLOR="#888888"><I>  163   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:52' numPSF = length(x0)/4; */</I></FONT>
+<FONT COLOR="#888888"><I>  164   </I></FONT>    numPSF = <A HREF="length_c.html#fcn_length" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_length');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">length</FONT></A>(x0) / 4.0;
+<FONT COLOR="#888888"><I>  165   </I></FONT>    <FONT COLOR="#117755"><I>/*  %reshape 3nx1 vector x0 into nx3 matrix */</I></FONT>
+<FONT COLOR="#888888"><I>  166   </I></FONT>    <FONT COLOR="#117755"><I>/*  x0 = reshape(x0,3,numPSF); */</I></FONT>
+<FONT COLOR="#888888"><I>  167   </I></FONT>    <FONT COLOR="#117755"><I>/*  x0 = x0'; */</I></FONT>
+<FONT COLOR="#888888"><I>  168   </I></FONT>    <FONT COLOR="#117755"><I>/* reshape 4nx1 vector x0 into nx4 matrix */</I></FONT>
+<FONT COLOR="#888888"><I>  169   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:59' x0 = reshape(x0,4,numPSF); */</I></FONT>
+<FONT COLOR="#888888"><I>  170   </I></FONT>    nx = x0-&gt;size[0];
+<FONT COLOR="#888888"><I>  171   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt; 2; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  172   </I></FONT>        sz[i] = 0;
+<FONT COLOR="#888888"><I>  173   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  174   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;c_x0, 2, TRUE);
+<FONT COLOR="#888888"><I>  175   </I></FONT>    sz[0] = 4;
+<FONT COLOR="#888888"><I>  176   </I></FONT>    minIndxX = numPSF;
+<FONT COLOR="#888888"><I>  177   </I></FONT>    minIndxX = minIndxX &lt; 0.0 ? muDoubleScalarCeil(minIndxX - 0.5) : muDoubleScalarFloor(minIndxX + 0.5);
+<FONT COLOR="#888888"><I>  178   </I></FONT>    <FONT COLOR="#112266"><B>if</B></FONT> (minIndxX &lt; 2.147483648E+9) <B>{</B>
+<FONT COLOR="#888888"><I>  179   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (minIndxX &gt;= -2.147483648E+9) <B>{</B>
+<FONT COLOR="#888888"><I>  180   </I></FONT>            i = (int32_T)minIndxX;
+<FONT COLOR="#888888"><I>  181   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  182   </I></FONT>            i = MIN_int32_T;
+<FONT COLOR="#888888"><I>  183   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  184   </I></FONT>    <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (minIndxX &gt;= 2.147483648E+9) <B>{</B>
+<FONT COLOR="#888888"><I>  185   </I></FONT>        i = MAX_int32_T;
+<FONT COLOR="#888888"><I>  186   </I></FONT>    <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  187   </I></FONT>        i = 0;
+<FONT COLOR="#888888"><I>  188   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  189   </I></FONT>    sz[1] = i;
+<FONT COLOR="#888888"><I>  190   </I></FONT>    i = c_x0-&gt;size[0] * c_x0-&gt;size[1];
+<FONT COLOR="#888888"><I>  191   </I></FONT>    c_x0-&gt;size[0] = 4;
+<FONT COLOR="#888888"><I>  192   </I></FONT>    c_x0-&gt;size[1] = sz[1];
+<FONT COLOR="#888888"><I>  193   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)c_x0, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  194   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (k = 0; k + 1 &lt;= nx; k++) <B>{</B>
+<FONT COLOR="#888888"><I>  195   </I></FONT>        c_x0-&gt;data[k] = x0-&gt;data[k];
+<FONT COLOR="#888888"><I>  196   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  197   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;d_x0, 2, TRUE);
+<FONT COLOR="#888888"><I>  198   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:60' x0 = x0'; */</I></FONT>
+<FONT COLOR="#888888"><I>  199   </I></FONT>    i = d_x0-&gt;size[0] * d_x0-&gt;size[1];
+<FONT COLOR="#888888"><I>  200   </I></FONT>    d_x0-&gt;size[0] = c_x0-&gt;size[1];
+<FONT COLOR="#888888"><I>  201   </I></FONT>    d_x0-&gt;size[1] = 4;
+<FONT COLOR="#888888"><I>  202   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)d_x0, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  203   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt; 4; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  204   </I></FONT>        ia = c_x0-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  205   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (nx = 0; nx &lt;= ia; nx++) <B>{</B>
+<FONT COLOR="#888888"><I>  206   </I></FONT>            d_x0-&gt;data[nx + d_x0-&gt;size[0] * i] = c_x0-&gt;data[i + c_x0-&gt;size[0] * nx];
+<FONT COLOR="#888888"><I>  207   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  208   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  209   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;c_x0);
+<FONT COLOR="#888888"><I>  210   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;c_index, 1, TRUE);
+<FONT COLOR="#888888"><I>  211   </I></FONT>    <FONT COLOR="#117755"><I>/* extract PSF center positions and amplitudes */</I></FONT>
+<FONT COLOR="#888888"><I>  212   </I></FONT>    <FONT COLOR="#117755"><I>/*  psfPos = x0(:,1:2); */</I></FONT>
+<FONT COLOR="#888888"><I>  213   </I></FONT>    <FONT COLOR="#117755"><I>/*  psfAmp = x0(:,3); */</I></FONT>
+<FONT COLOR="#888888"><I>  214   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:66' psfPos = x0(:,1:3); */</I></FONT>
+<FONT COLOR="#888888"><I>  215   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:67' psfAmp = x0(:,4); */</I></FONT>
+<FONT COLOR="#888888"><I>  216   </I></FONT>    <FONT COLOR="#117755"><I>/* find minimum and maximum pixel indices */</I></FONT>
+<FONT COLOR="#888888"><I>  217   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:70' minIndxX = min(index(:,1)); */</I></FONT>
+<FONT COLOR="#888888"><I>  218   </I></FONT>    i = c_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  219   </I></FONT>    c_index-&gt;size[0] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  220   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)c_index, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  221   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  222   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  223   </I></FONT>        c_index-&gt;data[i] = b_index-&gt;data[i];
+<FONT COLOR="#888888"><I>  224   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  225   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;d_index, 1, TRUE);
+<FONT COLOR="#888888"><I>  226   </I></FONT>    minIndxX = <A HREF="min_c.html#fcn_b_min" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_min');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_min</FONT></A>(c_index);
+<FONT COLOR="#888888"><I>  227   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:71' maxIndxX = max(index(:,1)); */</I></FONT>
+<FONT COLOR="#888888"><I>  228   </I></FONT>    i = d_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  229   </I></FONT>    d_index-&gt;size[0] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  230   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)d_index, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  231   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;c_index);
+<FONT COLOR="#888888"><I>  232   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  233   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  234   </I></FONT>        d_index-&gt;data[i] = b_index-&gt;data[i];
+<FONT COLOR="#888888"><I>  235   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  236   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;e_index, 1, TRUE);
+<FONT COLOR="#888888"><I>  237   </I></FONT>    maxIndxX = <A HREF="max_c.html#fcn_b_max" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_max');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_max</FONT></A>(d_index);
+<FONT COLOR="#888888"><I>  238   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:72' minIndxY = min(index(:,2)); */</I></FONT>
+<FONT COLOR="#888888"><I>  239   </I></FONT>    i = e_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  240   </I></FONT>    e_index-&gt;size[0] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  241   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)e_index, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  242   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;d_index);
+<FONT COLOR="#888888"><I>  243   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  244   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  245   </I></FONT>        e_index-&gt;data[i] = b_index-&gt;data[i + b_index-&gt;size[0]];
+<FONT COLOR="#888888"><I>  246   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  247   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;f_index, 1, TRUE);
+<FONT COLOR="#888888"><I>  248   </I></FONT>    minIndxY = <A HREF="min_c.html#fcn_b_min" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_min');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_min</FONT></A>(e_index);
+<FONT COLOR="#888888"><I>  249   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:73' maxIndxY = max(index(:,2)); */</I></FONT>
+<FONT COLOR="#888888"><I>  250   </I></FONT>    i = f_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  251   </I></FONT>    f_index-&gt;size[0] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  252   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)f_index, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  253   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;e_index);
+<FONT COLOR="#888888"><I>  254   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  255   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  256   </I></FONT>        f_index-&gt;data[i] = b_index-&gt;data[i + b_index-&gt;size[0]];
+<FONT COLOR="#888888"><I>  257   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  258   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;g_index, 1, TRUE);
+<FONT COLOR="#888888"><I>  259   </I></FONT>    maxIndxY = <A HREF="max_c.html#fcn_b_max" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_max');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_max</FONT></A>(f_index);
+<FONT COLOR="#888888"><I>  260   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:74' minIndxZ = min(index(:,3)); */</I></FONT>
+<FONT COLOR="#888888"><I>  261   </I></FONT>    i = g_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  262   </I></FONT>    g_index-&gt;size[0] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  263   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)g_index, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  264   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;f_index);
+<FONT COLOR="#888888"><I>  265   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  266   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  267   </I></FONT>        g_index-&gt;data[i] = b_index-&gt;data[i + (b_index-&gt;size[0] &lt;&lt; 1)];
+<FONT COLOR="#888888"><I>  268   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  269   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;h_index, 1, TRUE);
+<FONT COLOR="#888888"><I>  270   </I></FONT>    minIndxZ = <A HREF="min_c.html#fcn_b_min" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_min');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_min</FONT></A>(g_index);
+<FONT COLOR="#888888"><I>  271   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:75' maxIndxZ = max(index(:,3)); */</I></FONT>
+<FONT COLOR="#888888"><I>  272   </I></FONT>    i = h_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  273   </I></FONT>    h_index-&gt;size[0] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  274   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)h_index, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  275   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;g_index);
+<FONT COLOR="#888888"><I>  276   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  277   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  278   </I></FONT>        h_index-&gt;data[i] = b_index-&gt;data[i + (b_index-&gt;size[0] &lt;&lt; 1)];
+<FONT COLOR="#888888"><I>  279   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  280   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;psfIntegX, 2, TRUE);
+<FONT COLOR="#888888"><I>  281   </I></FONT>    maxIndxZ = <A HREF="max_c.html#fcn_b_max" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_max');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_max</FONT></A>(h_index);
+<FONT COLOR="#888888"><I>  282   </I></FONT>    <FONT COLOR="#117755"><I>/* determine the contribution of each PSF (assuming amplitude 1) to a */</I></FONT>
+<FONT COLOR="#888888"><I>  283   </I></FONT>    <FONT COLOR="#117755"><I>/* pixel based on its x-coordinate (needed to calculate F &amp; J) */</I></FONT>
+<FONT COLOR="#888888"><I>  284   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:79' psfIntegX = zeros(maxIndxX-minIndxX+1,numPSF); */</I></FONT>
+<FONT COLOR="#888888"><I>  285   </I></FONT>    i = psfIntegX-&gt;size[0] * psfIntegX-&gt;size[1];
+<FONT COLOR="#888888"><I>  286   </I></FONT>    psfIntegX-&gt;size[0] = (int32_T)emlrtIntegerCheckR2011a((maxIndxX - minIndxX) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>);
+<FONT COLOR="#888888"><I>  287   </I></FONT>    psfIntegX-&gt;size[1] = (int32_T)emlrtIntegerCheckR2011a(numPSF, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_b_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_b_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>);
+<FONT COLOR="#888888"><I>  288   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)psfIntegX, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  289   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;h_index);
+<FONT COLOR="#888888"><I>  290   </I></FONT>    ia = (int32_T)emlrtIntegerCheckR2011a((maxIndxX - minIndxX) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_e_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_e_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">e_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>) * (int32_T)emlrtIntegerCheckR2011a(numPSF, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_f_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_f_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">f_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>) - 1;
+<FONT COLOR="#888888"><I>  291   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  292   </I></FONT>        psfIntegX-&gt;data[i] = 0.0;
+<FONT COLOR="#888888"><I>  293   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  294   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:80' for i=1:numPSF */</I></FONT>
+<FONT COLOR="#888888"><I>  295   </I></FONT>    b_i = 1U;
+<FONT COLOR="#888888"><I>  296   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_b_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_b_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">b_emxInit_real_T</FONT></A>(&amp;temp, 3, TRUE);
+<FONT COLOR="#888888"><I>  297   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;temp2, 2, TRUE);
+<FONT COLOR="#888888"><I>  298   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;y, 2, TRUE);
+<FONT COLOR="#888888"><I>  299   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;b_y, 1, TRUE);
+<FONT COLOR="#888888"><I>  300   </I></FONT>    <FONT COLOR="#112266"><B>while</B></FONT> ((real_T)b_i &lt;= numPSF) <B>{</B>
+<FONT COLOR="#888888"><I>  301   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:81' temp = GaussListND_mexCode((minIndxX:maxIndxX)',... */</I></FONT>
+<FONT COLOR="#888888"><I>  302   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:82'         psfSigma(1),psfPos(i,1)); */</I></FONT>
+<FONT COLOR="#888888"><I>  303   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarIsNaN(minIndxX) || muDoubleScalarIsNaN(maxIndxX)) <B>{</B>
+<FONT COLOR="#888888"><I>  304   </I></FONT>            iy = 1;
+<FONT COLOR="#888888"><I>  305   </I></FONT>            anew = rtNaN;
+<FONT COLOR="#888888"><I>  306   </I></FONT>            apnd = maxIndxX;
+<FONT COLOR="#888888"><I>  307   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (maxIndxX &lt; minIndxX) <B>{</B>
+<FONT COLOR="#888888"><I>  308   </I></FONT>            iy = 0;
+<FONT COLOR="#888888"><I>  309   </I></FONT>            anew = minIndxX;
+<FONT COLOR="#888888"><I>  310   </I></FONT>            apnd = maxIndxX;
+<FONT COLOR="#888888"><I>  311   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarIsInf(minIndxX) || muDoubleScalarIsInf(maxIndxX)) <B>{</B>
+<FONT COLOR="#888888"><I>  312   </I></FONT>            iy = 1;
+<FONT COLOR="#888888"><I>  313   </I></FONT>            anew = rtNaN;
+<FONT COLOR="#888888"><I>  314   </I></FONT>            apnd = maxIndxX;
+<FONT COLOR="#888888"><I>  315   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  316   </I></FONT>            anew = minIndxX;
+<FONT COLOR="#888888"><I>  317   </I></FONT>            ndbl = muDoubleScalarFloor((maxIndxX - minIndxX) + 0.5);
+<FONT COLOR="#888888"><I>  318   </I></FONT>            apnd = minIndxX + ndbl;
+<FONT COLOR="#888888"><I>  319   </I></FONT>            cdiff = apnd - maxIndxX;
+<FONT COLOR="#888888"><I>  320   </I></FONT>            absa = muDoubleScalarAbs(minIndxX);
+<FONT COLOR="#888888"><I>  321   </I></FONT>            absb = muDoubleScalarAbs(maxIndxX);
+<FONT COLOR="#888888"><I>  322   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (absa &gt; absb) <B>{</B>
+<FONT COLOR="#888888"><I>  323   </I></FONT>                absb = absa;
+<FONT COLOR="#888888"><I>  324   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  325   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarAbs(cdiff) &lt; 4.4408920985006262E-16 * absb) <B>{</B>
+<FONT COLOR="#888888"><I>  326   </I></FONT>                ndbl++;
+<FONT COLOR="#888888"><I>  327   </I></FONT>                apnd = maxIndxX;
+<FONT COLOR="#888888"><I>  328   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (cdiff &gt; 0.0) <B>{</B>
+<FONT COLOR="#888888"><I>  329   </I></FONT>                apnd = minIndxX + (ndbl - 1.0);
+<FONT COLOR="#888888"><I>  330   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  331   </I></FONT>                ndbl++;
+<FONT COLOR="#888888"><I>  332   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  333   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (ndbl &gt;= 0.0) <B>{</B>
+<FONT COLOR="#888888"><I>  334   </I></FONT>                iy = (int32_T)ndbl;
+<FONT COLOR="#888888"><I>  335   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  336   </I></FONT>                iy = 0;
+<FONT COLOR="#888888"><I>  337   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  338   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  339   </I></FONT>        i = y-&gt;size[0] * y-&gt;size[1];
+<FONT COLOR="#888888"><I>  340   </I></FONT>        y-&gt;size[0] = 1;
+<FONT COLOR="#888888"><I>  341   </I></FONT>        y-&gt;size[1] = iy;
+<FONT COLOR="#888888"><I>  342   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)y, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  343   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (iy &gt; 0) <B>{</B>
+<FONT COLOR="#888888"><I>  344   </I></FONT>            y-&gt;data[0] = anew;
+<FONT COLOR="#888888"><I>  345   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (iy &gt; 1) <B>{</B>
+<FONT COLOR="#888888"><I>  346   </I></FONT>                y-&gt;data[iy - 1] = apnd;
+<FONT COLOR="#888888"><I>  347   </I></FONT>                ib = iy - 1;
+<FONT COLOR="#888888"><I>  348   </I></FONT>                i = ib;
+<FONT COLOR="#888888"><I>  349   </I></FONT>                nx = (int32_T)((uint32_T)i &gt;&gt; 1);
+<FONT COLOR="#888888"><I>  350   </I></FONT>                ia = nx - 1;
+<FONT COLOR="#888888"><I>  351   </I></FONT>                <FONT COLOR="#112266"><B>for</B></FONT> (k = 1; k &lt;= ia; k++) <B>{</B>
+<FONT COLOR="#888888"><I>  352   </I></FONT>                    y-&gt;data[k] = anew + (real_T)k;
+<FONT COLOR="#888888"><I>  353   </I></FONT>                    y-&gt;data[(iy - k) - 1] = apnd - (real_T)k;
+<FONT COLOR="#888888"><I>  354   </I></FONT>                <B>}</B>
+<FONT COLOR="#888888"><I>  355   </I></FONT>                <FONT COLOR="#112266"><B>if</B></FONT> (nx &lt;&lt; 1 == ib) <B>{</B>
+<FONT COLOR="#888888"><I>  356   </I></FONT>                    y-&gt;data[nx] = (anew + apnd) / 2.0;
+<FONT COLOR="#888888"><I>  357   </I></FONT>                <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  358   </I></FONT>                    y-&gt;data[nx] = anew + (real_T)nx;
+<FONT COLOR="#888888"><I>  359   </I></FONT>                    y-&gt;data[nx + 1] = apnd - (real_T)nx;
+<FONT COLOR="#888888"><I>  360   </I></FONT>                <B>}</B>
+<FONT COLOR="#888888"><I>  361   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  362   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  363   </I></FONT>        i = b_y-&gt;size[0];
+<FONT COLOR="#888888"><I>  364   </I></FONT>        b_y-&gt;size[0] = y-&gt;size[1];
+<FONT COLOR="#888888"><I>  365   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)b_y, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  366   </I></FONT>        ia = y-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  367   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  368   </I></FONT>            b_y-&gt;data[i] = y-&gt;data[i];
+<FONT COLOR="#888888"><I>  369   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  370   </I></FONT>        <A HREF="GaussListND_mexCode_c.html#fcn_GaussListND_mexCode" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_GaussListND_mexCode');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">GaussListND_mexCode</FONT></A>(b_y, psfSigma[0], d_x0-&gt;data[(int32_T)b_i - 1], temp);
+<FONT COLOR="#888888"><I>  371   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:84' temp2 = squeeze(temp); */</I></FONT>
+<FONT COLOR="#888888"><I>  372   </I></FONT>        <A HREF="squeeze_c.html#fcn_squeeze" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_squeeze');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">squeeze</FONT></A>(temp, temp2);
+<FONT COLOR="#888888"><I>  373   </I></FONT>        <FONT COLOR="#117755"><I>/* clear temp */</I></FONT>
+<FONT COLOR="#888888"><I>  374   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:87' psfIntegX(:,i) = temp2(:,1); */</I></FONT>
+<FONT COLOR="#888888"><I>  375   </I></FONT>        i = (int32_T)b_i - 1;
+<FONT COLOR="#888888"><I>  376   </I></FONT>        ia = temp2-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  377   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (nx = 0; nx &lt;= ia; nx++) <B>{</B>
+<FONT COLOR="#888888"><I>  378   </I></FONT>            psfIntegX-&gt;data[nx + psfIntegX-&gt;size[0] * i] = temp2-&gt;data[nx];
+<FONT COLOR="#888888"><I>  379   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  380   </I></FONT>        <FONT COLOR="#117755"><I>/* clear temp2 */</I></FONT>
+<FONT COLOR="#888888"><I>  381   </I></FONT>        b_i++;
+<FONT COLOR="#888888"><I>  382   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  383   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;b_y);
+<FONT COLOR="#888888"><I>  384   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;psfIntegY, 2, TRUE);
+<FONT COLOR="#888888"><I>  385   </I></FONT>    <FONT COLOR="#117755"><I>/* determine the contribution of each PSF (assuming amplitude 1) to a */</I></FONT>
+<FONT COLOR="#888888"><I>  386   </I></FONT>    <FONT COLOR="#117755"><I>/* pixel based on its y-coordinate (needed to calculate F &amp; J) */</I></FONT>
+<FONT COLOR="#888888"><I>  387   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:93' psfIntegY = zeros(maxIndxY-minIndxY+1,numPSF); */</I></FONT>
+<FONT COLOR="#888888"><I>  388   </I></FONT>    i = psfIntegY-&gt;size[0] * psfIntegY-&gt;size[1];
+<FONT COLOR="#888888"><I>  389   </I></FONT>    psfIntegY-&gt;size[0] = (int32_T)emlrtIntegerCheckR2011a((maxIndxY - minIndxY) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_c_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_c_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>);
+<FONT COLOR="#888888"><I>  390   </I></FONT>    psfIntegY-&gt;size[1] = (int32_T)numPSF;
+<FONT COLOR="#888888"><I>  391   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)psfIntegY, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  392   </I></FONT>    ia = (int32_T)emlrtIntegerCheckR2011a((maxIndxY - minIndxY) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_g_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_g_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">g_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>) * (int32_T)numPSF - 1;
+<FONT COLOR="#888888"><I>  393   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  394   </I></FONT>        psfIntegY-&gt;data[i] = 0.0;
+<FONT COLOR="#888888"><I>  395   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  396   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:94' for i=1:numPSF */</I></FONT>
+<FONT COLOR="#888888"><I>  397   </I></FONT>    b_i = 1U;
+<FONT COLOR="#888888"><I>  398   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;c_y, 1, TRUE);
+<FONT COLOR="#888888"><I>  399   </I></FONT>    <FONT COLOR="#112266"><B>while</B></FONT> (b_i &lt;= (uint32_T)numPSF) <B>{</B>
+<FONT COLOR="#888888"><I>  400   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:95' temp = GaussListND_mexCode((minIndxY:maxIndxY)',... */</I></FONT>
+<FONT COLOR="#888888"><I>  401   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:96'         psfSigma(1),psfPos(i,2)); */</I></FONT>
+<FONT COLOR="#888888"><I>  402   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarIsNaN(minIndxY) || muDoubleScalarIsNaN(maxIndxY)) <B>{</B>
+<FONT COLOR="#888888"><I>  403   </I></FONT>            iy = 1;
+<FONT COLOR="#888888"><I>  404   </I></FONT>            anew = rtNaN;
+<FONT COLOR="#888888"><I>  405   </I></FONT>            apnd = maxIndxY;
+<FONT COLOR="#888888"><I>  406   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (maxIndxY &lt; minIndxY) <B>{</B>
+<FONT COLOR="#888888"><I>  407   </I></FONT>            iy = 0;
+<FONT COLOR="#888888"><I>  408   </I></FONT>            anew = minIndxY;
+<FONT COLOR="#888888"><I>  409   </I></FONT>            apnd = maxIndxY;
+<FONT COLOR="#888888"><I>  410   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarIsInf(minIndxY) || muDoubleScalarIsInf(maxIndxY)) <B>{</B>
+<FONT COLOR="#888888"><I>  411   </I></FONT>            iy = 1;
+<FONT COLOR="#888888"><I>  412   </I></FONT>            anew = rtNaN;
+<FONT COLOR="#888888"><I>  413   </I></FONT>            apnd = maxIndxY;
+<FONT COLOR="#888888"><I>  414   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  415   </I></FONT>            anew = minIndxY;
+<FONT COLOR="#888888"><I>  416   </I></FONT>            ndbl = muDoubleScalarFloor((maxIndxY - minIndxY) + 0.5);
+<FONT COLOR="#888888"><I>  417   </I></FONT>            apnd = minIndxY + ndbl;
+<FONT COLOR="#888888"><I>  418   </I></FONT>            cdiff = apnd - maxIndxY;
+<FONT COLOR="#888888"><I>  419   </I></FONT>            absa = muDoubleScalarAbs(minIndxY);
+<FONT COLOR="#888888"><I>  420   </I></FONT>            absb = muDoubleScalarAbs(maxIndxY);
+<FONT COLOR="#888888"><I>  421   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (absa &gt; absb) <B>{</B>
+<FONT COLOR="#888888"><I>  422   </I></FONT>                absb = absa;
+<FONT COLOR="#888888"><I>  423   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  424   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarAbs(cdiff) &lt; 4.4408920985006262E-16 * absb) <B>{</B>
+<FONT COLOR="#888888"><I>  425   </I></FONT>                ndbl++;
+<FONT COLOR="#888888"><I>  426   </I></FONT>                apnd = maxIndxY;
+<FONT COLOR="#888888"><I>  427   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (cdiff &gt; 0.0) <B>{</B>
+<FONT COLOR="#888888"><I>  428   </I></FONT>                apnd = minIndxY + (ndbl - 1.0);
+<FONT COLOR="#888888"><I>  429   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  430   </I></FONT>                ndbl++;
+<FONT COLOR="#888888"><I>  431   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  432   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (ndbl &gt;= 0.0) <B>{</B>
+<FONT COLOR="#888888"><I>  433   </I></FONT>                iy = (int32_T)ndbl;
+<FONT COLOR="#888888"><I>  434   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  435   </I></FONT>                iy = 0;
+<FONT COLOR="#888888"><I>  436   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  437   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  438   </I></FONT>        i = y-&gt;size[0] * y-&gt;size[1];
+<FONT COLOR="#888888"><I>  439   </I></FONT>        y-&gt;size[0] = 1;
+<FONT COLOR="#888888"><I>  440   </I></FONT>        y-&gt;size[1] = iy;
+<FONT COLOR="#888888"><I>  441   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)y, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  442   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (iy &gt; 0) <B>{</B>
+<FONT COLOR="#888888"><I>  443   </I></FONT>            y-&gt;data[0] = anew;
+<FONT COLOR="#888888"><I>  444   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (iy &gt; 1) <B>{</B>
+<FONT COLOR="#888888"><I>  445   </I></FONT>                y-&gt;data[iy - 1] = apnd;
+<FONT COLOR="#888888"><I>  446   </I></FONT>                ib = iy - 1;
+<FONT COLOR="#888888"><I>  447   </I></FONT>                i = ib;
+<FONT COLOR="#888888"><I>  448   </I></FONT>                nx = (int32_T)((uint32_T)i &gt;&gt; 1);
+<FONT COLOR="#888888"><I>  449   </I></FONT>                ia = nx - 1;
+<FONT COLOR="#888888"><I>  450   </I></FONT>                <FONT COLOR="#112266"><B>for</B></FONT> (k = 1; k &lt;= ia; k++) <B>{</B>
+<FONT COLOR="#888888"><I>  451   </I></FONT>                    y-&gt;data[k] = anew + (real_T)k;
+<FONT COLOR="#888888"><I>  452   </I></FONT>                    y-&gt;data[(iy - k) - 1] = apnd - (real_T)k;
+<FONT COLOR="#888888"><I>  453   </I></FONT>                <B>}</B>
+<FONT COLOR="#888888"><I>  454   </I></FONT>                <FONT COLOR="#112266"><B>if</B></FONT> (nx &lt;&lt; 1 == ib) <B>{</B>
+<FONT COLOR="#888888"><I>  455   </I></FONT>                    y-&gt;data[nx] = (anew + apnd) / 2.0;
+<FONT COLOR="#888888"><I>  456   </I></FONT>                <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  457   </I></FONT>                    y-&gt;data[nx] = anew + (real_T)nx;
+<FONT COLOR="#888888"><I>  458   </I></FONT>                    y-&gt;data[nx + 1] = apnd - (real_T)nx;
+<FONT COLOR="#888888"><I>  459   </I></FONT>                <B>}</B>
+<FONT COLOR="#888888"><I>  460   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  461   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  462   </I></FONT>        i = c_y-&gt;size[0];
+<FONT COLOR="#888888"><I>  463   </I></FONT>        c_y-&gt;size[0] = y-&gt;size[1];
+<FONT COLOR="#888888"><I>  464   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)c_y, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  465   </I></FONT>        ia = y-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  466   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  467   </I></FONT>            c_y-&gt;data[i] = y-&gt;data[i];
+<FONT COLOR="#888888"><I>  468   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  469   </I></FONT>        <A HREF="GaussListND_mexCode_c.html#fcn_GaussListND_mexCode" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_GaussListND_mexCode');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">GaussListND_mexCode</FONT></A>(c_y, psfSigma[0], d_x0-&gt;data[((int32_T)b_i + d_x0-&gt;size[0]) - 1], temp);
+<FONT COLOR="#888888"><I>  470   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:98' temp2 = squeeze(temp); */</I></FONT>
+<FONT COLOR="#888888"><I>  471   </I></FONT>        <A HREF="squeeze_c.html#fcn_squeeze" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_squeeze');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">squeeze</FONT></A>(temp, temp2);
+<FONT COLOR="#888888"><I>  472   </I></FONT>        <FONT COLOR="#117755"><I>/* clear temp */</I></FONT>
+<FONT COLOR="#888888"><I>  473   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:101' psfIntegY(:,i) = temp2(:,1); */</I></FONT>
+<FONT COLOR="#888888"><I>  474   </I></FONT>        i = (int32_T)b_i - 1;
+<FONT COLOR="#888888"><I>  475   </I></FONT>        ia = temp2-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  476   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (nx = 0; nx &lt;= ia; nx++) <B>{</B>
+<FONT COLOR="#888888"><I>  477   </I></FONT>            psfIntegY-&gt;data[nx + psfIntegY-&gt;size[0] * i] = temp2-&gt;data[nx];
+<FONT COLOR="#888888"><I>  478   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  479   </I></FONT>        <FONT COLOR="#117755"><I>/* clear temp2 */</I></FONT>
+<FONT COLOR="#888888"><I>  480   </I></FONT>        b_i++;
+<FONT COLOR="#888888"><I>  481   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  482   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;c_y);
+<FONT COLOR="#888888"><I>  483   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;psfIntegZ, 2, TRUE);
+<FONT COLOR="#888888"><I>  484   </I></FONT>    <FONT COLOR="#117755"><I>/* determine the contribution of each PSF (assuming amplitude 1) to a */</I></FONT>
+<FONT COLOR="#888888"><I>  485   </I></FONT>    <FONT COLOR="#117755"><I>/* pixel based on its z-coordinate (needed to calculate F &amp; J) */</I></FONT>
+<FONT COLOR="#888888"><I>  486   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:107' psfIntegZ = zeros(maxIndxZ-minIndxZ+1,numPSF); */</I></FONT>
+<FONT COLOR="#888888"><I>  487   </I></FONT>    i = psfIntegZ-&gt;size[0] * psfIntegZ-&gt;size[1];
+<FONT COLOR="#888888"><I>  488   </I></FONT>    psfIntegZ-&gt;size[0] = (int32_T)emlrtIntegerCheckR2011a((maxIndxZ - minIndxZ) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_d_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_d_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">d_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>);
+<FONT COLOR="#888888"><I>  489   </I></FONT>    psfIntegZ-&gt;size[1] = (int32_T)numPSF;
+<FONT COLOR="#888888"><I>  490   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)psfIntegZ, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  491   </I></FONT>    ia = (int32_T)emlrtIntegerCheckR2011a((maxIndxZ - minIndxZ) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_h_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_h_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">h_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>) * (int32_T)numPSF - 1;
+<FONT COLOR="#888888"><I>  492   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  493   </I></FONT>        psfIntegZ-&gt;data[i] = 0.0;
+<FONT COLOR="#888888"><I>  494   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  495   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:108' for i=1:numPSF */</I></FONT>
+<FONT COLOR="#888888"><I>  496   </I></FONT>    b_i = 1U;
+<FONT COLOR="#888888"><I>  497   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;d_y, 1, TRUE);
+<FONT COLOR="#888888"><I>  498   </I></FONT>    <FONT COLOR="#112266"><B>while</B></FONT> (b_i &lt;= (uint32_T)numPSF) <B>{</B>
+<FONT COLOR="#888888"><I>  499   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:109' temp = GaussListND_mexCode((minIndxZ:maxIndxZ)',... */</I></FONT>
+<FONT COLOR="#888888"><I>  500   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:110'         psfSigma(2),psfPos(i,3)); */</I></FONT>
+<FONT COLOR="#888888"><I>  501   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarIsNaN(minIndxZ) || muDoubleScalarIsNaN(maxIndxZ)) <B>{</B>
+<FONT COLOR="#888888"><I>  502   </I></FONT>            iy = 1;
+<FONT COLOR="#888888"><I>  503   </I></FONT>            anew = rtNaN;
+<FONT COLOR="#888888"><I>  504   </I></FONT>            apnd = maxIndxZ;
+<FONT COLOR="#888888"><I>  505   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (maxIndxZ &lt; minIndxZ) <B>{</B>
+<FONT COLOR="#888888"><I>  506   </I></FONT>            iy = 0;
+<FONT COLOR="#888888"><I>  507   </I></FONT>            anew = minIndxZ;
+<FONT COLOR="#888888"><I>  508   </I></FONT>            apnd = maxIndxZ;
+<FONT COLOR="#888888"><I>  509   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarIsInf(minIndxZ) || muDoubleScalarIsInf(maxIndxZ)) <B>{</B>
+<FONT COLOR="#888888"><I>  510   </I></FONT>            iy = 1;
+<FONT COLOR="#888888"><I>  511   </I></FONT>            anew = rtNaN;
+<FONT COLOR="#888888"><I>  512   </I></FONT>            apnd = maxIndxZ;
+<FONT COLOR="#888888"><I>  513   </I></FONT>        <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  514   </I></FONT>            anew = minIndxZ;
+<FONT COLOR="#888888"><I>  515   </I></FONT>            ndbl = muDoubleScalarFloor((maxIndxZ - minIndxZ) + 0.5);
+<FONT COLOR="#888888"><I>  516   </I></FONT>            apnd = minIndxZ + ndbl;
+<FONT COLOR="#888888"><I>  517   </I></FONT>            cdiff = apnd - maxIndxZ;
+<FONT COLOR="#888888"><I>  518   </I></FONT>            absa = muDoubleScalarAbs(minIndxZ);
+<FONT COLOR="#888888"><I>  519   </I></FONT>            absb = muDoubleScalarAbs(maxIndxZ);
+<FONT COLOR="#888888"><I>  520   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (absa &gt; absb) <B>{</B>
+<FONT COLOR="#888888"><I>  521   </I></FONT>                absb = absa;
+<FONT COLOR="#888888"><I>  522   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  523   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (muDoubleScalarAbs(cdiff) &lt; 4.4408920985006262E-16 * absb) <B>{</B>
+<FONT COLOR="#888888"><I>  524   </I></FONT>                ndbl++;
+<FONT COLOR="#888888"><I>  525   </I></FONT>                apnd = maxIndxZ;
+<FONT COLOR="#888888"><I>  526   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (cdiff &gt; 0.0) <B>{</B>
+<FONT COLOR="#888888"><I>  527   </I></FONT>                apnd = minIndxZ + (ndbl - 1.0);
+<FONT COLOR="#888888"><I>  528   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  529   </I></FONT>                ndbl++;
+<FONT COLOR="#888888"><I>  530   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  531   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (ndbl &gt;= 0.0) <B>{</B>
+<FONT COLOR="#888888"><I>  532   </I></FONT>                iy = (int32_T)ndbl;
+<FONT COLOR="#888888"><I>  533   </I></FONT>            <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  534   </I></FONT>                iy = 0;
+<FONT COLOR="#888888"><I>  535   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  536   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  537   </I></FONT>        i = y-&gt;size[0] * y-&gt;size[1];
+<FONT COLOR="#888888"><I>  538   </I></FONT>        y-&gt;size[0] = 1;
+<FONT COLOR="#888888"><I>  539   </I></FONT>        y-&gt;size[1] = iy;
+<FONT COLOR="#888888"><I>  540   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)y, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  541   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (iy &gt; 0) <B>{</B>
+<FONT COLOR="#888888"><I>  542   </I></FONT>            y-&gt;data[0] = anew;
+<FONT COLOR="#888888"><I>  543   </I></FONT>            <FONT COLOR="#112266"><B>if</B></FONT> (iy &gt; 1) <B>{</B>
+<FONT COLOR="#888888"><I>  544   </I></FONT>                y-&gt;data[iy - 1] = apnd;
+<FONT COLOR="#888888"><I>  545   </I></FONT>                ib = iy - 1;
+<FONT COLOR="#888888"><I>  546   </I></FONT>                i = ib;
+<FONT COLOR="#888888"><I>  547   </I></FONT>                nx = (int32_T)((uint32_T)i &gt;&gt; 1);
+<FONT COLOR="#888888"><I>  548   </I></FONT>                ia = nx - 1;
+<FONT COLOR="#888888"><I>  549   </I></FONT>                <FONT COLOR="#112266"><B>for</B></FONT> (k = 1; k &lt;= ia; k++) <B>{</B>
+<FONT COLOR="#888888"><I>  550   </I></FONT>                    y-&gt;data[k] = anew + (real_T)k;
+<FONT COLOR="#888888"><I>  551   </I></FONT>                    y-&gt;data[(iy - k) - 1] = apnd - (real_T)k;
+<FONT COLOR="#888888"><I>  552   </I></FONT>                <B>}</B>
+<FONT COLOR="#888888"><I>  553   </I></FONT>                <FONT COLOR="#112266"><B>if</B></FONT> (nx &lt;&lt; 1 == ib) <B>{</B>
+<FONT COLOR="#888888"><I>  554   </I></FONT>                    y-&gt;data[nx] = (anew + apnd) / 2.0;
+<FONT COLOR="#888888"><I>  555   </I></FONT>                <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  556   </I></FONT>                    y-&gt;data[nx] = anew + (real_T)nx;
+<FONT COLOR="#888888"><I>  557   </I></FONT>                    y-&gt;data[nx + 1] = apnd - (real_T)nx;
+<FONT COLOR="#888888"><I>  558   </I></FONT>                <B>}</B>
+<FONT COLOR="#888888"><I>  559   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  560   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  561   </I></FONT>        i = d_y-&gt;size[0];
+<FONT COLOR="#888888"><I>  562   </I></FONT>        d_y-&gt;size[0] = y-&gt;size[1];
+<FONT COLOR="#888888"><I>  563   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)d_y, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  564   </I></FONT>        ia = y-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  565   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  566   </I></FONT>            d_y-&gt;data[i] = y-&gt;data[i];
+<FONT COLOR="#888888"><I>  567   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  568   </I></FONT>        <A HREF="GaussListND_mexCode_c.html#fcn_GaussListND_mexCode" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_GaussListND_mexCode');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">GaussListND_mexCode</FONT></A>(d_y, psfSigma[1], d_x0-&gt;data[((int32_T)b_i + (d_x0-&gt;size[0] &lt;&lt; 1)) - 1], temp);
+<FONT COLOR="#888888"><I>  569   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:113' temp2 = squeeze(temp); */</I></FONT>
+<FONT COLOR="#888888"><I>  570   </I></FONT>        <A HREF="squeeze_c.html#fcn_squeeze" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_squeeze');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">squeeze</FONT></A>(temp, temp2);
+<FONT COLOR="#888888"><I>  571   </I></FONT>        <FONT COLOR="#117755"><I>/* clear temp */</I></FONT>
+<FONT COLOR="#888888"><I>  572   </I></FONT>        <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:116' psfIntegZ(:,i) = temp2(:,1); */</I></FONT>
+<FONT COLOR="#888888"><I>  573   </I></FONT>        i = (int32_T)b_i - 1;
+<FONT COLOR="#888888"><I>  574   </I></FONT>        ia = temp2-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  575   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (nx = 0; nx &lt;= ia; nx++) <B>{</B>
+<FONT COLOR="#888888"><I>  576   </I></FONT>            psfIntegZ-&gt;data[nx + psfIntegZ-&gt;size[0] * i] = temp2-&gt;data[nx];
+<FONT COLOR="#888888"><I>  577   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  578   </I></FONT>        <FONT COLOR="#117755"><I>/* clear temp2 */</I></FONT>
+<FONT COLOR="#888888"><I>  579   </I></FONT>        b_i++;
+<FONT COLOR="#888888"><I>  580   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  581   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;d_y);
+<FONT COLOR="#888888"><I>  582   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;temp);
+<FONT COLOR="#888888"><I>  583   </I></FONT>    <FONT COLOR="#117755"><I>/*  %calculate the value of each PSF (assuming amplitude 1) at the */</I></FONT>
+<FONT COLOR="#888888"><I>  584   </I></FONT>    <FONT COLOR="#117755"><I>/*  %x-coordinates of the corners of all pixels (needed to calculate J) */</I></FONT>
+<FONT COLOR="#888888"><I>  585   </I></FONT>    <FONT COLOR="#117755"><I>/*  psfValueX = zeros(maxIndxX-minIndxX+2,numPSF); */</I></FONT>
+<FONT COLOR="#888888"><I>  586   </I></FONT>    <FONT COLOR="#117755"><I>/*  for i=1:numPSF */</I></FONT>
+<FONT COLOR="#888888"><I>  587   </I></FONT>    <FONT COLOR="#117755"><I>/*      psfValueX(:,i) = exp(-((minIndxX-0.5:maxIndxX+0.5)'... */</I></FONT>
+<FONT COLOR="#888888"><I>  588   </I></FONT>    <FONT COLOR="#117755"><I>/*          -psfPos(i,1)).^2/2/psfSigma(1)^2); */</I></FONT>
+<FONT COLOR="#888888"><I>  589   </I></FONT>    <FONT COLOR="#117755"><I>/*  end */</I></FONT>
+<FONT COLOR="#888888"><I>  590   </I></FONT>    <FONT COLOR="#117755"><I>/*   */</I></FONT>
+<FONT COLOR="#888888"><I>  591   </I></FONT>    <FONT COLOR="#117755"><I>/*  %calculate the value of each PSF (assuming amplitude 1) at the */</I></FONT>
+<FONT COLOR="#888888"><I>  592   </I></FONT>    <FONT COLOR="#117755"><I>/*  %y-coordinates of the corners of all pixels (needed to calculate J) */</I></FONT>
+<FONT COLOR="#888888"><I>  593   </I></FONT>    <FONT COLOR="#117755"><I>/*  psfValueY = zeros(maxIndxY-minIndxY+2,numPSF); */</I></FONT>
+<FONT COLOR="#888888"><I>  594   </I></FONT>    <FONT COLOR="#117755"><I>/*  for i=1:numPSF */</I></FONT>
+<FONT COLOR="#888888"><I>  595   </I></FONT>    <FONT COLOR="#117755"><I>/*      psfValueY(:,i) = exp(-((minIndxY-0.5:maxIndxY+0.5)'... */</I></FONT>
+<FONT COLOR="#888888"><I>  596   </I></FONT>    <FONT COLOR="#117755"><I>/*          -psfPos(i,2)).^2/2/psfSigma(1)^2); */</I></FONT>
+<FONT COLOR="#888888"><I>  597   </I></FONT>    <FONT COLOR="#117755"><I>/*  end */</I></FONT>
+<FONT COLOR="#888888"><I>  598   </I></FONT>    <FONT COLOR="#117755"><I>/*   */</I></FONT>
+<FONT COLOR="#888888"><I>  599   </I></FONT>    <FONT COLOR="#117755"><I>/*  %calculate the value of each PSF (assuming amplitude 1) at the */</I></FONT>
+<FONT COLOR="#888888"><I>  600   </I></FONT>    <FONT COLOR="#117755"><I>/*  %z-coordinates of the corners of all pixels (needed to calculate J) */</I></FONT>
+<FONT COLOR="#888888"><I>  601   </I></FONT>    <FONT COLOR="#117755"><I>/*  psfValueZ = zeros(maxIndxZ-minIndxZ+2,numPSF); */</I></FONT>
+<FONT COLOR="#888888"><I>  602   </I></FONT>    <FONT COLOR="#117755"><I>/*  for i=1:numPSF */</I></FONT>
+<FONT COLOR="#888888"><I>  603   </I></FONT>    <FONT COLOR="#117755"><I>/*      psfValueZ(:,i) = exp(-((minIndxZ-0.5:maxIndxZ+0.5)'... */</I></FONT>
+<FONT COLOR="#888888"><I>  604   </I></FONT>    <FONT COLOR="#117755"><I>/*          -psfPos(i,3)).^2/2/psfSigma(2)^2); */</I></FONT>
+<FONT COLOR="#888888"><I>  605   </I></FONT>    <FONT COLOR="#117755"><I>/*  end */</I></FONT>
+<FONT COLOR="#888888"><I>  606   </I></FONT>    <FONT COLOR="#117755"><I>/* get number of pixels in image */</I></FONT>
+<FONT COLOR="#888888"><I>  607   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:145' numPixel = length(image); */</I></FONT>
+<FONT COLOR="#888888"><I>  608   </I></FONT>    <FONT COLOR="#112266"><B>if</B></FONT> (image-&gt;size[0] == 0) <B>{</B>
+<FONT COLOR="#888888"><I>  609   </I></FONT>        nx = 0;
+<FONT COLOR="#888888"><I>  610   </I></FONT>    <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <FONT COLOR="#112266"><B>if</B></FONT> (image-&gt;size[0] &gt; 1) <B>{</B>
+<FONT COLOR="#888888"><I>  611   </I></FONT>        nx = image-&gt;size[0];
+<FONT COLOR="#888888"><I>  612   </I></FONT>    <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  613   </I></FONT>        nx = 1;
+<FONT COLOR="#888888"><I>  614   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  615   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_int32_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_int32_T</FONT></A>(&amp;r0, 1, TRUE);
+<FONT COLOR="#888888"><I>  616   </I></FONT>    <FONT COLOR="#117755"><I>/*  %get xy-indices relative to minimum */</I></FONT>
+<FONT COLOR="#888888"><I>  617   </I></FONT>    <FONT COLOR="#117755"><I>/*  relIndxX = index(:,1) - minIndxX + 1; */</I></FONT>
+<FONT COLOR="#888888"><I>  618   </I></FONT>    <FONT COLOR="#117755"><I>/*  relIndxY = index(:,2) - minIndxY + 1; */</I></FONT>
+<FONT COLOR="#888888"><I>  619   </I></FONT>    <FONT COLOR="#117755"><I>/* get xy-indices relative to minimum */</I></FONT>
+<FONT COLOR="#888888"><I>  620   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:151' relIndxX = index(:,1) - minIndxX + 1; */</I></FONT>
+<FONT COLOR="#888888"><I>  621   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:152' relIndxY = index(:,2) - minIndxY + 1; */</I></FONT>
+<FONT COLOR="#888888"><I>  622   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:153' relIndxZ = index(:,3) - minIndxZ + 1; */</I></FONT>
+<FONT COLOR="#888888"><I>  623   </I></FONT>    <FONT COLOR="#117755"><I>/*  %calculate the value of F at all pixels */</I></FONT>
+<FONT COLOR="#888888"><I>  624   </I></FONT>    <FONT COLOR="#117755"><I>/*  F = (sum(repmat(psfAmp,1,numPixel).*psfIntegX(relIndxX,:)'.*psfIntegY(relIndxY,:)',1))' ... */</I></FONT>
+<FONT COLOR="#888888"><I>  625   </I></FONT>    <FONT COLOR="#117755"><I>/*      + repmat(bgAmp,numPixel,1) - image; */</I></FONT>
+<FONT COLOR="#888888"><I>  626   </I></FONT>    <FONT COLOR="#117755"><I>/* calculate the value of F at all pixels */</I></FONT>
+<FONT COLOR="#888888"><I>  627   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:160' F = (sum(repmat(psfAmp,1,numPixel).*psfIntegX(relIndxX,:)'.*psfIntegY(relIndxY,:)'.*psfIntegZ(relIndxZ,:)',1))' ... */</I></FONT>
+<FONT COLOR="#888888"><I>  628   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:161'     + repmat(bgAmp,numPixel,1) - image; */</I></FONT>
+<FONT COLOR="#888888"><I>  629   </I></FONT>    sz[0] = 1;
+<FONT COLOR="#888888"><I>  630   </I></FONT>    sz[1] = nx;
+<FONT COLOR="#888888"><I>  631   </I></FONT>    i = r0-&gt;size[0];
+<FONT COLOR="#888888"><I>  632   </I></FONT>    r0-&gt;size[0] = d_x0-&gt;size[0];
+<FONT COLOR="#888888"><I>  633   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)r0, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(int32_T));
+<FONT COLOR="#888888"><I>  634   </I></FONT>    ia = d_x0-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  635   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  636   </I></FONT>        r0-&gt;data[i] = 1 + i;
+<FONT COLOR="#888888"><I>  637   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  638   </I></FONT>    iv0[0] = r0-&gt;size[0];
+<FONT COLOR="#888888"><I>  639   </I></FONT>    iv0[1] = 1;
+<FONT COLOR="#888888"><I>  640   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_int32_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_int32_T</FONT></A>(&amp;r0);
+<FONT COLOR="#888888"><I>  641   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt; 2; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  642   </I></FONT>        iv1[i] = iv0[i] * sz[i];
+<FONT COLOR="#888888"><I>  643   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  644   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;x, 2, TRUE);
+<FONT COLOR="#888888"><I>  645   </I></FONT>    i = x-&gt;size[0] * x-&gt;size[1];
+<FONT COLOR="#888888"><I>  646   </I></FONT>    x-&gt;size[0] = iv1[0];
+<FONT COLOR="#888888"><I>  647   </I></FONT>    x-&gt;size[1] = iv1[1];
+<FONT COLOR="#888888"><I>  648   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)x, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  649   </I></FONT>    <FONT COLOR="#112266"><B>if</B></FONT> ((x-&gt;size[0] == 0) || (x-&gt;size[1] == 0)) <B>{</B>
+<FONT COLOR="#888888"><I>  650   </I></FONT>    <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  651   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_int32_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_int32_T</FONT></A>(&amp;r1, 1, TRUE);
+<FONT COLOR="#888888"><I>  652   </I></FONT>        i = r1-&gt;size[0];
+<FONT COLOR="#888888"><I>  653   </I></FONT>        r1-&gt;size[0] = d_x0-&gt;size[0];
+<FONT COLOR="#888888"><I>  654   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)r1, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(int32_T));
+<FONT COLOR="#888888"><I>  655   </I></FONT>        ia = d_x0-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  656   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  657   </I></FONT>            r1-&gt;data[i] = 1 + i;
+<FONT COLOR="#888888"><I>  658   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  659   </I></FONT>        nx = r1-&gt;size[0];
+<FONT COLOR="#888888"><I>  660   </I></FONT>        ib = 0;
+<FONT COLOR="#888888"><I>  661   </I></FONT>        iy = 1;
+<FONT COLOR="#888888"><I>  662   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_int32_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_int32_T</FONT></A>(&amp;r1);
+<FONT COLOR="#888888"><I>  663   </I></FONT>        <FONT COLOR="#112266"><B>while</B></FONT> (iy &lt;= sz[1]) <B>{</B>
+<FONT COLOR="#888888"><I>  664   </I></FONT>            ia = 0;
+<FONT COLOR="#888888"><I>  665   </I></FONT>            <FONT COLOR="#112266"><B>for</B></FONT> (k = 1; k &lt;= nx; k++) <B>{</B>
+<FONT COLOR="#888888"><I>  666   </I></FONT>                x-&gt;data[ib] = d_x0-&gt;data[ia + d_x0-&gt;size[0] * 3];
+<FONT COLOR="#888888"><I>  667   </I></FONT>                ia++;
+<FONT COLOR="#888888"><I>  668   </I></FONT>                ib++;
+<FONT COLOR="#888888"><I>  669   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  670   </I></FONT>            iy++;
+<FONT COLOR="#888888"><I>  671   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  672   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  673   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;d_x0);
+<FONT COLOR="#888888"><I>  674   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_real_T</FONT></A>(&amp;r2, 2, TRUE);
+<FONT COLOR="#888888"><I>  675   </I></FONT>    i = r2-&gt;size[0] * r2-&gt;size[1];
+<FONT COLOR="#888888"><I>  676   </I></FONT>    r2-&gt;size[0] = psfIntegX-&gt;size[1];
+<FONT COLOR="#888888"><I>  677   </I></FONT>    r2-&gt;size[1] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  678   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)r2, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  679   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  680   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  681   </I></FONT>        ib = psfIntegX-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  682   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (nx = 0; nx &lt;= ib; nx++) <B>{</B>
+<FONT COLOR="#888888"><I>  683   </I></FONT>            r2-&gt;data[nx + r2-&gt;size[0] * i] = psfIntegX-&gt;data[((int32_T)emlrtIntegerCheckR2011a((b_index-&gt;data[i] - minIndxX) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_i_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_i_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">i_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>) + psfIntegX-&gt;size[0] * nx) - 1];
+<FONT COLOR="#888888"><I>  684   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  685   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  686   </I></FONT>    i = psfIntegX-&gt;size[0] * psfIntegX-&gt;size[1];
+<FONT COLOR="#888888"><I>  687   </I></FONT>    psfIntegX-&gt;size[0] = psfIntegY-&gt;size[1];
+<FONT COLOR="#888888"><I>  688   </I></FONT>    psfIntegX-&gt;size[1] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  689   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)psfIntegX, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  690   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  691   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  692   </I></FONT>        ib = psfIntegY-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  693   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (nx = 0; nx &lt;= ib; nx++) <B>{</B>
+<FONT COLOR="#888888"><I>  694   </I></FONT>            psfIntegX-&gt;data[nx + psfIntegX-&gt;size[0] * i] = psfIntegY-&gt;data[((int32_T)emlrtIntegerCheckR2011a((b_index-&gt;data[i + b_index-&gt;size[0]] - minIndxY) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_j_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_j_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">j_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>) + psfIntegY-&gt;size[0] * nx) - 1];
+<FONT COLOR="#888888"><I>  695   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  696   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  697   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;psfIntegY);
+<FONT COLOR="#888888"><I>  698   </I></FONT>    i = temp2-&gt;size[0] * temp2-&gt;size[1];
+<FONT COLOR="#888888"><I>  699   </I></FONT>    temp2-&gt;size[0] = psfIntegZ-&gt;size[1];
+<FONT COLOR="#888888"><I>  700   </I></FONT>    temp2-&gt;size[1] = b_index-&gt;size[0];
+<FONT COLOR="#888888"><I>  701   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)temp2, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  702   </I></FONT>    ia = b_index-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  703   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  704   </I></FONT>        ib = psfIntegZ-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  705   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (nx = 0; nx &lt;= ib; nx++) <B>{</B>
+<FONT COLOR="#888888"><I>  706   </I></FONT>            temp2-&gt;data[nx + temp2-&gt;size[0] * i] = psfIntegZ-&gt;data[((int32_T)emlrtIntegerCheckR2011a((b_index-&gt;data[i + (b_index-&gt;size[0] &lt;&lt; 1)] - minIndxZ) + 1.0, &amp;<A HREF="fitNGaussians3D_mexCode_F_c.html#var_k_emlrtDCI" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_k_emlrtDCI');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">k_emlrtDCI</FONT></A>, &amp;<A HREF="fitNGaussians3D_mexCode_F_mex_c.html#var_emlrtContextGlobal" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtContextGlobal');" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emlrtContextGlobal</FONT></A>) + psfIntegZ-&gt;size[0] * nx) - 1];
+<FONT COLOR="#888888"><I>  707   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  708   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  709   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;psfIntegZ);
+<FONT COLOR="#888888"><I>  710   </I></FONT>    i = x-&gt;size[0] * x-&gt;size[1];
+<FONT COLOR="#888888"><I>  711   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)x, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  712   </I></FONT>    nx = x-&gt;size[0];
+<FONT COLOR="#888888"><I>  713   </I></FONT>    ib = x-&gt;size[1];
+<FONT COLOR="#888888"><I>  714   </I></FONT>    ia = nx * ib - 1;
+<FONT COLOR="#888888"><I>  715   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  716   </I></FONT>        x-&gt;data[i] = x-&gt;data[i] * r2-&gt;data[i] * psfIntegX-&gt;data[i] * temp2-&gt;data[i];
+<FONT COLOR="#888888"><I>  717   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  718   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;r2);
+<FONT COLOR="#888888"><I>  719   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;temp2);
+<FONT COLOR="#888888"><I>  720   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;psfIntegX);
+<FONT COLOR="#888888"><I>  721   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt; 2; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  722   </I></FONT>        b_sz[i] = (uint32_T)x-&gt;size[i];
+<FONT COLOR="#888888"><I>  723   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  724   </I></FONT>    b_sz[0] = 1U;
+<FONT COLOR="#888888"><I>  725   </I></FONT>    i = y-&gt;size[0] * y-&gt;size[1];
+<FONT COLOR="#888888"><I>  726   </I></FONT>    y-&gt;size[0] = 1;
+<FONT COLOR="#888888"><I>  727   </I></FONT>    y-&gt;size[1] = (int32_T)b_sz[1];
+<FONT COLOR="#888888"><I>  728   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)y, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  729   </I></FONT>    <FONT COLOR="#112266"><B>if</B></FONT> ((x-&gt;size[0] == 0) || (x-&gt;size[1] == 0)) <B>{</B>
+<FONT COLOR="#888888"><I>  730   </I></FONT>        i = y-&gt;size[0] * y-&gt;size[1];
+<FONT COLOR="#888888"><I>  731   </I></FONT>        y-&gt;size[0] = 1;
+<FONT COLOR="#888888"><I>  732   </I></FONT>        <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)y, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  733   </I></FONT>        ia = y-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  734   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  735   </I></FONT>            y-&gt;data[y-&gt;size[0] * i] = 0.0;
+<FONT COLOR="#888888"><I>  736   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  737   </I></FONT>    <B>}</B> <FONT COLOR="#112266"><B>else</B></FONT> <B>{</B>
+<FONT COLOR="#888888"><I>  738   </I></FONT>        nx = x-&gt;size[0];
+<FONT COLOR="#888888"><I>  739   </I></FONT>        ib = x-&gt;size[1];
+<FONT COLOR="#888888"><I>  740   </I></FONT>        ia = -1;
+<FONT COLOR="#888888"><I>  741   </I></FONT>        iy = -1;
+<FONT COLOR="#888888"><I>  742   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (i = 1; i &lt;= ib; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  743   </I></FONT>            ia++;
+<FONT COLOR="#888888"><I>  744   </I></FONT>            minIndxX = x-&gt;data[ia];
+<FONT COLOR="#888888"><I>  745   </I></FONT>            <FONT COLOR="#112266"><B>for</B></FONT> (k = 2; k &lt;= nx; k++) <B>{</B>
+<FONT COLOR="#888888"><I>  746   </I></FONT>                ia++;
+<FONT COLOR="#888888"><I>  747   </I></FONT>                minIndxX += x-&gt;data[ia];
+<FONT COLOR="#888888"><I>  748   </I></FONT>            <B>}</B>
+<FONT COLOR="#888888"><I>  749   </I></FONT>            iy++;
+<FONT COLOR="#888888"><I>  750   </I></FONT>            y-&gt;data[iy] = minIndxX;
+<FONT COLOR="#888888"><I>  751   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  752   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  753   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;x);
+<FONT COLOR="#888888"><I>  754   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;r3, 1, TRUE);
+<FONT COLOR="#888888"><I>  755   </I></FONT>    i = r3-&gt;size[0];
+<FONT COLOR="#888888"><I>  756   </I></FONT>    r3-&gt;size[0] = y-&gt;size[1];
+<FONT COLOR="#888888"><I>  757   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)r3, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  758   </I></FONT>    ia = y-&gt;size[1] - 1;
+<FONT COLOR="#888888"><I>  759   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  760   </I></FONT>        r3-&gt;data[i] = y-&gt;data[i];
+<FONT COLOR="#888888"><I>  761   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  762   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;y);
+<FONT COLOR="#888888"><I>  763   </I></FONT>    nx = r3-&gt;size[0];
+<FONT COLOR="#888888"><I>  764   </I></FONT>    i = F-&gt;size[0] * F-&gt;size[1];
+<FONT COLOR="#888888"><I>  765   </I></FONT>    F-&gt;size[0] = nx;
+<FONT COLOR="#888888"><I>  766   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)F, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  767   </I></FONT>    i = F-&gt;size[0] * F-&gt;size[1];
+<FONT COLOR="#888888"><I>  768   </I></FONT>    F-&gt;size[1] = 1;
+<FONT COLOR="#888888"><I>  769   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)F, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  770   </I></FONT>    ia = r3-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  771   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  772   </I></FONT>        F-&gt;data[i] = (r3-&gt;data[i] + bgAmp) - image-&gt;data[i];
+<FONT COLOR="#888888"><I>  773   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  774   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;r3);
+<FONT COLOR="#888888"><I>  775   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_boolean_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_boolean_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_boolean_T</FONT></A>(&amp;indxPixel, 1, TRUE);
+<FONT COLOR="#888888"><I>  776   </I></FONT>    <FONT COLOR="#117755"><I>/* remove pixels with NaN (which means they are out of the cropped image */</I></FONT>
+<FONT COLOR="#888888"><I>  777   </I></FONT>    <FONT COLOR="#117755"><I>/* area) */</I></FONT>
+<FONT COLOR="#888888"><I>  778   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:165' indxPixel = ~isnan(image); */</I></FONT>
+<FONT COLOR="#888888"><I>  779   </I></FONT>    i = indxPixel-&gt;size[0];
+<FONT COLOR="#888888"><I>  780   </I></FONT>    indxPixel-&gt;size[0] = image-&gt;size[0];
+<FONT COLOR="#888888"><I>  781   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)indxPixel, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(boolean_T));
+<FONT COLOR="#888888"><I>  782   </I></FONT>    ia = image-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  783   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  784   </I></FONT>        indxPixel-&gt;data[i] = muDoubleScalarIsNaN(image-&gt;data[i]);
+<FONT COLOR="#888888"><I>  785   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  786   </I></FONT>    i = indxPixel-&gt;size[0];
+<FONT COLOR="#888888"><I>  787   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)indxPixel, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(boolean_T));
+<FONT COLOR="#888888"><I>  788   </I></FONT>    ia = indxPixel-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  789   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  790   </I></FONT>        indxPixel-&gt;data[i] = !indxPixel-&gt;data[i];
+<FONT COLOR="#888888"><I>  791   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  792   </I></FONT>    <FONT COLOR="#117755"><I>/* 'fitNGaussians3D_mexCode_F:167' F = F(indxPixel); */</I></FONT>
+<FONT COLOR="#888888"><I>  793   </I></FONT>    iy = indxPixel-&gt;size[0];
+<FONT COLOR="#888888"><I>  794   </I></FONT>    k = 0;
+<FONT COLOR="#888888"><I>  795   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 1; i &lt;= iy; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  796   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (indxPixel-&gt;data[i - 1]) <B>{</B>
+<FONT COLOR="#888888"><I>  797   </I></FONT>            k++;
+<FONT COLOR="#888888"><I>  798   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  799   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  800   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxInit_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxInit_int32_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxInit_int32_T</FONT></A>(&amp;r4, 1, TRUE);
+<FONT COLOR="#888888"><I>  801   </I></FONT>    i = r4-&gt;size[0];
+<FONT COLOR="#888888"><I>  802   </I></FONT>    r4-&gt;size[0] = k;
+<FONT COLOR="#888888"><I>  803   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)r4, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(int32_T));
+<FONT COLOR="#888888"><I>  804   </I></FONT>    ib = 0;
+<FONT COLOR="#888888"><I>  805   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 1; i &lt;= iy; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  806   </I></FONT>        <FONT COLOR="#112266"><B>if</B></FONT> (indxPixel-&gt;data[i - 1]) <B>{</B>
+<FONT COLOR="#888888"><I>  807   </I></FONT>            r4-&gt;data[ib] = i;
+<FONT COLOR="#888888"><I>  808   </I></FONT>            ib++;
+<FONT COLOR="#888888"><I>  809   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  810   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  811   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_boolean_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_boolean_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_boolean_T</FONT></A>(&amp;indxPixel);
+<FONT COLOR="#888888"><I>  812   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;b_F, 1, TRUE);
+<FONT COLOR="#888888"><I>  813   </I></FONT>    i = b_F-&gt;size[0];
+<FONT COLOR="#888888"><I>  814   </I></FONT>    b_F-&gt;size[0] = r4-&gt;size[0];
+<FONT COLOR="#888888"><I>  815   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)b_F, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  816   </I></FONT>    ia = r4-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  817   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  818   </I></FONT>        b_F-&gt;data[i] = F-&gt;data[r4-&gt;data[i] - 1];
+<FONT COLOR="#888888"><I>  819   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  820   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_c_emxInit_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_c_emxInit_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">c_emxInit_real_T</FONT></A>(&amp;c_F, 1, TRUE);
+<FONT COLOR="#888888"><I>  821   </I></FONT>    i = c_F-&gt;size[0];
+<FONT COLOR="#888888"><I>  822   </I></FONT>    c_F-&gt;size[0] = r4-&gt;size[0];
+<FONT COLOR="#888888"><I>  823   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)c_F, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  824   </I></FONT>    ia = r4-&gt;size[0] - 1;
+<FONT COLOR="#888888"><I>  825   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  826   </I></FONT>        c_F-&gt;data[i] = F-&gt;data[r4-&gt;data[i] - 1];
+<FONT COLOR="#888888"><I>  827   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  828   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_int32_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_int32_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_int32_T</FONT></A>(&amp;r4);
+<FONT COLOR="#888888"><I>  829   </I></FONT>    d_F[0] = b_F-&gt;size[0];
+<FONT COLOR="#888888"><I>  830   </I></FONT>    d_F[1] = 1;
+<FONT COLOR="#888888"><I>  831   </I></FONT>    i = F-&gt;size[0] * F-&gt;size[1];
+<FONT COLOR="#888888"><I>  832   </I></FONT>    F-&gt;size[0] = d_F[0];
+<FONT COLOR="#888888"><I>  833   </I></FONT>    F-&gt;size[1] = d_F[1];
+<FONT COLOR="#888888"><I>  834   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxEnsureCapacity" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxEnsureCapacity');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxEnsureCapacity</FONT></A>((<A HREF="fitNGaussians3D_mexCode_F_types_h.html#type_emxArray__common" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_emxArray__common')" TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxArray__common</FONT></A> *)F, i, (int32_T)<FONT COLOR="#112266"><B>sizeof</B></FONT>(real_T));
+<FONT COLOR="#888888"><I>  835   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;b_F);
+<FONT COLOR="#888888"><I>  836   </I></FONT>    ia = d_F[1] - 1;
+<FONT COLOR="#888888"><I>  837   </I></FONT>    <FONT COLOR="#112266"><B>for</B></FONT> (i = 0; i &lt;= ia; i++) <B>{</B>
+<FONT COLOR="#888888"><I>  838   </I></FONT>        ib = d_F[0] - 1;
+<FONT COLOR="#888888"><I>  839   </I></FONT>        <FONT COLOR="#112266"><B>for</B></FONT> (nx = 0; nx &lt;= ib; nx++) <B>{</B>
+<FONT COLOR="#888888"><I>  840   </I></FONT>            e_F = *c_F;
+<FONT COLOR="#888888"><I>  841   </I></FONT>            e_F.size = (int32_T *)&amp;d_F;
+<FONT COLOR="#888888"><I>  842   </I></FONT>            e_F.numDimensions = 1;
+<FONT COLOR="#888888"><I>  843   </I></FONT>            F-&gt;data[nx + F-&gt;size[0] * i] = e_F.data[nx + e_F.size[0] * i];
+<FONT COLOR="#888888"><I>  844   </I></FONT>        <B>}</B>
+<FONT COLOR="#888888"><I>  845   </I></FONT>    <B>}</B>
+<FONT COLOR="#888888"><I>  846   </I></FONT>    <A HREF="fitNGaussians3D_mexCode_F_emxutil_c.html#fcn_emxFree_real_T" ONCLICK="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_emxFree_real_T');"  TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">emxFree_real_T</FONT></A>(&amp;c_F);
+<FONT COLOR="#888888"><I>  847   </I></FONT>    <FONT COLOR="#117755"><I>/*  if nargout &gt; 1 */</I></FONT>
+<FONT COLOR="#888888"><I>  848   </I></FONT>    <FONT COLOR="#117755"><I>/*      %calculate the derivative at all pixels */</I></FONT>
+<FONT COLOR="#888888"><I>  849   </I></FONT>    <FONT COLOR="#117755"><I>/*      %     J = ones(numPixel,3*numPSF+1); %(last column for background amplitude) */</I></FONT>
+<FONT COLOR="#888888"><I>  850   </I></FONT>    <FONT COLOR="#117755"><I>/*      %     J(:,1:3:3*numPSF) = repmat(psfAmp',numPixel,1).*(psfValueX(relIndxX,:)-... */</I></FONT>
+<FONT COLOR="#888888"><I>  851   </I></FONT>    <FONT COLOR="#117755"><I>/*      %         psfValueX(relIndxX+1,:)).*psfIntegY(relIndxY,:); %w.r.t. x */</I></FONT>
+<FONT COLOR="#888888"><I>  852   </I></FONT>    <FONT COLOR="#117755"><I>/*      %     J(:,2:3:3*numPSF) = repmat(psfAmp',numPixel,1).*(psfValueY(relIndxY,:)-... */</I></FONT>
+<FONT COLOR="#888888"><I>  853   </I></FONT>    <FONT COLOR="#117755"><I>/*      %         psfValueY(relIndxY+1,:)).*psfIntegX(relIndxX,:); %w.r.t. y */</I></FONT>
+<FONT COLOR="#888888"><I>  854   </I></FONT>    <FONT COLOR="#117755"><I>/*      %     J(:,3:3:3*numPSF) = psfIntegX(relIndxX,:).*psfIntegY(relIndxY,:); %w.r.t. amp */</I></FONT>
+<FONT COLOR="#888888"><I>  855   </I></FONT>    <FONT COLOR="#117755"><I>/*       */</I></FONT>
+<FONT COLOR="#888888"><I>  856   </I></FONT>    <FONT COLOR="#117755"><I>/*      J = ones(numPixel,4*numPSF+1); %(last column for background amplitude) */</I></FONT>
+<FONT COLOR="#888888"><I>  857   </I></FONT>    <FONT COLOR="#117755"><I>/*      J(:,1:4:4*numPSF) = repmat(psfAmp',numPixel,1).*(psfValueX(relIndxX,:)-... */</I></FONT>
+<FONT COLOR="#888888"><I>  858   </I></FONT>    <FONT COLOR="#117755"><I>/*          psfValueX(relIndxX+1,:)).*psfIntegY(relIndxY,:).*psfIntegZ(relIndxZ,:); %w.r.t. x */</I></FONT>
+<FONT COLOR="#888888"><I>  859   </I></FONT>    <FONT COLOR="#117755"><I>/*      J(:,2:4:4*numPSF) = repmat(psfAmp',numPixel,1).*(psfValueY(relIndxY,:)-... */</I></FONT>
+<FONT COLOR="#888888"><I>  860   </I></FONT>    <FONT COLOR="#117755"><I>/*          psfValueY(relIndxY+1,:)).*psfIntegX(relIndxX,:).*psfIntegZ(relIndxZ,:); %w.r.t. y */</I></FONT>
+<FONT COLOR="#888888"><I>  861   </I></FONT>    <FONT COLOR="#117755"><I>/*      J(:,3:4:4*numPSF) = repmat(psfAmp',numPixel,1).*(psfValueZ(relIndxZ,:)-... */</I></FONT>
+<FONT COLOR="#888888"><I>  862   </I></FONT>    <FONT COLOR="#117755"><I>/*          psfValueZ(relIndxZ+1,:)).*psfIntegX(relIndxX,:).*psfIntegY(relIndxY,:); %w.r.t. z */</I></FONT>
+<FONT COLOR="#888888"><I>  863   </I></FONT>    <FONT COLOR="#117755"><I>/*      J(:,4:4:4*numPSF) = psfIntegX(relIndxX,:).*psfIntegY(relIndxY,:).*psfIntegZ(relIndxZ,:); %w.r.t. amp */</I></FONT>
+<FONT COLOR="#888888"><I>  864   </I></FONT>    <FONT COLOR="#117755"><I>/*       */</I></FONT>
+<FONT COLOR="#888888"><I>  865   </I></FONT>    <FONT COLOR="#117755"><I>/*      %remove pixels with NaN (which means they are out of the cropped image */</I></FONT>
+<FONT COLOR="#888888"><I>  866   </I></FONT>    <FONT COLOR="#117755"><I>/*      %area) */</I></FONT>
+<FONT COLOR="#888888"><I>  867   </I></FONT>    <FONT COLOR="#117755"><I>/*      J = J(indxPixel,:); */</I></FONT>
+<FONT COLOR="#888888"><I>  868   </I></FONT>    <FONT COLOR="#117755"><I>/*  end */</I></FONT>
+<FONT COLOR="#888888"><I>  869   </I></FONT>    <FONT COLOR="#117755"><I>/* % ~~ the end ~~ */</I></FONT>
+<FONT COLOR="#888888"><I>  870   </I></FONT>    <FONT COLOR="#117755"><I>/* % OLD CODE */</I></FONT>
+<FONT COLOR="#888888"><I>  871   </I></FONT>    <FONT COLOR="#117755"><I>/*  % J = ones(numPixel,3*numPSF+1); */</I></FONT>
+<FONT COLOR="#888888"><I>  872   </I></FONT>    <FONT COLOR="#117755"><I>/*  % F = ones(numPixel,1); */</I></FONT>
+<FONT COLOR="#888888"><I>  873   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  874   </I></FONT>    <FONT COLOR="#117755"><I>/*  % for i=1:numPixel %for each pixel */</I></FONT>
+<FONT COLOR="#888888"><I>  875   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  876   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     %get xy-indices relative to minimum */</I></FONT>
+<FONT COLOR="#888888"><I>  877   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     relIndxX = index(i,1) - minIndxX + 1; */</I></FONT>
+<FONT COLOR="#888888"><I>  878   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     relIndxY = index(i,2) - minIndxY + 1; */</I></FONT>
+<FONT COLOR="#888888"><I>  879   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  880   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     %calculate the value of F */</I></FONT>
+<FONT COLOR="#888888"><I>  881   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     F(i) = sum(psfAmp.*psfIntegX(relIndxX,:)'.*psfIntegY(relIndxY,:)') ... */</I></FONT>
+<FONT COLOR="#888888"><I>  882   </I></FONT>    <FONT COLOR="#117755"><I>/*  %         + bgAmp - image(i); */</I></FONT>
+<FONT COLOR="#888888"><I>  883   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  884   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     %calculate the derivative wrt x-coordinate */</I></FONT>
+<FONT COLOR="#888888"><I>  885   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     J(i,1:3:3*numPSF) = psfAmp'.*(psfValueX(relIndxX,:)-... */</I></FONT>
+<FONT COLOR="#888888"><I>  886   </I></FONT>    <FONT COLOR="#117755"><I>/*  %         psfValueX(relIndxX+1,:)).*psfIntegY(relIndxY,:)/psfSigma^2; */</I></FONT>
+<FONT COLOR="#888888"><I>  887   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  888   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     %calculate the derivative wrt y-coordinate */</I></FONT>
+<FONT COLOR="#888888"><I>  889   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     J(i,2:3:3*numPSF) = psfAmp'.*(psfValueY(relIndxY,:)-... */</I></FONT>
+<FONT COLOR="#888888"><I>  890   </I></FONT>    <FONT COLOR="#117755"><I>/*  %         psfValueY(relIndxY+1,:)).*psfIntegX(relIndxX,:)/psfSigma^2; */</I></FONT>
+<FONT COLOR="#888888"><I>  891   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  892   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     %calculate the derivative wrt amplitude */</I></FONT>
+<FONT COLOR="#888888"><I>  893   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     J(i,3:3:3*numPSF) = psfIntegX(relIndxX,:).*psfIntegY(relIndxY,:); */</I></FONT>
+<FONT COLOR="#888888"><I>  894   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  895   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     %since the derivative wrt background intensity = 1, this is already */</I></FONT>
+<FONT COLOR="#888888"><I>  896   </I></FONT>    <FONT COLOR="#117755"><I>/*  %     %accounted for in the initial assignment of J. */</I></FONT>
+<FONT COLOR="#888888"><I>  897   </I></FONT>    <FONT COLOR="#117755"><I>/*  % */</I></FONT>
+<FONT COLOR="#888888"><I>  898   </I></FONT>    <FONT COLOR="#117755"><I>/*  % end */</I></FONT>
+<FONT COLOR="#888888"><I>  899   </I></FONT>    emlrtHeapReferenceStackLeaveFcn();
+<FONT COLOR="#888888"><I>  900   </I></FONT><B>}</B>
+<FONT COLOR="#888888"><I>  901   </I></FONT><FONT COLOR="#117755"><I>/* End of code generation (fitNGaussians3D_mexCode_F.c) */</I></FONT>
+<FONT COLOR="#888888"><I>  902   </I></FONT></PRE>
+</TD></TR></TABLE>
+</P>
+</BODY>
+</HTML>
