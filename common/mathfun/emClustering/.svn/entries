@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2724"
+   name=""
+   committed-date="2008-02-23T23:26:01.791851Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/mathfun/emClustering"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="301"
+   name="mixtures4.m"
+   text-time="2009-05-22T18:27:56.372500Z"
+   committed-date="2004-03-04T02:54:31.720578Z"
+   checksum="7f3f74ee533a601e7222dce67e9cdfdb"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.185000Z"/>
+<entry
+   committed-rev="101"
+   name="demo1.m"
+   text-time="2009-05-22T18:27:56.372500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="bc2dbe8dd57f63b6fd1f2abda1fcd0e8"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.185000Z"/>
+<entry
+   committed-rev="101"
+   name="demo2.m"
+   text-time="2009-05-22T18:27:56.372500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3d8d2945a5c3db037fb449d912f173c7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.200625Z"/>
+<entry
+   committed-rev="630"
+   name="multinorm.m"
+   text-time="2009-05-22T18:27:56.388125Z"
+   committed-date="2004-06-04T18:17:53.187404Z"
+   checksum="22ba7a209a406b5562f73de9301bf042"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.216250Z"/>
+<entry
+   committed-rev="101"
+   name="genmix.m"
+   text-time="2009-05-22T18:27:56.388125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="019c17d33373f49158872d34cda722c8"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.216250Z"/>
+<entry
+   committed-rev="101"
+   name="uninorm.m"
+   text-time="2009-05-22T18:27:56.403750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d1461a89370d046f0351c994f1328550"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.231875Z"/>
+<entry
+   committed-rev="101"
+   name="elipsnorm.m"
+   text-time="2009-05-22T18:27:56.403750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5a01d6c3023444cd75552a25de6d22d9"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.231875Z"/>
+<entry
+   committed-rev="101"
+   name="kmeansit.m"
+   text-time="2009-05-22T18:27:56.403750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="535ca6655a4e42d7d9d11f8b921e3e02"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.325625Z"/>
+<entry
+   committed-rev="101"
+   name="README.txt"
+   text-time="2009-05-22T18:27:56.419375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="835685b9f95325df43039bfceb6a80c6"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.341250Z"/>
+<entry
+   committed-rev="101"
+   name="confreg.m"
+   text-time="2009-05-22T18:27:56.419375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="58ddce47d5b3b6df4e5db25a00bfb609"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.356875Z"/>
+</wc-entries>

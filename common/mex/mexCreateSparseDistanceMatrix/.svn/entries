@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3281"
+   name=""
+   committed-date="2009-04-15T21:57:53.983198Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/mex/mexCreateSparseDistanceMatrix"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2834"
+   name="createSparseDistanceMatrix.c"
+   text-time="2009-05-22T18:27:04.966250Z"
+   committed-date="2008-06-06T18:41:34.369016Z"
+   checksum="e12d12b0bb88b307718cc67f5c0bf9f2"
+   last-author="zmaffeo"
+   kind="file"
+   prop-time="2009-05-22T18:20:50.138125Z"/>
+<entry
+   committed-rev="3219"
+   name="createSparseDistanceMatrix.mexmaci"
+   text-time="2009-05-22T18:27:04.997500Z"
+   committed-date="2009-03-24T19:46:27.081501Z"
+   checksum="44638ad5afd1f09afcd7c5fda8ccfe78"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:50.153750Z"/>
+<entry
+   committed-rev="2834"
+   name="createSparseDistanceMatrix.mexa64"
+   text-time="2009-05-22T18:27:04.997500Z"
+   committed-date="2008-06-06T18:41:34.369016Z"
+   checksum="797099a34cce26fadb4751711207254e"
+   last-author="zmaffeo"
+   kind="file"
+   prop-time="2009-05-22T18:20:51.544375Z"/>
+<entry
+   committed-rev="2834"
+   name="createSparseDistanceMatrix.mexglx"
+   text-time="2009-05-22T18:27:05.013125Z"
+   committed-date="2008-06-06T18:41:34.369016Z"
+   checksum="de97c48dd69596abbeaaa0508ee9ab66"
+   last-author="zmaffeo"
+   kind="file"
+   prop-time="2009-05-22T18:21:06.966250Z"/>
+<entry
+   committed-rev="1494"
+   name="createSparseDistanceMatrix.mexmac"
+   text-time="2009-05-22T18:27:05.013125Z"
+   committed-date="2005-05-04T17:40:29.132788Z"
+   checksum="846db6f15ecfc05c81276be1461cae7c"
+   last-author="kerstens"
+   kind="file"
+   prop-time="2009-05-22T18:21:06.981875Z"/>
+<entry
+   committed-rev="101"
+   name="createSparseDistanceMatrix.dll"
+   text-time="2009-05-22T18:27:05.013125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b711f7cc4a60cf9f80bcdd19159654cb"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:25:04.575625Z"/>
+<entry
+   committed-rev="101"
+   name="createSparseDistanceMatrix.m"
+   text-time="2009-05-22T18:27:05.028750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="8795ab4b31034504175882ed234f73b7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:25:04.606875Z"/>
+<entry
+   committed-rev="3281"
+   name="createSparseDistanceMatrix.mexmaci64"
+   text-time="2009-05-22T18:27:05.028750Z"
+   committed-date="2009-04-15T21:57:53.983198Z"
+   checksum="70ce1a556068ddec7c2ed4eea8217c93"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:04.950625Z"/>
+</wc-entries>

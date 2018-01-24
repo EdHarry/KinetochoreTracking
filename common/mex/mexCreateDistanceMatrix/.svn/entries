@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3281"
+   name=""
+   committed-date="2009-04-15T21:57:53.983198Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/mex/mexCreateDistanceMatrix"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="3281"
+   name="createDistanceMatrix.mexmaci64"
+   text-time="2009-05-22T18:27:07.997500Z"
+   committed-date="2009-04-15T21:57:53.983198Z"
+   checksum="7fd69f4afa70651fb6a80ada7ec65981"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:06.638125Z"/>
+<entry
+   committed-rev="101"
+   name="compile.m"
+   text-time="2009-05-22T18:27:08.013125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0b4363c9592b669f24211dc821f54ed4"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:06.653750Z"/>
+<entry
+   committed-rev="101"
+   name="createDistanceMatrix.c"
+   text-time="2009-05-22T18:27:08.013125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="7c532a1d6a23c54a4a80cddc524c6782"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:06.763125Z"/>
+<entry
+   committed-rev="3219"
+   name="createDistanceMatrix.mexmaci"
+   text-time="2009-05-22T18:27:08.013125Z"
+   committed-date="2009-03-24T19:46:27.081501Z"
+   checksum="a12865de13baa9915e0117f60c2b9166"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:06.778750Z"/>
+<entry
+   committed-rev="3117"
+   name="distmat.c"
+   text-time="2009-05-22T18:27:08.028750Z"
+   committed-date="2009-02-11T00:42:06.658921Z"
+   checksum="429b1606a187e2e2b1818d3269926e37"
+   last-author="zmaffeo"
+   kind="file"
+   prop-time="2009-05-22T18:27:06.778750Z"/>
+<entry
+   committed-rev="101"
+   name="createDistanceMatrix.mexglx"
+   text-time="2009-05-22T18:27:08.028750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="ffe2ac3bf7ec81874fc00d36bde9802b"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:06.997500Z"/>
+<entry
+   committed-rev="3141"
+   name="createDistanceMatrix.mexa64"
+   text-time="2009-05-22T18:27:08.028750Z"
+   committed-date="2009-02-26T19:40:16.490940Z"
+   checksum="82f76a2b597476c6ccef5d160bf2d86c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:07.263125Z"/>
+<entry
+   committed-rev="101"
+   name="distmat.h"
+   text-time="2009-05-22T18:27:08.044375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="4eec01aa08a0414a8f94ea0f7293b467"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:07.278750Z"/>
+<entry
+   committed-rev="2688"
+   name="createDistanceMatrix.mexw64"
+   text-time="2009-05-22T18:27:08.044375Z"
+   committed-date="2008-02-12T16:14:31.355056Z"
+   checksum="106e1d2f6142ac86c141539021b4de03"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:07.700625Z"/>
+<entry
+   committed-rev="1494"
+   name="createDistanceMatrix.mexmac"
+   text-time="2009-05-22T18:27:08.044375Z"
+   committed-date="2005-05-04T17:40:29.132788Z"
+   checksum="e6b21ca56796e6a6d509c1b5a3b5f038"
+   last-author="kerstens"
+   kind="file"
+   prop-time="2009-05-22T18:27:07.716250Z"/>
+<entry
+   committed-rev="101"
+   name="createDistanceMatrix.dll"
+   text-time="2009-05-22T18:27:08.060000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="ad97c036b80df476bd943913a6e90137"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:07.731875Z"/>
+<entry
+   committed-rev="101"
+   name="createDistanceMatrix.m"
+   text-time="2009-05-22T18:27:08.060000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3ecfcb8b8c6d1df4ce6546f81edd5914"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:07.981875Z"/>
+</wc-entries>

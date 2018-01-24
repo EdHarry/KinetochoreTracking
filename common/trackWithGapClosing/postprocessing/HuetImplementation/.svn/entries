@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2609"
+   name=""
+   committed-date="2007-12-08T00:31:17.737542Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/trackWithGapClosing/postprocessing/HuetImplementation"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2358"
+   name="linFit.m"
+   text-time="2009-05-22T18:28:01.325625Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="7e00967cd043176f8ac5be1c414833ed"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.450625Z"/>
+<entry
+   committed-rev="2358"
+   name="brownianMotiongunnaredit.m"
+   text-time="2009-05-22T18:28:01.325625Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="24e6ff257632b25f2bd5c752f92e5d08"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.450625Z"/>
+<entry
+   committed-rev="2358"
+   name="diffusion.m"
+   text-time="2009-05-22T18:28:01.341250Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="e3dc421825f1ff85e823cc99ddf289b2"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.591250Z"/>
+<entry
+   committed-rev="2358"
+   name="makeData.m"
+   text-time="2009-05-22T18:28:01.341250Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="542f98ca19eaaa85c9a0cc46408a1ae5"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.606875Z"/>
+<entry
+   committed-rev="2358"
+   name="getAsymParamThresh.m"
+   text-time="2009-05-22T18:28:01.341250Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="c2f6198ab4ce0bb3d4cd7e9ded5780e3"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.606875Z"/>
+<entry
+   committed-rev="2358"
+   name="meanSquaredDisplacementTrackEdit.m"
+   text-time="2009-05-22T18:28:01.356875Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="452e28a692eb6eaefeb367143257ef33"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.731875Z"/>
+<entry
+   committed-rev="2358"
+   name="linearDev.m"
+   text-time="2009-05-22T18:28:01.356875Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="f77c6976902cc88bb4e8810bcb7bd1a1"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.747500Z"/>
+<entry
+   committed-rev="2358"
+   name="transBehaviorAnalysis.m"
+   text-time="2009-05-22T18:28:01.356875Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="8b21fccbe73aa0081cfe2107f6d4749f"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.872500Z"/>
+<entry
+   committed-rev="2358"
+   name="asymDetermination.m"
+   text-time="2009-05-22T18:28:01.372500Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="adba9b165f64d0c8929f2f0c9a9033a5"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.888125Z"/>
+<entry
+   committed-rev="2358"
+   name="transBehaviorTrack.m"
+   text-time="2009-05-22T18:28:01.372500Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="ac4e4ad2f4dc9581b19ac8bcab2492f6"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.044375Z"/>
+<entry
+   committed-rev="2358"
+   name="getDevParamThresh.m"
+   text-time="2009-05-22T18:28:01.388125Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="5ce602cf58866f5ac3fa2ca7ed8b0a7e"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.060000Z"/>
+<entry
+   committed-rev="2358"
+   name="standardDev.m"
+   text-time="2009-05-22T18:28:01.388125Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="b04f8cf7c2d5f3bfccca1d6584782f84"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.060000Z"/>
+<entry
+   committed-rev="2609"
+   name="getTrackSELGunnar.m"
+   text-time="2009-05-22T18:28:01.388125Z"
+   committed-date="2007-12-08T00:31:17.737542Z"
+   checksum="4b6e913ee39ec77ae265654d5e2e506b"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.075625Z"/>
+<entry
+   committed-rev="2358"
+   name="transBehaviorClassification.m"
+   text-time="2009-05-22T18:28:01.403750Z"
+   committed-date="2007-05-05T01:58:03.060376Z"
+   checksum="590c1fc3b35b022309a42d23802ce888"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.310000Z"/>
+</wc-entries>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3422"
+   name=""
+   committed-date="2009-05-18T20:46:47.645728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/detectionAlgorithms"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   name="subResFeatures2D"
+   kind="dir"/>
+</wc-entries>

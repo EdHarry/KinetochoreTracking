@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2699"
+   name=""
+   committed-date="2008-02-15T18:31:52.752214Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/trackWithGapClosing/simulation"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2544"
+   name="scoreLinksGaps.m"
+   text-time="2009-05-22T18:28:03.888125Z"
+   committed-date="2007-10-03T02:09:23.141818Z"
+   checksum="2081651fb0bfb78f55992ba8a30e8387"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.981875Z"/>
+<entry
+   committed-rev="2623"
+   name="scoreLinksGapsMS.m"
+   text-time="2009-05-22T18:28:03.888125Z"
+   committed-date="2008-01-09T19:33:27.298792Z"
+   checksum="3e48f2b0462ddd8f780631ceb868a3b5"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.122500Z"/>
+<entry
+   committed-rev="2544"
+   name="scoreLinksWithLag.m"
+   text-time="2009-05-22T18:28:03.903750Z"
+   committed-date="2007-10-03T02:09:23.141818Z"
+   checksum="f75f9417f1ad2e7d21950978d9f012cb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.138125Z"/>
+<entry
+   committed-rev="2699"
+   name="simulateMimickCD36_MS.m"
+   text-time="2009-05-22T18:28:03.903750Z"
+   committed-date="2008-02-15T18:31:52.752214Z"
+   checksum="a14fb1ee1933a0629b81225667e74f21"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.341250Z"/>
+<entry
+   committed-rev="2543"
+   name="simulateMimickCD36.m"
+   text-time="2009-05-22T18:28:03.903750Z"
+   committed-date="2007-10-02T21:50:01.065295Z"
+   checksum="57c20efb5480f92dc731695440bb1c96"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.435000Z"/>
+<entry
+   committed-rev="2550"
+   name="genMovieInfoFromTracks.m"
+   text-time="2009-05-22T18:28:03.919375Z"
+   committed-date="2007-10-16T16:07:00.868247Z"
+   checksum="7224a5fdadbb0dc4048c367e8ef6f9cf"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.450625Z"/>
+<entry
+   committed-rev="2623"
+   name="scoreTrackLinksGapsMSLft.m"
+   text-time="2009-05-22T18:28:03.919375Z"
+   committed-date="2008-01-09T19:33:27.298792Z"
+   checksum="a99b13eb96d893bc28553f60ed229820"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.653750Z"/>
+<entry
+   committed-rev="2524"
+   name="simulateMPMlftbeh.m"
+   text-time="2009-05-22T18:28:03.919375Z"
+   committed-date="2007-09-14T22:30:34.380363Z"
+   checksum="93db35f17d513c66170a6615614eae42"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.669375Z"/>
+<entry
+   committed-rev="2550"
+   name="genMovieInfoFromTracks2.m"
+   text-time="2009-05-22T18:28:03.935000Z"
+   committed-date="2007-10-16T16:07:00.868247Z"
+   checksum="7cbdea030b9f7c3b579f431aea9888eb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.731875Z"/>
+<entry
+   committed-rev="2545"
+   name="makeAiryImageFromMPM.m"
+   text-time="2009-05-22T18:28:03.935000Z"
+   committed-date="2007-10-05T20:11:10.117984Z"
+   checksum="a148032c9322f5a8f4b8dc8e6df02984"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.872500Z"/>
+</wc-entries>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3393"
+   name=""
+   committed-date="2009-05-08T17:02:04.571367Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/graphics/colormap"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="wrappedColors.m"
+   text-time="2009-05-22T18:27:14.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="66614725b28925e3d2d48d3f5e598ded"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.013125Z"/>
+<entry
+   committed-rev="101"
+   name="cMFsm.m"
+   text-time="2009-05-22T18:27:14.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3daa1f6f8efccd0413781788287e57f1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.028750Z"/>
+<entry
+   committed-rev="2740"
+   name="redGreenColorMap.m"
+   text-time="2009-05-22T18:27:14.497500Z"
+   committed-date="2008-03-10T20:15:24.217801Z"
+   checksum="f2258c22e4ef033362ccae9aecf34092"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.044375Z"/>
+<entry
+   committed-rev="3393"
+   name="isomorphicColormap.m"
+   text-time="2009-05-22T18:27:14.497500Z"
+   committed-date="2009-05-08T17:02:04.571367Z"
+   checksum="9ad07ee9c1840b17b15bb6ff29784755"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.231875Z"/>
+<entry
+   committed-rev="2993"
+   name="timeColormap.m"
+   text-time="2009-05-22T18:27:14.497500Z"
+   committed-date="2008-10-14T14:23:15.869285Z"
+   checksum="c8d19b3e746b165dede2a205ec4ef2da"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.231875Z"/>
+<entry
+   committed-rev="3393"
+   name="colormapTest.m"
+   text-time="2009-05-22T18:27:14.513125Z"
+   committed-date="2009-05-08T17:02:04.571367Z"
+   checksum="e7bca08d083bbff7575e71dd1388e7e0"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.247500Z"/>
+<entry
+   committed-rev="1512"
+   name="applyColorMap.m"
+   text-time="2009-05-22T18:27:14.513125Z"
+   committed-date="2005-05-12T17:43:47.693483Z"
+   checksum="e55a0d41a3323f9524c02597d84375b2"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.466250Z"/>
+</wc-entries>

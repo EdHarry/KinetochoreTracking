@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="567"
+   name=""
+   committed-date="2004-05-10T20:53:55.957047Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/operators"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   name="@int16"
+   kind="dir"/>
+<entry
+   name="@int8"
+   kind="dir"/>
+<entry
+   name="@uint16"
+   kind="dir"/>
+<entry
+   name="@uint8"
+   kind="dir"/>
+</wc-entries>

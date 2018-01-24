@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3426"
+   name=""
+   committed-date="2009-05-21T17:15:50.217176Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main"
+   last-author="zmaffeo"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   name="iofun"
+   kind="dir"/>
+<entry
+   name="LevelSet"
+   kind="dir"/>
+<entry
+   name="gui"
+   kind="dir"/>
+<entry
+   name="system"
+   kind="dir"/>
+<entry
+   name="toolfun"
+   kind="dir"/>
+<entry
+   name="mex"
+   kind="dir"/>
+<entry
+   name="SpatialClustering"
+   kind="dir"/>
+<entry
+   name="graphics"
+   kind="dir"/>
+<entry
+   name="imageSegmentation"
+   kind="dir"/>
+<entry
+   name="mathfun"
+   kind="dir"/>
+<entry
+   name="imageCrop"
+   kind="dir"/>
+<entry
+   name="trackWithGapClosing"
+   kind="dir"/>
+<entry
+   name="detectionAlgorithms"
+   kind="dir"/>
+<entry
+   name="imAnalysis"
+   kind="dir"/>
+<entry
+   name="sharedChromdynMaki"
+   kind="dir"/>
+<entry
+   name="timeSeriesAnalysis"
+   kind="dir"/>
+<entry
+   name="operators"
+   kind="dir"/>
+</wc-entries>

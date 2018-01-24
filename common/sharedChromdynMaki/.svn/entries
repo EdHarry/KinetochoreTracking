@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3201"
+   name=""
+   committed-date="2009-03-19T18:58:08.858255Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/sharedChromdynMaki"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2786"
+   name="r3dread.m"
+   text-time="2009-05-22T18:28:45.231875Z"
+   committed-date="2008-04-17T14:23:37.077555Z"
+   checksum="feffb0602b8ad98608a9ebc44e7af942"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.060000Z"/>
+<entry
+   committed-rev="2814"
+   name="cdLoadMovie.m"
+   text-time="2009-05-22T18:28:45.231875Z"
+   committed-date="2008-05-09T14:11:01.688791Z"
+   checksum="596b837fd1d38cfa48990996f25a1595"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.075625Z"/>
+<entry
+   committed-rev="2563"
+   name="defaultDataProperties.m"
+   text-time="2009-05-22T18:28:45.247500Z"
+   committed-date="2007-11-12T21:48:12.702891Z"
+   checksum="f65b683ed9daef25f6581c94516b2651"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.091250Z"/>
+<entry
+   committed-rev="2767"
+   name="readr3dheader.m"
+   text-time="2009-05-22T18:28:45.247500Z"
+   committed-date="2008-04-07T13:50:56.090442Z"
+   checksum="7c5e1c0c2d77c6191071a23ea363478e"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.106875Z"/>
+<entry
+   committed-rev="2946"
+   name="stk3dheader.m"
+   text-time="2009-05-22T18:28:45.247500Z"
+   committed-date="2008-09-05T17:02:02.272865Z"
+   checksum="10a94fa69c2ca6aa5264a5f32206bbd1"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.122500Z"/>
+<entry
+   committed-rev="3201"
+   name="naFromLensID.m"
+   text-time="2009-05-22T18:28:45.263125Z"
+   committed-date="2009-03-19T18:58:08.858255Z"
+   checksum="77d8317b455e208df96dd0fa12dd5d62"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.216250Z"/>
+</wc-entries>

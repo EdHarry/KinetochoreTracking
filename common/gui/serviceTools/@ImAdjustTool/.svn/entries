@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/gui/serviceTools/@ImAdjustTool"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="QueryCMap.m"
+   text-time="2009-05-22T17:18:30.794375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="267783a39de380c1aace3c8446025153"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:20.716250Z"/>
+<entry
+   committed-rev="101"
+   name="ImAdjustTool.m"
+   text-time="2009-05-22T17:18:30.794375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="8166d678ffb55894150d1c262efed9bd"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:20.716250Z"/>
+<entry
+   committed-rev="101"
+   name="QueryCtrlWindowHandle.m"
+   text-time="2009-05-22T17:18:30.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0031d6aaa16879fb05aa38587fdaff80"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:20.716250Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="DoImageAdjust.m"
+   text-time="2009-05-22T17:18:30.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="2bb16ac4e64ce4d834f069f555a861e5"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:30.778750Z"/>
+<entry
+   committed-rev="101"
+   name="AutoAdjust.m"
+   text-time="2009-05-22T17:18:30.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="539f007f2e81e1135bda02583183565e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:30.778750Z"/>
+<entry
+   committed-rev="101"
+   name="ImAdjustToolCB.m"
+   text-time="2009-05-22T17:18:30.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="892f356867dfa9922088afbf11bf9c44"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:30.778750Z"/>
+</wc-entries>

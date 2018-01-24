@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/imAnalysis/trackfun/@PatMatcher"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="PatMatcher.m"
+   text-time="2009-05-22T18:28:38.622500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="8982c84744afa01bd8280c8d8fc9d2d1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.403750Z"/>
+<entry
+   committed-rev="101"
+   name="match.m"
+   text-time="2009-05-22T18:28:38.622500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d671e91bd4207e67ded79d9f1e4d7c54"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.528750Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="Model.m"
+   text-time="2009-05-22T18:28:38.638125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a4205e84a13721e9c8f195b7dc1915b7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.591250Z"/>
+<entry
+   committed-rev="101"
+   name="Radiometric.m"
+   text-time="2009-05-22T18:28:38.638125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="cb922325b4c9c246f8212d2859ebe6cc"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.606875Z"/>
+</wc-entries>

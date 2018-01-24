@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3105"
+   name=""
+   committed-date="2009-01-21T21:16:01.619462Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/misc"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2664"
+   name="yuleWalker.m"
+   text-time="2009-05-22T18:28:53.185000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="e77217c6e5e29c56520b89dc56bcd2dd"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.185000Z"/>
+<entry
+   committed-rev="2664"
+   name="removeLinearTrend.m"
+   text-time="2009-05-22T18:28:53.200625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="ebffb9140dbc47c812db3471aec3a5a0"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.247500Z"/>
+<entry
+   committed-rev="2664"
+   name="hannRiss.m"
+   text-time="2009-05-22T18:28:53.185000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="730a4aaef00ccdc952148541faa855a9"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.231875Z"/>
+<entry
+   committed-rev="2664"
+   name="arma2ar.m"
+   text-time="2009-05-22T18:28:53.185000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="9225c0ca2fe66529d3b18b786c961500"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.216250Z"/>
+<entry
+   name="sxcFiles"
+   kind="dir"/>
+<entry
+   committed-rev="2664"
+   name="determinabilityGruen.m"
+   text-time="2009-05-22T18:28:53.200625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="6c8e80ee26d5a5fdec9e8cd1544d509e"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.935000Z"/>
+<entry
+   committed-rev="2664"
+   name="globalCoefTestStat.m"
+   text-time="2009-05-22T18:28:53.200625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="77ec288ba9c6e9bbe012cd62834ce0ea"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.950625Z"/>
+<entry
+   committed-rev="2664"
+   name="rankTest.m"
+   text-time="2009-05-22T18:28:53.216250Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="49f1f753ac759b57355516b13ee4fcd0"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.044375Z"/>
+<entry
+   committed-rev="2664"
+   name="ensembleMean.m"
+   text-time="2009-05-22T18:28:53.216250Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="c2c10763e51ed797adc682946e845765"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.966250Z"/>
+<entry
+   committed-rev="2664"
+   name="autoCorr.m"
+   text-time="2009-05-22T18:28:53.216250Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="6131cc7f311de9e5e2d038b053074625"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.044375Z"/>
+<entry
+   committed-rev="2664"
+   name="portmanteau.m"
+   text-time="2009-05-22T18:28:53.231875Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="d0b188ac1a89c9e832321b1a7520b94c"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.200625Z"/>
+<entry
+   committed-rev="2664"
+   name="autoCorrARMA.m"
+   text-time="2009-05-22T18:28:53.231875Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="4fafa5323ab3328a0a004da35ea7bfb1"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.060000Z"/>
+<entry
+   committed-rev="2664"
+   name="turningPointTest.m"
+   text-time="2009-05-22T18:28:53.231875Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="568e8d00b09d2fb843c8a4dfe87b076c"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.216250Z"/>
+<entry
+   committed-rev="2664"
+   name="simSetarma.m"
+   text-time="2009-05-22T18:28:53.247500Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="35d04d8862f1178ce2b21858dccdd603"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.356875Z"/>
+<entry
+   committed-rev="2664"
+   name="expoSmooth.m"
+   text-time="2009-05-22T18:28:53.247500Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="c03e7a7d0c1014ec2bf681abd222db3d"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.231875Z"/>
+<entry
+   committed-rev="2664"
+   name="brownianMotion.m"
+   text-time="2009-05-22T18:28:53.247500Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="6ffa5bab4d125b3e3534b8d6bf36341f"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.356875Z"/>
+<entry
+   committed-rev="2664"
+   name="armaxModelComp.m"
+   text-time="2009-05-22T18:28:53.263125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="65d280434a5532880d0466efb0d22742"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.560000Z"/>
+<entry
+   committed-rev="2664"
+   name="modifyTraj.m"
+   text-time="2009-05-22T18:28:53.263125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="cbfccaf8761ac11e0c9d210e5ff6d8ce"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.560000Z"/>
+<entry
+   committed-rev="2664"
+   name="pacf.m"
+   text-time="2009-05-22T18:28:53.278750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="4ffa32b35d53464a432fec1a5468e117"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.575625Z"/>
+<entry
+   committed-rev="2664"
+   name="diffSignSamp.m"
+   text-time="2009-05-22T18:28:53.278750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="407deb3c076d5b78756f7e1fe94eefc9"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.591250Z"/>
+<entry
+   committed-rev="2664"
+   name="extractSignificantParam.m"
+   text-time="2009-05-22T18:28:53.278750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="06003d776148021d6d3ac14f694deb82"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.669375Z"/>
+<entry
+   committed-rev="2664"
+   name="differenceSignTest.m"
+   text-time="2009-05-22T18:28:53.294375Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="bbcbf067b315adf62c5d8d122c47db41"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.685000Z"/>
+<entry
+   committed-rev="2754"
+   name="spectralDensity.m"
+   text-time="2009-05-22T18:28:53.294375Z"
+   committed-date="2008-03-22T01:34:37.562927Z"
+   checksum="8e3a655f3b98a6887f79e6431e432b34"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.700625Z"/>
+<entry
+   committed-rev="2756"
+   name="crossCorr.m"
+   text-time="2009-05-22T18:28:53.294375Z"
+   committed-date="2008-03-24T20:53:20.391345Z"
+   checksum="8b25243a5b105e3b661764d6cb77a1cf"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.841250Z"/>
+<entry
+   committed-rev="2664"
+   name="arma2ma.m"
+   text-time="2009-05-22T18:28:53.310000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="9f52184be8a9be2156a22c6921580371"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.856875Z"/>
+<entry
+   committed-rev="2664"
+   name="armaxOrderMatch.m"
+   text-time="2009-05-22T18:28:53.310000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="c349c81218bfa88e06af28d4c3110060"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.966250Z"/>
+<entry
+   committed-rev="3105"
+   name="simArmaX.m"
+   text-time="2009-05-22T18:28:53.310000Z"
+   committed-date="2009-01-21T21:16:01.619462Z"
+   checksum="948b8b28807b22af56e4481408c1b415"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.966250Z"/>
+<entry
+   committed-rev="2664"
+   name="movAvSmooth.m"
+   text-time="2009-05-22T18:28:53.325625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="4b734a14b36d02aa0c7afb66ab1cf182"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:52.981875Z"/>
+<entry
+   committed-rev="2664"
+   name="armaxCoefCompLS.m"
+   text-time="2009-05-22T18:28:53.325625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="788aa5f2f00532be4d1e9ea706360714"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.153750Z"/>
+<entry
+   committed-rev="2664"
+   name="turnPointSamp.m"
+   text-time="2009-05-22T18:28:53.325625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="cc65ebc350ce25639b76b05d12e262fd"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.153750Z"/>
+</wc-entries>

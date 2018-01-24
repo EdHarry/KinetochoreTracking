@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/iofun/frameGrabber/private"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="dtFgOpts.bat"
+   text-time="2009-05-22T17:17:47.919375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="27d1e5a640d127fdec845e521bc0ef94"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:39.919375Z"/>
+<entry
+   committed-rev="101"
+   name="sunras.h"
+   text-time="2009-05-22T17:17:47.919375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c4532b0d65298dba44893f4e73dafd33"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:39.935000Z"/>
+<entry
+   committed-rev="101"
+   name="makeMex.m"
+   text-time="2009-05-22T17:17:47.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b47b06442d299949a011e7f7f279f2f7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:39.935000Z"/>
+<entry
+   committed-rev="101"
+   name="mexReadSunras.c"
+   text-time="2009-05-22T17:17:47.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="746210c0cd779dd1c451c65ee79ed07e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:39.935000Z"/>
+<entry
+   committed-rev="101"
+   name="mexDTFgHandler.dll"
+   text-time="2009-05-22T17:17:47.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="201c109908afde9204ed7e498212e508"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:47.310000Z"/>
+<entry
+   committed-rev="101"
+   name="dtFg.h"
+   text-time="2009-05-22T17:17:47.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0ad6b4384dcba8c29682a58df7c5a09a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:47.325625Z"/>
+<entry
+   committed-rev="101"
+   name="mexDTFgHandler.c"
+   text-time="2009-05-22T17:17:47.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9da6a6fa623cd50cf187012de76c4b5f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:47.903750Z"/>
+</wc-entries>

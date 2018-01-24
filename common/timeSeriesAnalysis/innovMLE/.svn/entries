@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2664"
+   name=""
+   committed-date="2008-01-23T02:52:30.871679Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/innovMLE"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2664"
+   name="innovPredict.m"
+   text-time="2009-05-22T18:28:51.122500Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="295a4f18bf24a945b3413d0d8b44aad8"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.997500Z"/>
+<entry
+   committed-rev="2664"
+   name="mlestimObj.m"
+   text-time="2009-05-22T18:28:51.138125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="93f1368e02151518ddb1239eb65a3dd1"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.013125Z"/>
+<entry
+   committed-rev="2664"
+   name="transAutoCov.m"
+   text-time="2009-05-22T18:28:51.138125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="36dcb72b7f2b82f6c9be9183a0da8198"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.028750Z"/>
+<entry
+   committed-rev="2664"
+   name="mlestim.m"
+   text-time="2009-05-22T18:28:51.153750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="5aa4d4b63ce05fd109218c04ae790a70"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.044375Z"/>
+<entry
+   committed-rev="2664"
+   name="innovationsAlg.m"
+   text-time="2009-05-22T18:28:51.153750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="0334013f19b8a270add6d3e4003f6355"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.091250Z"/>
+<entry
+   committed-rev="2664"
+   name="mlestimConst.m"
+   text-time="2009-05-22T18:28:51.153750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="4df7817078494fcc71a23fafd768ebe8"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.106875Z"/>
+</wc-entries>

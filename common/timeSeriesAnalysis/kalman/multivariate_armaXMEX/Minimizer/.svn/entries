@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3002"
+   name=""
+   committed-date="2008-10-22T00:46:12.835594Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/kalman/multivariate_armaXMEX/Minimizer"
+   last-author="peihsin"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2820"
+   name="nrutil.h"
+   text-time="2009-05-22T18:28:48.606875Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="d1afb5e8843e88b0dc137ac37736bd89"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:48.419375Z"/>
+<entry
+   committed-rev="2820"
+   name="prob.c"
+   text-time="2009-05-22T18:28:48.606875Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="75dfcf578ee8467a4491d697ef0461cf"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:48.435000Z"/>
+<entry
+   committed-rev="2820"
+   name="main.c"
+   text-time="2009-05-22T18:28:48.622500Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="33b3c782eb013f26d530284b3ecadf99"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:48.450625Z"/>
+<entry
+   committed-rev="3002"
+   name="amoeba.c"
+   text-time="2009-05-22T18:28:48.622500Z"
+   committed-date="2008-10-22T00:46:12.835594Z"
+   checksum="176ae073ec189a26075216648cc3fcc0"
+   last-author="peihsin"
+   kind="file"
+   prop-time="2009-05-22T18:28:48.528750Z"/>
+<entry
+   committed-rev="2905"
+   name="createSimplex.c"
+   text-time="2009-05-22T18:28:48.622500Z"
+   committed-date="2008-08-06T21:52:48.821124Z"
+   checksum="86b8a83e4a82be42ea4657a60eff2ef8"
+   last-author="peihsin"
+   kind="file"
+   prop-time="2009-05-22T18:28:48.544375Z"/>
+<entry
+   committed-rev="2820"
+   name="prob.h"
+   text-time="2009-05-22T18:28:48.638125Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="334bab4ce4a4b67dbd5f6af53a813e74"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:48.560000Z"/>
+<entry
+   committed-rev="2820"
+   name="amoeba.h"
+   text-time="2009-05-22T18:28:48.653750Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="22988fe04c4f02047e44903806c45894"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:48.575625Z"/>
+<entry
+   committed-rev="2820"
+   name="nrutil.c"
+   text-time="2009-05-22T18:28:48.653750Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="b94914259832832dfbe1386a7eb57af8"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:48.591250Z"/>
+</wc-entries>

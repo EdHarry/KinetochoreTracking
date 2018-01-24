@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3422"
+   name=""
+   committed-date="2009-05-18T20:46:47.645728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/detectionAlgorithms/subResFeatures2D"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="3192"
+   name="spatialMovAveBG.m"
+   text-time="2009-05-22T18:28:06.528750Z"
+   committed-date="2009-03-18T01:33:43.198487Z"
+   checksum="47ceac9293ccc7bae83347bd4f2e7ebb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.841250Z"/>
+<entry
+   committed-rev="3192"
+   name="fitNGaussians2D.m"
+   text-time="2009-05-22T18:28:06.544375Z"
+   committed-date="2009-03-18T01:33:43.198487Z"
+   checksum="5466e7ea05bf77e6e3a75fd349e27083"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.856875Z"/>
+<entry
+   committed-rev="3192"
+   name="detectSubResFeatures2D_StandAlone.m"
+   text-time="2009-05-22T18:28:06.544375Z"
+   committed-date="2009-03-18T01:33:43.198487Z"
+   checksum="802bbe2ddf403357ca6df562e9867c72"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.060000Z"/>
+<entry
+   committed-rev="3192"
+   name="findOverlapPSFs2D.m"
+   text-time="2009-05-22T18:28:06.560000Z"
+   committed-date="2009-03-18T01:33:43.198487Z"
+   checksum="d3e3068ff781e18d3a6f1540c9fef90c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.060000Z"/>
+<entry
+   committed-rev="3422"
+   name="scriptDetectGeneral.m"
+   text-time="2009-05-22T18:28:06.560000Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="985c74fe1d1e93c68b356d2027fc09d0"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.169375Z"/>
+<entry
+   committed-rev="3192"
+   name="estimSNR4SubResFeat.m"
+   text-time="2009-05-22T18:28:06.560000Z"
+   committed-date="2009-03-18T01:33:43.198487Z"
+   checksum="b5e49bd34bb747ac29e232dbbf536001"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.185000Z"/>
+<entry
+   committed-rev="3192"
+   name="detectSubResFeatures2D_Movie.m"
+   text-time="2009-05-22T18:28:06.575625Z"
+   committed-date="2009-03-18T01:33:43.198487Z"
+   checksum="8d972c3db49b2e77729d0ef6487f9b76"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.247500Z"/>
+<entry
+   committed-rev="3192"
+   name="detectSubResFeatures2D.m"
+   text-time="2009-05-22T18:28:06.575625Z"
+   committed-date="2009-03-18T01:33:43.198487Z"
+   checksum="31d03961e4f58312e4c56b299c8ab939"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.513125Z"/>
+<entry
+   committed-rev="3192"
+   name="colocPoint2Line.m"
+   text-time="2009-05-22T18:28:06.575625Z"
+   committed-date="2009-03-18T01:33:43.198487Z"
+   checksum="b37aed2b414ea1890d49b4a8672fef8c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.513125Z"/>
+</wc-entries>

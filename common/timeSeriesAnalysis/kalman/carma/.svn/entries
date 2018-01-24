@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2912"
+   name=""
+   committed-date="2008-08-14T18:36:58.066656Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/kalman/carma"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2671"
+   name="paramsFromVector.m"
+   text-time="2009-05-22T18:28:47.888125Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="93d3559e428c8f314161a7db8d86396a"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:46.591250Z"/>
+<entry
+   committed-rev="2671"
+   name="armaxCoefKalmanMultiNode.m"
+   text-time="2009-05-22T18:28:47.888125Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="85a3c2088edda9918e4e6ba6a196cbbd"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:46.685000Z"/>
+<entry
+   committed-rev="2671"
+   name="neg2LnLikelihoodMultiNodeMEX.c"
+   text-time="2009-05-22T18:28:47.888125Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="5830c96bf01c1fdf231ae6f9c3a30cab"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:46.794375Z"/>
+<entry
+   committed-rev="2671"
+   name="vectorFromParams.m"
+   text-time="2009-05-22T18:28:47.903750Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="86339b37c4f24e1770a32402ca387ba2"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:46.810000Z"/>
+<entry
+   committed-rev="2671"
+   name="armaxFisherInfoMatrixMultiNode.m"
+   text-time="2009-05-22T18:28:47.903750Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="b20e97e0954e731d4d08bd4129eab579"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:46.981875Z"/>
+<entry
+   committed-rev="2912"
+   name="simCARMA.m"
+   text-time="2009-05-22T18:28:47.903750Z"
+   committed-date="2008-08-14T18:36:58.066656Z"
+   checksum="6b74bd90bd4df314b55e4f7d58793843"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:46.997500Z"/>
+<entry
+   committed-rev="2671"
+   name="neg2LnLikelihoodMultiNodeMEX.mexa64"
+   text-time="2009-05-22T18:28:47.919375Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="922621760f991a55ee6335da6e939763"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:47.185000Z"/>
+<entry
+   committed-rev="2671"
+   name="findBestConnectivity.m"
+   text-time="2009-05-22T18:28:47.919375Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="13dfd511bfb6fad6ca7239c940d8a444"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:47.341250Z"/>
+<entry
+   committed-rev="2671"
+   name="armaxKalmanInnovMultiNode_SingleNode.m"
+   text-time="2009-05-22T18:28:47.935000Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="2320ffbb000ec8c5c28f0374aed1536a"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:47.528750Z"/>
+<entry
+   committed-rev="2671"
+   name="neg2LnLikelihoodMultiNodeMEXcall.m"
+   text-time="2009-05-22T18:28:47.935000Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="1ddbf76c43a917632c9c8b4a42352fee"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:47.544375Z"/>
+<entry
+   committed-rev="2671"
+   name="calcKalmanInnovationsCARMA_MEX.c"
+   text-time="2009-05-22T18:28:47.935000Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="2b69033dea0801c1ac04935d082a92fb"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:47.560000Z"/>
+<entry
+   committed-rev="2671"
+   name="plotCARMA.m"
+   text-time="2009-05-22T18:28:47.950625Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="24ffb88adc1ac94bf9539fb25ccc5e54"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:47.653750Z"/>
+<entry
+   committed-rev="2671"
+   name="calcKalmanInnovationsCARMA_MEX.mexa64"
+   text-time="2009-05-22T18:28:47.950625Z"
+   committed-date="2008-01-29T19:07:22.830434Z"
+   checksum="c49d925fdb72c56224dd6d40638fd3ca"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:47.856875Z"/>
+</wc-entries>

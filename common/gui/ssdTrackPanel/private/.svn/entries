@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/gui/ssdTrackPanel/private"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanelGetDflt.m"
+   text-time="2009-05-22T18:16:08.622500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c8c3f14f4219de670ce57eb41aa0d735"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:13:22.513125Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanelSetTmask.m"
+   text-time="2009-05-22T18:19:12.653750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="f0515a822d43ec666017f18f31fd1b95"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:12.481875Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanelWriteLog.m"
+   text-time="2009-05-22T18:19:12.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5adfeeaaec2cfca5fa416ffe96f07036"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:12.481875Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanelSet2PTOSCIparams.m"
+   text-time="2009-05-22T18:19:12.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="8d1e445b5da80506440f791b1d8ba98f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:12.638125Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanelInitSimg.m"
+   text-time="2009-05-22T18:19:12.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a5a0ec10b74615f615f7a2c2f69562ae"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:12.638125Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanelInitTimg.m"
+   text-time="2009-05-22T18:19:12.685000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="fb2ad4a82383361c7354a6e104ecb0bd"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:12.638125Z"/>
+</wc-entries>

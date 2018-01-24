@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2915"
+   name=""
+   committed-date="2008-08-18T22:01:08.456900Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/kalman/multivariate_armaXMEX/models"
+   last-author="peihsin"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+</wc-entries>

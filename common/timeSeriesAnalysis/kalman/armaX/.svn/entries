@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3078"
+   name=""
+   committed-date="2008-12-10T23:56:39.415874Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/kalman/armaX"
+   last-author="peihsin"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2664"
+   name="covKalmanInitGen.m"
+   text-time="2009-05-22T18:28:50.888125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="ec4972a0d2e375dd2b703d0260664442"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.950625Z"/>
+<entry
+   committed-rev="2664"
+   name="covKalmanInitDeriv.m"
+   text-time="2009-05-22T18:28:50.888125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="fd0f6ceb9d683dfd752ed91486c70055"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.841250Z"/>
+<entry
+   committed-rev="3078"
+   name="armaxCoefKalman.m"
+   text-time="2009-05-22T18:28:50.872500Z"
+   committed-date="2008-12-10T23:56:39.415874Z"
+   checksum="99793fb292b431772ffaa95d7ff0812c"
+   last-author="peihsin"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.825625Z"/>
+<entry
+   committed-rev="2664"
+   name="covKalmanInit.m"
+   text-time="2009-05-22T18:28:50.903750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="bd73ac19e43b7db4e524eb7335bb33a0"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.075625Z"/>
+<entry
+   committed-rev="3078"
+   name="armaxFitKalman.m"
+   text-time="2009-05-22T18:28:50.888125Z"
+   committed-date="2008-12-10T23:56:39.415874Z"
+   checksum="65ea5ae0e37f419cb7607707e9f31241"
+   last-author="peihsin"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.075625Z"/>
+<entry
+   committed-rev="2664"
+   name="funct1.m"
+   text-time="2009-05-22T18:28:50.903750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="d45cb251916907c890c0146bcfcdc062"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.091250Z"/>
+<entry
+   committed-rev="2664"
+   name="armaxLeastSquares.m"
+   text-time="2009-05-22T18:28:50.903750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="3b0f49dc312d705c6af7f1fa36d8c37b"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.278750Z"/>
+<entry
+   committed-rev="2664"
+   name="armaxKalmanInnov.m"
+   text-time="2009-05-22T18:28:50.919375Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="5c95b3480573d14ba3aa06dbbb766e4f"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.294375Z"/>
+<entry
+   committed-rev="2664"
+   name="inverseLevDurbExpoMA.m"
+   text-time="2009-05-22T18:28:50.919375Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="ef039def90caf48068bad63222d481b6"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.310000Z"/>
+<entry
+   committed-rev="2664"
+   name="armaxFisherInfoMatrix.m"
+   text-time="2009-05-22T18:28:50.919375Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="b99b20aa827bc05778a135c07d1108cf"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.497500Z"/>
+<entry
+   committed-rev="2664"
+   name="levinsonDurbinExpoMA.m"
+   text-time="2009-05-22T18:28:50.935000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="ef6bd5d601fc3600b11cae7208be1304"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.513125Z"/>
+<entry
+   committed-rev="2664"
+   name="minKalmanConstraint.m"
+   text-time="2009-05-22T18:28:50.950625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="f00d94d6ea0126f65a900615a81672ab"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.700625Z"/>
+<entry
+   committed-rev="2664"
+   name="armaEstimMissing.m"
+   text-time="2009-05-22T18:28:50.935000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="529562a0b1d6bb0c44c1c65575fb80be"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.685000Z"/>
+<entry
+   committed-rev="2664"
+   name="inverseLevDurbExpoAR.m"
+   text-time="2009-05-22T18:28:50.950625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="f05d772802e94dac7d5cc0a8ebdf9b7c"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.716250Z"/>
+<entry
+   committed-rev="2664"
+   name="levinsonDurbinExpoAR.m"
+   text-time="2009-05-22T18:28:50.950625Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="de1ba7b0cfe61e6b527b1b98aff0cca2"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.841250Z"/>
+<entry
+   committed-rev="2664"
+   name="neg2LnLikelihoodX.m"
+   text-time="2009-05-22T18:28:50.966250Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="c58cdb187483fe8da16219c5356c3907"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:50.856875Z"/>
+</wc-entries>

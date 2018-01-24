@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3422"
+   name=""
+   committed-date="2009-05-18T20:46:47.645728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/trackWithGapClosing/Kalman"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2801"
+   name="kalmanResMemLM.m"
+   text-time="2009-05-22T18:28:02.841250Z"
+   committed-date="2008-05-01T01:16:58.758718Z"
+   checksum="2c35d72a154badb0bef0982e6cafc154"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.685000Z"/>
+<entry
+   committed-rev="3422"
+   name="scriptTrackGeneral.m"
+   text-time="2009-05-22T18:28:02.841250Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="21c92ac55d334335b2979021a136cc4e"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.700625Z"/>
+<entry
+   committed-rev="3083"
+   name="kalmanInitLinearMotion.m"
+   text-time="2009-05-22T18:28:02.841250Z"
+   committed-date="2008-12-31T01:53:08.036037Z"
+   checksum="a437c6a28849c357954ee585ced4d825"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.997500Z"/>
+<entry
+   committed-rev="3314"
+   name="costMatLinearMotionLink.m"
+   text-time="2009-05-22T18:28:02.856875Z"
+   committed-date="2009-04-24T21:04:24.243153Z"
+   checksum="3b7a502f906b5d60c82643b3a9e257fb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.013125Z"/>
+<entry
+   committed-rev="3314"
+   name="trackCloseGapsKalman.m"
+   text-time="2009-05-22T18:28:02.856875Z"
+   committed-date="2009-04-24T21:04:24.243153Z"
+   checksum="989c5cd8fd4aa42bd0cb78c8859dfc1a"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.028750Z"/>
+<entry
+   committed-rev="3422"
+   name="costMatLinearMotionCloseGaps.m"
+   text-time="2009-05-22T18:28:02.872500Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="8d276471a0f66ecd8afccdc736585cc3"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.341250Z"/>
+<entry
+   committed-rev="2995"
+   name="kalmanReverseLinearMotion.m"
+   text-time="2009-05-22T18:28:02.872500Z"
+   committed-date="2008-10-14T17:27:49.950746Z"
+   checksum="2c9b534e4b1b9ef4c8f065db2e4595ea"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.356875Z"/>
+<entry
+   committed-rev="3089"
+   name="linkFeaturesKalman.m"
+   text-time="2009-05-22T18:28:02.872500Z"
+   committed-date="2009-01-08T23:41:59.819068Z"
+   checksum="c5f6e3dad4fc83c7ef7a80286e6eeeaa"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.575625Z"/>
+<entry
+   committed-rev="2699"
+   name="estimTrackTypeParamLM.m"
+   text-time="2009-05-22T18:28:02.888125Z"
+   committed-date="2008-02-15T18:31:52.752214Z"
+   checksum="b145a77d2183b1c6cb3aa3be27afc29d"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.591250Z"/>
+<entry
+   committed-rev="3422"
+   name="getAveDispEllipseAll.m"
+   text-time="2009-05-22T18:28:02.888125Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="bbfbf250e98ad6d05a9d1e40233ff61a"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.716250Z"/>
+<entry
+   committed-rev="3189"
+   name="kalmanGainLinearMotion.m"
+   text-time="2009-05-22T18:28:02.888125Z"
+   committed-date="2009-03-18T01:25:43.958499Z"
+   checksum="a5007bd6e5a042fb1ad88699d9e5bf00"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:02.825625Z"/>
+</wc-entries>

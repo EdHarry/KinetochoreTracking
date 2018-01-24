@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2366"
+   name=""
+   committed-date="2007-06-06T00:30:37.928050Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/trackWithGapClosing/pureBrownian"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2317"
+   name="costMatSimple.m"
+   text-time="2009-05-22T18:28:05.685000Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="6340861c874ffc16cd2b12d6853b4f5c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:04.466250Z"/>
+<entry
+   committed-rev="2317"
+   name="costVecLinkMS.m"
+   text-time="2009-05-22T18:28:05.700625Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="a194e9a1964523d5a84a60b3ba908dd0"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:04.481875Z"/>
+<entry
+   committed-rev="2317"
+   name="expFun.m"
+   text-time="2009-05-22T18:28:05.700625Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="7ef65798e8af4761f5207b0bfa5c0e0c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:04.497500Z"/>
+<entry
+   committed-rev="2317"
+   name="costMatCloseGaps_D2_V.m"
+   text-time="2009-05-22T18:28:05.700625Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="9a556523b6c302b6acb262e7960f1904"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:04.685000Z"/>
+<entry
+   committed-rev="2317"
+   name="linkFeaturesTp2Tp.m"
+   text-time="2009-05-22T18:28:05.716250Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="933b0d818c56dbe564dd0833cf38d047"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:04.856875Z"/>
+<entry
+   committed-rev="2317"
+   name="trackWithGapClosing.m"
+   text-time="2009-05-22T18:28:05.716250Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="982d1676be6cd7b3a5af0c41024c31c0"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:04.997500Z"/>
+<entry
+   committed-rev="2317"
+   name="costMatLogL.m"
+   text-time="2009-05-22T18:28:05.716250Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="46f83c0d5ff255774d8d4f7896e33e43"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.013125Z"/>
+<entry
+   committed-rev="2317"
+   name="trackNoGapClosing.m"
+   text-time="2009-05-22T18:28:05.731875Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="d70b1d5c1a60e779973e2bd41f1334ef"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.138125Z"/>
+<entry
+   committed-rev="2317"
+   name="costMatCloseGaps.m"
+   text-time="2009-05-22T18:28:05.731875Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="8def9c73d7e4a38122ed9ed214191f6a"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.310000Z"/>
+<entry
+   committed-rev="2317"
+   name="costMatLogL_D2.m"
+   text-time="2009-05-22T18:28:05.747500Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="37f97b6d8e3f931fbe03652bcbd22e15"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.325625Z"/>
+<entry
+   committed-rev="2317"
+   name="costMatricesDef.m"
+   text-time="2009-05-22T18:28:05.747500Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="fd8f1567456217a7704a8efbf40a3b77"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.325625Z"/>
+<entry
+   committed-rev="2317"
+   name="costMatCloseGaps_D2.m"
+   text-time="2009-05-22T18:28:05.747500Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="b58178ab22ae1e76dc4af7e08984b4e8"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.544375Z"/>
+<entry
+   committed-rev="2317"
+   name="costMatLogL_D2_V.m"
+   text-time="2009-05-22T18:28:05.763125Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="52cf320d14bfec1ced550c4402738343"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.560000Z"/>
+<entry
+   committed-rev="2317"
+   name="getTrackStats.m"
+   text-time="2009-05-22T18:28:05.763125Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="eb73929de89b64ebd888bcd82b475df8"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:05.669375Z"/>
+</wc-entries>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="632"
+   name=""
+   committed-date="2004-06-04T18:46:08.631611Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/graphics/grid"
+   last-author="aponti"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="framework.m"
+   text-time="2009-05-22T18:27:15.653750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d2ae9ef418e11f52177a801da1a34445"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.622500Z"/>
+<entry
+   committed-rev="632"
+   name="selectRegion.m"
+   text-time="2009-05-22T18:27:15.653750Z"
+   committed-date="2004-06-04T18:46:08.631611Z"
+   checksum="f8b920c76b40ea52e6fa7a8c9dc0e1c5"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.638125Z"/>
+</wc-entries>

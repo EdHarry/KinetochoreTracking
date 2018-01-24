@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/iofun/frameGrabber/@GrabTool/private"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="GrabToStack.m"
+   text-time="2009-05-22T17:17:37.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e8f4b42cb08db329313e57fc860d9c8b"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.903750Z"/>
+<entry
+   committed-rev="101"
+   name="LoadClippedStack.m"
+   text-time="2009-05-22T17:17:37.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="188e90b5dee92781e6a42d1b3d204743"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:33.653750Z"/>
+<entry
+   committed-rev="101"
+   name="SaveMpeg.m"
+   text-time="2009-05-22T17:17:37.919375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="17dc66f3d094ec866e29b6c6ec0a5944"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:33.669375Z"/>
+<entry
+   committed-rev="101"
+   name="LoadFullStack.m"
+   text-time="2009-05-22T17:17:37.919375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="2fab03e8d751e3531d4d288a8c85db92"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:33.669375Z"/>
+<entry
+   committed-rev="101"
+   name="LoadMpeg.m"
+   text-time="2009-05-22T17:17:37.919375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5a156ec168ad4e4fa205afd52f462e89"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:33.669375Z"/>
+<entry
+   committed-rev="101"
+   name="GrabToView.m"
+   text-time="2009-05-22T17:17:37.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="936b5b95a661d9a81728a7bda1ce59ec"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:33.685000Z"/>
+<entry
+   committed-rev="101"
+   name="GrabPanel.m"
+   text-time="2009-05-22T17:17:37.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1c4889c20cfc929dc47af2f21687ddec"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:34.388125Z"/>
+<entry
+   committed-rev="101"
+   name="SelectInteractive.m"
+   text-time="2009-05-22T17:17:37.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="de419b8d33bc6fadc137d039d30e55d9"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:34.403750Z"/>
+<entry
+   committed-rev="101"
+   name="info.txt"
+   text-time="2009-05-22T17:17:37.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9eb201881a6966ee72eeca102344ccec"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:34.403750Z"/>
+<entry
+   committed-rev="101"
+   name="ProcessMovie.m"
+   text-time="2009-05-22T17:17:37.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c54eb074889cfa4739835cdabcf67c88"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:34.403750Z"/>
+<entry
+   committed-rev="101"
+   name="GrabToFile.m"
+   text-time="2009-05-22T17:17:37.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c07c031745d2b617f7bc92e527ab6377"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:34.419375Z"/>
+<entry
+   committed-rev="101"
+   name="SaveFile.m"
+   text-time="2009-05-22T17:17:37.966250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="629d0d33019882e6256733e2490f90fe"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:37.888125Z"/>
+<entry
+   committed-rev="101"
+   name="LoadFile.m"
+   text-time="2009-05-22T17:17:37.966250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="80f5ce4e006925ec09d12b2b7bad7390"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:37.888125Z"/>
+</wc-entries>

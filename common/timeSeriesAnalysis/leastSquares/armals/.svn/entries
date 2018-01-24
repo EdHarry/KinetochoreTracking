@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2664"
+   name=""
+   committed-date="2008-01-23T02:52:30.871679Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/leastSquares/armals"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2664"
+   name="armaModelIdent.m"
+   text-time="2009-05-22T18:28:53.419375Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="4b5653a10ee951866d81e046095c6e44"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.388125Z"/>
+<entry
+   committed-rev="2664"
+   name="armaCoefEstim.m"
+   text-time="2009-05-22T18:28:53.435000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="f70b360e4e01ebf44a916f3fc17a64d8"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.403750Z"/>
+</wc-entries>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2687"
+   name=""
+   committed-date="2008-02-08T20:13:51.985012Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/SpatialClustering"
+   last-author="dloerke"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2686"
+   name="circumferenceCorrFactor_MaskEU.m"
+   text-time="2009-05-22T18:27:08.825625Z"
+   committed-date="2008-02-08T20:12:01.583020Z"
+   checksum="43521052cb222163d0d87b6b1c3d5784"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:27:08.138125Z"/>
+<entry
+   committed-rev="2686"
+   name="makeCorrFactorMatrix.m"
+   text-time="2009-05-22T18:27:08.825625Z"
+   committed-date="2008-02-08T20:12:01.583020Z"
+   checksum="2beb7d2bfac2111eea5f9ff92f18af4e"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:27:08.153750Z"/>
+<entry
+   committed-rev="2687"
+   name="RipleysKfunction.m"
+   text-time="2009-05-22T18:27:08.825625Z"
+   committed-date="2008-02-08T20:13:51.985012Z"
+   checksum="1fee654d61901108bd5e6ec2b81fef51"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:27:08.560000Z"/>
+<entry
+   committed-rev="2686"
+   name="circumferenceCorrFactor_Mask.m"
+   text-time="2009-05-22T18:27:08.841250Z"
+   committed-date="2008-02-08T20:12:01.583020Z"
+   checksum="5018242a5f03b4e75616b4c080a3ab9e"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:27:08.575625Z"/>
+<entry
+   committed-rev="2686"
+   name="circumferenceCorrFactor.m"
+   text-time="2009-05-22T18:27:08.841250Z"
+   committed-date="2008-02-08T20:12:01.583020Z"
+   checksum="6f5b4a5e3a5379a6e5c4715c47d18d53"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:27:08.810000Z"/>
+</wc-entries>

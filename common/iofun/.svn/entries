@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3248"
+   name=""
+   committed-date="2009-04-04T00:24:07.990888Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/iofun"
+   last-author="kathomps"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="rawread.m"
+   text-time="2009-05-22T17:17:55.513125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d8c203e49346e27482380dc54600dccc"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:05:53.560000Z"/>
+<entry
+   committed-rev="814"
+   name="stk2tif.m"
+   text-time="2009-05-22T17:17:55.528750Z"
+   committed-date="2004-08-26T18:47:12.228234Z"
+   checksum="cacf4501b7eb84154491bd73af4cb457"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T17:05:53.575625Z"/>
+<entry
+   committed-rev="101"
+   name="rtifc.dll"
+   text-time="2009-05-22T17:17:55.528750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d509825f6d5a14067445c0cb7c0c3a5a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:03.325625Z"/>
+<entry
+   committed-rev="745"
+   name="imreadstack.m"
+   text-time="2009-05-22T17:17:55.544375Z"
+   committed-date="2004-08-03T01:27:24.000872Z"
+   checksum="af5989fc764877ccb3310e8b0c5e5f5f"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T17:08:03.356875Z"/>
+<entry
+   committed-rev="101"
+   name="stack2Movie.m"
+   text-time="2009-05-22T17:17:55.544375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="ad144d2d7bfc429d7a0419821a64d12b"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:03.356875Z"/>
+<entry
+   committed-rev="1577"
+   name="listSelectGUI.fig"
+   text-time="2009-05-22T17:17:55.544375Z"
+   committed-date="2005-06-27T04:11:50.975585Z"
+   checksum="71d21ab0b03e28e1bf9852f791661e49"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:08:28.810000Z"/>
+<entry
+   committed-rev="140"
+   name="getFileStackNames.m"
+   text-time="2009-05-22T17:17:55.560000Z"
+   committed-date="2004-02-12T02:07:44.872097Z"
+   checksum="890a3d6859bb0e9bbbea4a81c91fc35c"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T17:08:28.825625Z"/>
+<entry
+   committed-rev="3007"
+   name="metaTiffRead.m"
+   text-time="2009-05-22T17:17:55.560000Z"
+   committed-date="2008-10-23T21:48:43.893585Z"
+   checksum="a81ac8677862c1bc21d1ce36ecafb63d"
+   last-author="sylvain"
+   kind="file"
+   prop-time="2009-05-22T17:08:29.388125Z"/>
+<entry
+   committed-rev="101"
+   name="chooseFileGUI.fig"
+   text-time="2009-05-22T17:17:55.560000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0e31efa7dd78cb33c7705bf0a1a31c0f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:29.388125Z"/>
+<entry
+   committed-rev="2594"
+   name="returnRightVector.m"
+   text-time="2009-05-22T17:17:55.575625Z"
+   committed-date="2007-11-29T12:14:35.433346Z"
+   checksum="0cd46938eebee3ee89c505f8040a8423"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:08:29.403750Z"/>
+<entry
+   committed-rev="2291"
+   name="imwritend.m"
+   text-time="2009-05-22T17:17:55.575625Z"
+   committed-date="2007-03-09T23:23:47.770099Z"
+   checksum="fb316bde9ddea8d4cfd6750696fa3f18"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:08:29.403750Z"/>
+<entry
+   committed-rev="1575"
+   name="loadFiles.m"
+   text-time="2009-05-22T17:17:55.575625Z"
+   committed-date="2005-06-26T19:43:45.252925Z"
+   checksum="8567d988d3c9a4d9326a876f7596d6a1"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:08:29.981875Z"/>
+<entry
+   committed-rev="101"
+   name="defineStackNames.m"
+   text-time="2009-05-22T17:17:55.591250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="f0b429dba358076ca71489b1609b555a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:29.981875Z"/>
+<entry
+   committed-rev="101"
+   name="convertStackFrameNames.m"
+   text-time="2009-05-22T17:17:55.606875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e0164cd6f7e98a8d54e87dd06f3b6e4a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:31.685000Z"/>
+<entry
+   committed-rev="101"
+   name="imreadnd2.m"
+   text-time="2009-05-22T17:17:55.591250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="be987abf7fcd45e383f81389e7c423b7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:31.685000Z"/>
+<entry
+   committed-rev="2417"
+   name="secureSave.m"
+   text-time="2009-05-22T17:17:55.591250Z"
+   committed-date="2007-07-15T17:49:59.400436Z"
+   checksum="136b3b8c7d2213df88c5b3489328dd61"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:08:29.997500Z"/>
+<entry
+   committed-rev="3248"
+   name="formatPath.m"
+   text-time="2009-05-22T17:17:55.591250Z"
+   committed-date="2009-04-04T00:24:07.990888Z"
+   checksum="97aad0a2d132d351ea82198b9b35bd6f"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T17:08:29.997500Z"/>
+<entry
+   committed-rev="101"
+   name="imwritestack.m"
+   text-time="2009-05-22T17:17:55.622500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5f091991dd075c14739ed66ad7c45daa"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:31.700625Z"/>
+<entry
+   committed-rev="2365"
+   name="unpackNIHStack.m"
+   text-time="2009-05-22T17:17:55.606875Z"
+   committed-date="2007-06-06T00:28:24.294297Z"
+   checksum="db3de8571ed7cf7c690448b9aeeba9bb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T17:08:31.700625Z"/>
+<entry
+   committed-rev="745"
+   name="imreadstacknd.m"
+   text-time="2009-05-22T17:17:55.622500Z"
+   committed-date="2004-08-03T01:27:24.000872Z"
+   checksum="1b9a6453152fe9a7b272b863cb20c174"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T17:08:32.294375Z"/>
+<entry
+   committed-rev="2589"
+   name="cands2text.m"
+   text-time="2009-05-22T17:17:55.622500Z"
+   committed-date="2007-11-28T01:58:56.036122Z"
+   checksum="88795eb7262031492c388129fb70d0af"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T17:08:32.294375Z"/>
+<entry
+   committed-rev="2291"
+   name="listSelectGUI.m"
+   text-time="2009-05-22T17:17:55.638125Z"
+   committed-date="2007-03-09T23:23:47.770099Z"
+   checksum="781ab1d027eabbf772413300209c9970"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:08:35.044375Z"/>
+<entry
+   committed-rev="101"
+   name="imreadnd.m"
+   text-time="2009-05-22T17:17:55.638125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="7f93b3a2e95b125955e24878f390c6d8"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:35.044375Z"/>
+<entry
+   name="frameGrabber"
+   kind="dir"/>
+<entry
+   committed-rev="268"
+   name="chooseFileGUI.m"
+   text-time="2009-05-22T17:17:55.638125Z"
+   committed-date="2004-02-27T02:27:35.601242Z"
+   checksum="12d95fa5de09804252e62dcbf5906e3e"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:17:49.341250Z"/>
+<entry
+   committed-rev="2902"
+   name="searchFiles.m"
+   text-time="2009-05-22T17:17:55.653750Z"
+   committed-date="2008-08-02T15:32:48.240995Z"
+   checksum="ce228de33e15717d24b3b18de1315a87"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:17:49.356875Z"/>
+<entry
+   committed-rev="101"
+   name="imwritestacknd.m"
+   text-time="2009-05-22T17:17:55.638125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a51ab467c8d4c53390bcde58ad313eaf"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:49.356875Z"/>
+<entry
+   committed-rev="101"
+   name="gelread.m"
+   text-time="2009-05-22T17:17:55.653750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="36c7bb5b24379556e0c6c1aeb1dbe508"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:50.888125Z"/>
+<entry
+   committed-rev="2006"
+   name="imReadGui.m"
+   text-time="2009-05-22T17:17:55.669375Z"
+   committed-date="2006-05-26T23:56:07.620085Z"
+   checksum="893bfeaeb37abec431c78fc29a8ae8ec"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:17:50.903750Z"/>
+<entry
+   committed-rev="101"
+   name="ReadSunras.m"
+   text-time="2009-05-22T17:17:55.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="8cd8b27bf0a94ce76a1ded9a7a46f643"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:50.903750Z"/>
+<entry
+   committed-rev="1699"
+   name="searchFiles2.m"
+   text-time="2009-05-22T17:17:55.669375Z"
+   committed-date="2005-09-06T21:41:15.547300Z"
+   checksum="6a9e67bfd9ad6eb3a49f4fcc7ba95da5"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T17:17:52.622500Z"/>
+<entry
+   committed-rev="2591"
+   name="xy2index.m"
+   text-time="2009-05-22T17:17:55.685000Z"
+   committed-date="2007-11-28T19:56:52.989746Z"
+   checksum="cf5bdb46723b475979e44aadf1b05060"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T17:17:52.622500Z"/>
+<entry
+   committed-rev="2591"
+   name="index2xy.m"
+   text-time="2009-05-22T17:17:55.685000Z"
+   committed-date="2007-11-28T19:56:52.989746Z"
+   checksum="36222e69022dc4ae3215f07950fb67dc"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T17:17:52.622500Z"/>
+<entry
+   committed-rev="101"
+   name="OpenLSM.m"
+   text-time="2009-05-22T17:17:55.685000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="cda9ba5d55381e4ff29c9494f6cf54c0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:52.638125Z"/>
+<entry
+   committed-rev="1719"
+   name="makeMovie.m"
+   text-time="2009-05-22T17:17:55.685000Z"
+   committed-date="2005-09-23T20:13:41.862960Z"
+   checksum="9a1185deaf2117eb1f4cdf55613e1ba9"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T17:17:52.638125Z"/>
+<entry
+   committed-rev="1662"
+   name="chooseFile.m"
+   text-time="2009-05-22T17:17:55.700625Z"
+   committed-date="2005-08-29T16:50:01.899321Z"
+   checksum="293869aa26c31bb193d9d7ac81ecc828"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:17:52.794375Z"/>
+<entry
+   committed-rev="101"
+   name="readQTMovie.m"
+   text-time="2009-05-22T17:17:55.700625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e4412da8381ca75a42016515a9a09722"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:54.513125Z"/>
+<entry
+   committed-rev="2932"
+   name="MakeQTMovie.m"
+   text-time="2009-05-22T17:17:55.716250Z"
+   committed-date="2008-08-28T18:31:56.988356Z"
+   checksum="bba47cbd1a856d11a6e4b8ec9af0e00b"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T17:17:55.513125Z"/>
+</wc-entries>

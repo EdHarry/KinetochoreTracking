@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2664"
+   name=""
+   committed-date="2008-01-23T02:52:30.871679Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/kalman/arma"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2664"
+   name="selectCritKalman.m"
+   text-time="2009-05-22T18:28:45.372500Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="c6f51b806ec76d4de3d5a28f603c33d2"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.356875Z"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3272"
+   name=""
+   committed-date="2009-04-10T23:49:15.932856Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/imageCrop"
+   last-author="shanncc"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="3272"
+   name="penguin.bmp"
+   text-time="2009-05-22T18:27:58.060000Z"
+   committed-date="2009-04-10T23:49:15.932856Z"
+   checksum="ac657e6ac2f51f8bf59cee9c82544a47"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:57.763125Z"/>
+<entry
+   committed-rev="3272"
+   name="CropPanel.fig"
+   text-time="2009-05-22T18:27:58.060000Z"
+   committed-date="2009-04-10T23:49:15.932856Z"
+   checksum="f8548bf0831047dd3628f3f8cf014f10"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:57.778750Z"/>
+<entry
+   committed-rev="3272"
+   name="CropPanel.m"
+   text-time="2009-05-22T18:27:58.075625Z"
+   committed-date="2009-04-10T23:49:15.932856Z"
+   checksum="ba9083d035b5eab96b0f4f04ef152ed3"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.044375Z"/>
+</wc-entries>

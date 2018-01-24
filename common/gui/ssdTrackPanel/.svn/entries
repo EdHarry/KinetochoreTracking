@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/gui/ssdTrackPanel"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackLogEditButtonPressFnc.m"
+   text-time="2009-05-22T18:16:08.622500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="ddda00dbe47c590f03d3ec177cb05c0a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:14.247500Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackWrapTextCreateFnc.m"
+   text-time="2009-05-22T18:16:08.638125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="74ff2c90bb5ab86370eb4e5d11b6bf46"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:05:15.294375Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackFromLogCheckFnc.m"
+   text-time="2009-05-22T18:16:08.638125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1b11266d34e5e5d5b86ae78366ec2f35"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:05:15.310000Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuMasksFnc.m"
+   text-time="2009-05-22T18:16:08.638125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="15c072be3476dace74bb8732a20f606b"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:05:15.310000Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackVerboseCheckFnc.m"
+   text-time="2009-05-22T18:16:08.653750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="152b43369ebd6b03b00fe34d239dfd23"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:05:15.325625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuExcFnc.m"
+   text-time="2009-05-22T18:16:08.653750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="2cad5eb95a62f3876b46aa51fda8b9f2"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:05:15.325625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuFileFnc.m"
+   text-time="2009-05-22T18:16:08.653750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3955448b0b70f98a605ff514b692b458"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:05:15.325625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuPropFnc.m"
+   text-time="2009-05-22T18:16:08.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="92946129ba1ee08504b73cf8c750c919"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:05:15.341250Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanel.m"
+   text-time="2009-05-22T18:16:08.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e02473ffbaa56eca7cb92d7d35d69168"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:08:19.294375Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuResolFnc.m"
+   text-time="2009-05-22T18:16:08.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3c599c4e0a0bf707e99c122494cd46ff"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:08:19.294375Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuModeFnc.m"
+   text-time="2009-05-22T18:16:08.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5c5ce0471857bc49d6dca7265a6d51b3"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:08:19.310000Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackLogEditCreateFnc.m"
+   text-time="2009-05-22T18:16:08.685000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="93f4701a51648cd73a6557cb102e03f1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:08:19.310000Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackInitButtonPressFnc.m"
+   text-time="2009-05-22T18:16:08.685000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="6c0732e8c2c47919e37aec79a6bc42a5"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:08:19.325625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackGoButtonPressFnc.m"
+   text-time="2009-05-22T18:16:08.700625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b3c2b57a3c5e67fb3e8e3be2cfcd62c7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:20.310000Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackUpTemplateCheckFnc.m"
+   text-time="2009-05-22T18:16:08.685000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b51f24d48cf356b28e65cfb558778b54"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:20.294375Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuDelStackFnc.m"
+   text-time="2009-05-22T18:16:08.700625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="7ea89405595ed2fd797535fdafde5359"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:20.310000Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuSetFnc.m"
+   text-time="2009-05-22T18:16:08.700625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="fd66aacaf4abda7f553e98b2f36fb126"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:20.310000Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanelDeleteFnc.m"
+   text-time="2009-05-22T18:16:08.716250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="739a3d88379a5ec96ce7105111f7cf6f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:20.325625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackInitButtonCreateFnc.m"
+   text-time="2009-05-22T18:16:08.716250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e16b4d797f1bc9675e61ccc7050c3529"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:20.325625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanelCreateFnc.m"
+   text-time="2009-05-22T18:16:08.716250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="69270fd702577ecbe5dd94ac7cc675eb"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:20.325625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackGoButtonCreateFnc.m"
+   text-time="2009-05-22T18:16:08.731875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="150ecf6f9bbaaaefb43084f42f6bbcdd"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:51.231875Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackNextButtonPressFnc.m"
+   text-time="2009-05-22T18:16:08.731875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="536b78557031646981f094ff393d2522"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:12:51.231875Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackVerboseCheckCreateFnc.m"
+   text-time="2009-05-22T18:16:08.731875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="10b290f689f15462b045e3f5b223c2ac"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:13:22.481875Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackMenuLoadStackFnc.m"
+   text-time="2009-05-22T18:16:08.747500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="622b1f47b20825a96960e8d98b5e38de"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:13:22.497500Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackWrapCheckCreateFnc.m"
+   text-time="2009-05-22T18:19:13.466250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="bcfd8ed4512ed27597e78c36325ac778"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:13.435000Z"/>
+<entry
+   committed-rev="101"
+   name="runUiSSDTrackPanel.m"
+   text-time="2009-05-22T18:19:13.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9b318c81d56510ce69b675f9aa762bc4"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:13.450625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackPanel.mat"
+   text-time="2009-05-22T18:19:13.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1e24d41b8dc8567ca1a7d3715cfad79d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:13.450625Z"/>
+<entry
+   committed-rev="101"
+   name="uiSSDTrackNextButtonCreateFnc.m"
+   text-time="2009-05-22T18:19:13.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="bab5944ab665a50bf0c3594e0ea29930"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:13.466250Z"/>
+</wc-entries>

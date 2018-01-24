@@ -1,0 +1,24 @@
+<pre class="code">
+<span class="srcline"><span class="lineno"><a href="1,1" id="srcline1"> 1</a></span><span class="line"><span class="comment">%function [ gaussList, newAmpBg ] = multiGaussListND_mexCode( maskAmp, maskCoord, X, sigma )</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,2" id="srcline2"> 2</a></span><span class="line"><span class="keyword">function</span> <span class="var type1" id="S2T5U3">gaussList</span> = multiGaussListND_mexCode( <span class="var type1" id="S3T1U6">maskCoord</span>, <span class="var type1" id="S4T2U7">X</span>, <span class="var type1" id="S5T4U8">sigma</span> )</span></span>
+<span class="srcline"><span class="lineno"><a href="1,3" id="srcline3"> 3</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,4" id="srcline4"> 4</a></span><span class="line"><span class="mxinfo" id="T5:U5"><span class="var type1" id="S2T5U11">gaussList</span> = <span class="mxinfo" id="T5:U7">ones(<span class="mxinfo" id="T3:U8">size(<span class="var type1" id="S3T1U16">maskCoord</span>,1)</span>,<span class="mxinfo" id="T3:U10"><span class="mxinfo" id="T3:U11">size(<span class="var type1" id="S4T2U21">X</span>,1)</span>+<span class="mxinfo" id="T3:U13">1</span></span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="1,5" id="srcline5"> 5</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,6" id="srcline6"> 6</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,7" id="srcline7"> 7</a></span><span class="line"><span class="comment">%% GAUSS LIST CALCULATION</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,8" id="srcline8"> 8</a></span><span class="line"><span class="keyword">for</span> <span class="var type1" id="S8T3U26">gaussIdx</span> = <span class="mxinfo" id="T3:U15">1</span>:<span class="mxinfo" id="T3:U16">size(<span class="var type1" id="S4T2U31">X</span>,1)</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,9" id="srcline9"> 9</a></span><span class="line">    <span class="mxinfo" id="T25:U18"><span class="var type1" id="S9T25U35">tmp</span> = <span class="mxinfo" id="T25:U20"><span class="fcn" id="F135N2:B37">GaussListND_mexCode</span>(<span class="var type1" id="S3T1U38">maskCoord</span>,<span class="var type1" id="S5T4U39">sigma</span>,<span class="mxinfo" id="T4:U23"><span class="var type1" id="S4T2U41">X</span>(<span class="var type1" id="S8T3U42">gaussIdx</span>,:)</span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="1,10" id="srcline10">10</a></span><span class="line">    <span class="mxinfo" id="T28:U26"><span class="mxinfo" id="T28:U27"><span class="var type1" id="S2T5U47">gaussList</span>(:,<span class="var type1" id="S8T3U49">gaussIdx</span>)</span> = <span class="mxinfo" id="T28:U30"><span class="var type1" id="S9T25U51">tmp</span>(:,<span class="mxinfo" id="T3:U32">1</span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="1,11" id="srcline11">11</a></span><span class="line"><span class="keyword">end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,12" id="srcline12">12</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,13" id="srcline13">13</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,14" id="srcline14">14</a></span><span class="line"><span class="comment">%% GAUSS FITTING</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,15" id="srcline15">15</a></span><span class="line"><span class="comment">%I = (G1,G2,G3,<span class="keyword">...</span><span class="comment">.,1) *(a1;a2;a3;...;bg);</span></span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,16" id="srcline16">16</a></span><span class="line"><span class="comment">%To fit -&gt; a1;a2..;bg = (G1,G2,G3,<span class="keyword">...</span><span class="comment">,1) \ I</span></span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,17" id="srcline17">17</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,18" id="srcline18">18</a></span><span class="line"><span class="comment">%newAmpBg = gaussList \ maskAmp;</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,19" id="srcline19">19</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,20" id="srcline20">20</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="1,21" id="srcline21">21</a></span><span class="line"><span class="keyword">end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="1,22" id="srcline22">22</a></span><span class="line"></span></span>
+</pre>

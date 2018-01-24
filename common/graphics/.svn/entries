@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3422"
+   name=""
+   committed-date="2009-05-18T20:46:47.645728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/graphics"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="3305"
+   name="plotTracksAddDataCursor.m"
+   text-time="2009-05-22T18:27:18.372500Z"
+   committed-date="2009-04-18T16:07:12.182999Z"
+   checksum="4af2b2b845255816a057c52ab3c175c3"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.138125Z"/>
+<entry
+   committed-rev="2006"
+   name="histND.m"
+   text-time="2009-05-22T18:27:18.372500Z"
+   committed-date="2006-05-26T23:56:07.620085Z"
+   checksum="5e32c51ad108a5e4ab824d0ecce3c24d"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.435000Z"/>
+<entry
+   committed-rev="101"
+   name="setTicks.m"
+   text-time="2009-05-22T18:27:18.388125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="73ffa776d3ab426fc8660ba958d261b7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.450625Z"/>
+<entry
+   committed-rev="2730"
+   name="figure4ppt.m"
+   text-time="2009-05-22T18:27:18.388125Z"
+   committed-date="2008-02-29T15:27:29.437735Z"
+   checksum="8827e73ba6bcd4c2b068de230f347536"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.466250Z"/>
+<entry
+   committed-rev="712"
+   name="hideErrorbars.m"
+   text-time="2009-05-22T18:27:18.388125Z"
+   committed-date="2004-07-09T21:23:54.446703Z"
+   checksum="f00a0d4968167a5d15ff45ae4feb29bd"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.466250Z"/>
+<entry
+   committed-rev="1209"
+   name="plotrect.m"
+   text-time="2009-05-22T18:27:18.403750Z"
+   committed-date="2004-11-29T19:52:22.138167Z"
+   checksum="112162c26b86a5d3b8c8b43690884514"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.638125Z"/>
+<entry
+   committed-rev="1486"
+   name="plotellipse.m"
+   text-time="2009-05-22T18:27:18.403750Z"
+   committed-date="2005-05-02T22:55:13.223473Z"
+   checksum="7c7c88168b05ccbf3c32fe0192bc85b2"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.638125Z"/>
+<entry
+   committed-rev="3154"
+   name="histogram.m"
+   text-time="2009-05-22T18:27:18.403750Z"
+   committed-date="2009-03-11T19:54:06.873813Z"
+   checksum="1a4f49c0e4d5cad6b6fb196e8b291345"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.919375Z"/>
+<entry
+   committed-rev="3124"
+   name="visualizeClusters.m"
+   text-time="2009-05-22T18:27:18.419375Z"
+   committed-date="2009-02-13T00:34:50.977680Z"
+   checksum="c8e28a261d4c69fbfa02ba960faae233"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.935000Z"/>
+<entry
+   committed-rev="2118"
+   name="parseMovieLifetimesAndDisapp.m"
+   text-time="2009-05-22T18:27:18.419375Z"
+   committed-date="2006-08-15T23:41:27.406171Z"
+   checksum="d7ba940ac31b45705afdd9509fc97fe1"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.950625Z"/>
+<entry
+   committed-rev="2788"
+   name="plotcircle.m"
+   text-time="2009-05-22T18:27:18.419375Z"
+   committed-date="2008-04-17T17:39:12.780492Z"
+   checksum="24e68a713d9cab415d48b82221eb4dd9"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:12.263125Z"/>
+<entry
+   committed-rev="101"
+   name="plotAffineRect.m"
+   text-time="2009-05-22T18:27:18.435000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e0b0647ca3c302aee706518ed4875fbb"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:12.263125Z"/>
+<entry
+   name="vector"
+   kind="dir"/>
+<entry
+   committed-rev="2522"
+   name="layerplot.m"
+   text-time="2009-05-22T18:27:18.435000Z"
+   committed-date="2007-09-14T01:48:59.485221Z"
+   checksum="a0bb146137926e9351934f1dd9901cfb"
+   last-author="sabouri"
+   kind="file"
+   prop-time="2009-05-22T18:27:13.294375Z"/>
+<entry
+   committed-rev="2848"
+   name="plotImageWithFeatures.m"
+   text-time="2009-05-22T18:27:18.450625Z"
+   committed-date="2008-06-24T19:33:08.202064Z"
+   checksum="c8a5ef8a49bf3cf60baf3b4f25499f58"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:13.716250Z"/>
+<entry
+   committed-rev="3422"
+   name="plotTracks2D.m"
+   text-time="2009-05-22T18:27:18.435000Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="4a826589316343b84e10613d282fbce6"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:13.700625Z"/>
+<entry
+   committed-rev="417"
+   name="plotPowerSpectrum.m"
+   text-time="2009-05-22T18:27:18.450625Z"
+   committed-date="2004-03-26T03:33:46.690283Z"
+   checksum="7b9cd0f06d4f5ce236ef076eccf285ef"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T18:27:13.716250Z"/>
+<entry
+   committed-rev="417"
+   name="labelPowerSpectrum.m"
+   text-time="2009-05-22T18:27:18.450625Z"
+   committed-date="2004-03-26T03:33:46.690283Z"
+   checksum="52836561011f592d1a3ac022154f6570"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T18:27:13.997500Z"/>
+<entry
+   name="colormap"
+   kind="dir"/>
+<entry
+   committed-rev="3189"
+   name="plotCompTrack.m"
+   text-time="2009-05-22T18:27:18.466250Z"
+   committed-date="2009-03-18T01:25:43.958499Z"
+   checksum="69d9fe75c352e520e2a7d45018f3dcf1"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.528750Z"/>
+<entry
+   committed-rev="101"
+   name="getpt.m"
+   text-time="2009-05-22T18:27:18.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c5e41ac52bff68ec18abf0a9c61d676c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.013125Z"/>
+<entry
+   committed-rev="3422"
+   name="plotTracksDiffAnalysis.m"
+   text-time="2009-05-22T18:27:18.466250Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="ca1be02e599fa73bbf8fc9e848750780"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:14.997500Z"/>
+<entry
+   committed-rev="2248"
+   name="myErrorbar.m"
+   text-time="2009-05-22T18:27:18.481875Z"
+   committed-date="2006-12-06T23:34:28.891092Z"
+   checksum="73c17243879425949d86b56b26b2a3e1"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.294375Z"/>
+<entry
+   committed-rev="292"
+   name="colorCode2rgb.m"
+   text-time="2009-05-22T18:27:18.481875Z"
+   committed-date="2004-03-01T20:29:16.375115Z"
+   checksum="b1c4455715e36d0ea5a67f52f6cfd0ce"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.294375Z"/>
+<entry
+   committed-rev="101"
+   name="plotspec.m"
+   text-time="2009-05-22T18:27:18.497500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="238c3734876d75377c7247122befdf32"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.310000Z"/>
+<entry
+   committed-rev="101"
+   name="plotmask.m"
+   text-time="2009-05-22T18:27:18.497500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="4156c749ead9be172e729c456ceef3ea"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.669375Z"/>
+<entry
+   name="grid"
+   kind="dir"/>
+<entry
+   committed-rev="2522"
+   name="plot_prot_retro.m"
+   text-time="2009-05-22T18:27:18.497500Z"
+   committed-date="2007-09-14T01:48:59.485221Z"
+   checksum="560bdbd74dfb11f9ec85966dacb64d43"
+   last-author="sabouri"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.669375Z"/>
+<entry
+   committed-rev="712"
+   name="unhideErrorbars.m"
+   text-time="2009-05-22T18:27:18.513125Z"
+   committed-date="2004-07-09T21:23:54.446703Z"
+   checksum="7e3676d6708e3c448e23d52af0380692"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.903750Z"/>
+<entry
+   committed-rev="2265"
+   name="makeTrackMovie_general.m"
+   text-time="2009-05-22T18:27:18.513125Z"
+   committed-date="2007-01-27T00:18:36.736879Z"
+   checksum="a3c0bde7398f223c5927edb80282f139"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:27:15.919375Z"/>
+<entry
+   committed-rev="101"
+   name="getsegment.m"
+   text-time="2009-05-22T18:27:18.513125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="65ec67c4ca2b288df33e29da31f27812"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:16.060000Z"/>
+<entry
+   committed-rev="3376"
+   name="overlayTracksMovieNew.m"
+   text-time="2009-05-22T18:27:18.528750Z"
+   committed-date="2009-05-05T22:48:40.931339Z"
+   checksum="4e66d897442383c0c116a8d42771e83c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:16.575625Z"/>
+<entry
+   committed-rev="745"
+   name="isImgRGB.m"
+   text-time="2009-05-22T18:27:18.528750Z"
+   committed-date="2004-08-03T01:27:24.000872Z"
+   checksum="606c9c001c690791dc8249627c7b4c9a"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T18:27:16.591250Z"/>
+<entry
+   committed-rev="2117"
+   name="makeMov_TiffTrackInfo.m"
+   text-time="2009-05-22T18:27:18.544375Z"
+   committed-date="2006-08-15T23:23:56.312389Z"
+   checksum="13e8f118c1fc1e26d4c29cdd94637bb6"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:27:16.606875Z"/>
+<entry
+   committed-rev="2359"
+   name="getCustomCMap.m"
+   text-time="2009-05-22T18:27:18.544375Z"
+   committed-date="2007-05-08T18:58:23.601378Z"
+   checksum="0c2073863a9af40ab1c0c6c651b7a8b6"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:27:16.825625Z"/>
+<entry
+   committed-rev="2566"
+   name="collectCurves.m"
+   text-time="2009-05-22T18:27:18.544375Z"
+   committed-date="2007-11-13T03:22:38.924169Z"
+   checksum="739fce41578f07a7f2f53654d2b8f582"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:16.825625Z"/>
+<entry
+   committed-rev="101"
+   name="gpts.m"
+   text-time="2009-05-22T18:27:18.560000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="af6258de8d66051a0fcdadb43daff2f0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:16.841250Z"/>
+<entry
+   committed-rev="101"
+   name="arrow3.m"
+   text-time="2009-05-22T18:27:18.560000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9a92eb9e9854cf5719ee99cc834a0438"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:17.341250Z"/>
+<entry
+   committed-rev="3126"
+   name="plotTracks3D.m"
+   text-time="2009-05-22T18:27:18.560000Z"
+   committed-date="2009-02-18T02:41:16.146483Z"
+   checksum="369822ec81eee2c703fe4afe6bbdf26c"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:17.825625Z"/>
+<entry
+   committed-rev="101"
+   name="errorbar.m"
+   text-time="2009-05-22T18:27:18.575625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="bafbe6455a148882d748d9a53ab73fbf"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:17.841250Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="3376"
+   name="overlayFeaturesMovie.m"
+   text-time="2009-05-22T18:27:18.575625Z"
+   committed-date="2009-05-05T22:48:40.931339Z"
+   checksum="fa970de0da9bb13c35026c29cf3a47e2"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.091250Z"/>
+<entry
+   committed-rev="2248"
+   name="extendedColors.m"
+   text-time="2009-05-22T18:27:18.575625Z"
+   committed-date="2006-12-06T23:34:28.891092Z"
+   checksum="4f82d90c13f097e15040bb57882c7fbd"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.356875Z"/>
+</wc-entries>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/imAnalysis/private"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="makeMex.m"
+   text-time="2009-05-22T18:28:37.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="03ed97a881fbab8a3730538682593bd4"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.419375Z"/>
+<entry
+   committed-rev="101"
+   name="mexGetLine.c"
+   text-time="2009-05-22T18:28:37.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="85e5518aab34f017fe8988f53cd7bf40"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.435000Z"/>
+<entry
+   committed-rev="101"
+   name="mexNoiseEstim.dll"
+   text-time="2009-05-22T18:28:37.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="11a51f98454928ab015bedc698da1986"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.935000Z"/>
+<entry
+   committed-rev="101"
+   name="mexLineDetect.dll"
+   text-time="2009-05-22T18:28:37.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e3ebbd47e86e8ea8973a5f544393998a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:36.825625Z"/>
+<entry
+   committed-rev="101"
+   name="mexNoiseEstim.c"
+   text-time="2009-05-22T18:28:37.966250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="07514e7e1e7e5f307aed272ac08a85da"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:36.856875Z"/>
+<entry
+   committed-rev="101"
+   name="mexGetLine.dll"
+   text-time="2009-05-22T18:28:37.966250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="88e39bfc515f83c8c2fb2b17ff7a12c1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:37.888125Z"/>
+<entry
+   committed-rev="101"
+   name="mexLineDetect.c"
+   text-time="2009-05-22T18:28:37.966250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="738f9c93bdcf3b61ebe9ff8c04462645"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:37.919375Z"/>
+</wc-entries>

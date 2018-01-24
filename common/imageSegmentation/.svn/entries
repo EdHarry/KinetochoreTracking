@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3384"
+   name=""
+   committed-date="2009-05-06T20:07:03.110453Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/imageSegmentation"
+   last-author="shanncc"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="3383"
+   name="CustomizedSeg.m"
+   text-time="2009-05-22T18:27:11.075625Z"
+   committed-date="2009-05-06T19:53:06.857197Z"
+   checksum="9505c84f77e87b0947681d15458e5848"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:08.872500Z"/>
+<entry
+   committed-rev="3384"
+   name="SegPanel.fig"
+   text-time="2009-05-22T18:27:11.075625Z"
+   committed-date="2009-05-06T20:07:03.110453Z"
+   checksum="ecd5d0038c8475ecdf6aebc3ce40cc8e"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:09.716250Z"/>
+<entry
+   committed-rev="3384"
+   name="otsuSeg.m"
+   text-time="2009-05-22T18:27:11.075625Z"
+   committed-date="2009-05-06T20:07:03.110453Z"
+   checksum="2bc27033a8b4d35c54e0f0f8595f1f04"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:09.716250Z"/>
+<entry
+   committed-rev="3271"
+   name="manualFreeHand.m"
+   text-time="2009-05-22T18:27:11.091250Z"
+   committed-date="2009-04-10T23:49:02.150070Z"
+   checksum="c94e208cd9ca42316ef66f69a0b781f2"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:09.997500Z"/>
+<entry
+   committed-rev="3383"
+   name="medianSeg.m"
+   text-time="2009-05-22T18:27:11.091250Z"
+   committed-date="2009-05-06T19:53:06.857197Z"
+   checksum="2f63f44e7cd8b8d1a38cedc9bb9b1787"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:10.013125Z"/>
+<entry
+   committed-rev="3383"
+   name="phasecontrastSeg.m"
+   text-time="2009-05-22T18:27:11.106875Z"
+   committed-date="2009-05-06T19:53:06.857197Z"
+   checksum="927b50d52f2036aaba54b0c8d8c88101"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:10.013125Z"/>
+<entry
+   committed-rev="3384"
+   name="SegPanel.m"
+   text-time="2009-05-22T18:27:11.106875Z"
+   committed-date="2009-05-06T20:07:03.110453Z"
+   checksum="b75d2c86d8a35ca795c36c5caf42d5f0"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:10.435000Z"/>
+<entry
+   committed-rev="3271"
+   name="manualFreeHand.fig"
+   text-time="2009-05-22T18:27:11.106875Z"
+   committed-date="2009-04-10T23:49:02.150070Z"
+   checksum="7e89e068d9f6b56d2909008d8eb81957"
+   last-author="shanncc"
+   kind="file"
+   prop-time="2009-05-22T18:27:11.060000Z"/>
+</wc-entries>

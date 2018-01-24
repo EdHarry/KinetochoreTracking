@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="567"
+   name=""
+   committed-date="2004-05-10T20:53:55.957047Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/operators/@uint16"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="567"
+   name="minus.m"
+   text-time="2009-05-22T18:28:54.716250Z"
+   committed-date="2004-05-10T20:53:55.957047Z"
+   checksum="a0dac8493e13a3372e8d01816b3ae902"
+   kind="file"
+   prop-time="2009-05-22T18:28:54.669375Z"/>
+<entry
+   committed-rev="567"
+   name="mtimes.m"
+   text-time="2009-05-22T18:28:54.716250Z"
+   committed-date="2004-05-10T20:53:55.957047Z"
+   checksum="dc3de0efe27a7354697db4e792ac6c68"
+   kind="file"
+   prop-time="2009-05-22T18:28:54.685000Z"/>
+<entry
+   committed-rev="567"
+   name="plus.m"
+   text-time="2009-05-22T18:28:54.716250Z"
+   committed-date="2004-05-10T20:53:55.957047Z"
+   checksum="4ccc0f8f300ace10e44550972e25b350"
+   kind="file"
+   prop-time="2009-05-22T18:28:54.700625Z"/>
+</wc-entries>

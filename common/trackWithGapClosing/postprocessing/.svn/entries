@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3423"
+   name=""
+   committed-date="2009-05-18T20:48:30.077837Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/trackWithGapClosing/postprocessing"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="3422"
+   name="asymDeterm2D3D.m"
+   text-time="2009-05-22T18:28:01.481875Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="5b47c5b17c7192a3c54239654b5ffb46"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.122500Z"/>
+<entry
+   committed-rev="3422"
+   name="trackMSSAnalysis.m"
+   text-time="2009-05-22T18:28:01.481875Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="6a7c98ff11f105186afa6303c6b538ca"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.231875Z"/>
+<entry
+   committed-rev="2317"
+   name="findLifetimesStatusSimple.m"
+   text-time="2009-05-22T18:28:01.497500Z"
+   committed-date="2007-04-05T21:29:07.610997Z"
+   checksum="e57a30d5510863e20c2f2c22fa4e2f0e"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.403750Z"/>
+<entry
+   committed-rev="2801"
+   name="calcMergeSplitTimes.m"
+   text-time="2009-05-22T18:28:01.497500Z"
+   committed-date="2008-05-01T01:16:58.758718Z"
+   checksum="710ed895580434adff1b18a813a70f1d"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.544375Z"/>
+<entry
+   committed-rev="2754"
+   name="trackDiffAnalysisMod.m"
+   text-time="2009-05-22T18:28:01.497500Z"
+   committed-date="2008-03-22T01:34:37.562927Z"
+   checksum="56c58f5c8a159581835b54899cf54e9a"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.544375Z"/>
+<entry
+   committed-rev="2754"
+   name="msdDeviation2D3D.m"
+   text-time="2009-05-22T18:28:01.513125Z"
+   committed-date="2008-03-22T01:34:37.562927Z"
+   checksum="55afb3693b18c5b22f3d857251109cd7"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.810000Z"/>
+<entry
+   committed-rev="2558"
+   name="getAllTracksMSqD.m"
+   text-time="2009-05-22T18:28:01.513125Z"
+   committed-date="2007-11-04T01:12:27.552748Z"
+   checksum="364b3cc3d514e1952d66b95ac60d8593"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.825625Z"/>
+<entry
+   committed-rev="3422"
+   name="radialArrangement.m"
+   text-time="2009-05-22T18:28:01.513125Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="8ee15107718e56176e69158400965ac5"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.981875Z"/>
+<entry
+   committed-rev="2518"
+   name="findTrackGaps.m"
+   text-time="2009-05-22T18:28:01.528750Z"
+   committed-date="2007-09-07T17:00:58.117793Z"
+   checksum="68bb780c043df3ea33d22b0f19ffe38c"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:58.981875Z"/>
+<entry
+   committed-rev="3189"
+   name="aggregStateFromCompTracksSimple.m"
+   text-time="2009-05-22T18:28:01.528750Z"
+   committed-date="2009-03-18T01:25:43.958499Z"
+   checksum="f1ff0b8795de0e2dca0f8a51b3075011"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.091250Z"/>
+<entry
+   committed-rev="3390"
+   name="breakSplits.m"
+   text-time="2009-05-22T18:28:01.528750Z"
+   committed-date="2009-05-07T22:47:05.260370Z"
+   checksum="843125e8b79ef8178cea559e64cd1e83"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.106875Z"/>
+<entry
+   committed-rev="2754"
+   name="estimLinearVel.m"
+   text-time="2009-05-22T18:28:01.544375Z"
+   committed-date="2008-03-22T01:34:37.562927Z"
+   checksum="9865f495b0f700bce167d42e95ba4fb4"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.122500Z"/>
+<entry
+   committed-rev="3422"
+   name="getIndTrackMSqD.m"
+   text-time="2009-05-22T18:28:01.544375Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="83b21f4f47a18ce683306551f4754515"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.247500Z"/>
+<entry
+   committed-rev="2623"
+   name="getKalmanInfoLinearMotion2D.m"
+   text-time="2009-05-22T18:28:01.560000Z"
+   committed-date="2008-01-09T19:33:27.298792Z"
+   checksum="1efa174c81cdb66770b85654fd4c7480"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.247500Z"/>
+<entry
+   committed-rev="2609"
+   name="chooseTracks.m"
+   text-time="2009-05-22T18:28:01.560000Z"
+   committed-date="2007-12-08T00:31:17.737542Z"
+   checksum="1f8cd2353c735cf5c0b67b4a02d304ec"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.388125Z"/>
+<entry
+   committed-rev="3422"
+   name="calcTrackMoments.m"
+   text-time="2009-05-22T18:28:01.560000Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="eab5ea047ba38c1e67192f9d88f72ff8"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.403750Z"/>
+<entry
+   committed-rev="2754"
+   name="convStruct2MatNoMS.m"
+   text-time="2009-05-22T18:28:01.575625Z"
+   committed-date="2008-03-22T01:34:37.562927Z"
+   checksum="0daeecadc8e4da4ca75928e3bb092b23"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.575625Z"/>
+<entry
+   committed-rev="2777"
+   name="calcStatsMSSimple.m"
+   text-time="2009-05-22T18:28:01.575625Z"
+   committed-date="2008-04-08T20:53:17.181063Z"
+   checksum="a177a2a8b07fba1a0f23bbf07852cba2"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.560000Z"/>
+<entry
+   committed-rev="3189"
+   name="convTrackFormatDefault2Alt.m"
+   text-time="2009-05-22T18:28:01.575625Z"
+   committed-date="2009-03-18T01:25:43.958499Z"
+   checksum="cd0e7dbf9d8f57ef00833005482dd778"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.560000Z"/>
+<entry
+   committed-rev="2777"
+   name="projectCoordOntoDir.m"
+   text-time="2009-05-22T18:28:01.591250Z"
+   committed-date="2008-04-08T20:53:17.181063Z"
+   checksum="62d3849dbb4a4303739ca7dff40cb191"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.622500Z"/>
+<entry
+   committed-rev="2706"
+   name="compDispNNDistLinks.m"
+   text-time="2009-05-22T18:28:01.591250Z"
+   committed-date="2008-02-18T17:16:54.912026Z"
+   checksum="360a0329cd05aab7f4d7e0ce5b9af476"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.638125Z"/>
+<entry
+   committed-rev="3422"
+   name="trackDiffusionAnalysis1.m"
+   text-time="2009-05-22T18:28:01.591250Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="4343737b16472e13bd27120e854856de"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.841250Z"/>
+<entry
+   committed-rev="3189"
+   name="convStruct2MatIgnoreMS.m"
+   text-time="2009-05-22T18:28:01.606875Z"
+   committed-date="2009-03-18T01:25:43.958499Z"
+   checksum="326e142bd86c4fc69acf735c380843d4"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.856875Z"/>
+<entry
+   committed-rev="2957"
+   name="getTrackType.m"
+   text-time="2009-05-22T18:28:01.606875Z"
+   committed-date="2008-09-11T02:05:57.662272Z"
+   checksum="f1e82ae3c633b565e9463df9f69d8beb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.981875Z"/>
+<entry
+   committed-rev="3422"
+   name="getTrackSEL.m"
+   text-time="2009-05-22T18:28:01.622500Z"
+   committed-date="2009-05-18T20:46:47.645728Z"
+   checksum="e7914be401f3159af5ae9aea706f2b0f"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.106875Z"/>
+<entry
+   committed-rev="3189"
+   name="aggregStateFromCompTracks.m"
+   text-time="2009-05-22T18:28:01.622500Z"
+   committed-date="2009-03-18T01:25:43.958499Z"
+   checksum="bec02e51d11f663731c265875e095180"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:59.997500Z"/>
+<entry
+   committed-rev="3423"
+   name="analyzeQDotBlinking.m"
+   text-time="2009-05-22T18:28:01.622500Z"
+   committed-date="2009-05-18T20:48:30.077837Z"
+   checksum="90b20806e22fdeffb954aa1c896fa2ef"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.122500Z"/>
+<entry
+   committed-rev="3022"
+   name="runLengthAnalysis.m"
+   text-time="2009-05-22T18:28:01.638125Z"
+   committed-date="2008-11-05T22:55:23.645728Z"
+   checksum="b1c987c40140809e59de64635dd17a93"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.294375Z"/>
+<entry
+   committed-rev="2754"
+   name="trackMSDAnalysis.m"
+   text-time="2009-05-22T18:28:01.638125Z"
+   committed-date="2008-03-22T01:34:37.562927Z"
+   checksum="6e68d7732d0ac06f0424c7aaeed40feb"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:00.310000Z"/>
+<entry
+   name="HuetImplementation"
+   kind="dir"/>
+<entry
+   committed-rev="3189"
+   name="calcStatsMS.m"
+   text-time="2009-05-22T18:28:01.653750Z"
+   committed-date="2009-03-18T01:25:43.958499Z"
+   checksum="9013b2f61d269bae7a4160b3f771bd37"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.450625Z"/>
+<entry
+   committed-rev="2726"
+   name="findMergesSplits.m"
+   text-time="2009-05-22T18:28:01.653750Z"
+   committed-date="2008-02-27T19:59:35.955902Z"
+   checksum="707c781d8870ced9857bb8c9ec670634"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:01.466250Z"/>
+</wc-entries>

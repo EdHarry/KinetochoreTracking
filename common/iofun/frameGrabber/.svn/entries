@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/iofun/frameGrabber"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="grabSeq.m"
+   text-time="2009-05-22T17:17:47.981875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="cf6dd22178009fa4e601607cd379a638"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:35.841250Z"/>
+<entry
+   committed-rev="101"
+   name="mexFgInterface.m"
+   text-time="2009-05-22T17:17:47.997500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="ecc16c7ca812daef6721b13e942c5c05"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:35.841250Z"/>
+<entry
+   committed-rev="101"
+   name="runGrabTool.m"
+   text-time="2009-05-22T17:17:47.997500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="134fcbf0523b0849e5bb22ad0e9760b7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:35.841250Z"/>
+<entry
+   committed-rev="101"
+   name="dtFgPrint.m"
+   text-time="2009-05-22T17:17:47.997500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="8dbdfd9cb96beddcd9e289fbb160de01"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:35.856875Z"/>
+<entry
+   committed-rev="101"
+   name="dtFgIsOpen.m"
+   text-time="2009-05-22T17:17:48.013125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="09aec41782cf48fd3a5c8bc84fcc0090"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:08:35.856875Z"/>
+<entry
+   committed-rev="101"
+   name="dtFgOpen.m"
+   text-time="2009-05-22T17:17:48.013125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="4401ed4b5c406e5542d040ea18f28911"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.341250Z"/>
+<entry
+   committed-rev="101"
+   name="mexFgInterface.dll"
+   text-time="2009-05-22T17:17:48.013125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="f44b3df350e151255ffb7de025d755b5"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.325625Z"/>
+<entry
+   committed-rev="101"
+   name="dtFgClose.m"
+   text-time="2009-05-22T17:17:48.028750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="08caa55db5e070df93f79fa5b13c6c9c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.341250Z"/>
+<entry
+   committed-rev="101"
+   name="grab.m"
+   text-time="2009-05-22T17:17:48.028750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="2b22f0a6e9000b726b3463824f0f478c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.356875Z"/>
+<entry
+   committed-rev="101"
+   name="isReadyFg.m"
+   text-time="2009-05-22T17:17:48.028750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="ec32bfdaf297e7a2fbcc730ec1e58733"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.356875Z"/>
+<entry
+   committed-rev="101"
+   name="openFg.m"
+   text-time="2009-05-22T17:17:48.044375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c8ec05d12104c37b84f512f150c24ded"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.356875Z"/>
+<entry
+   name="@GrabTool"
+   kind="dir"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="dtFgGrab.m"
+   text-time="2009-05-22T17:17:48.044375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="518c7427cde7ac6e20586ffa0bdec7b0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:47.966250Z"/>
+<entry
+   committed-rev="101"
+   name="ppMonoFgGrab.m"
+   text-time="2009-05-22T17:17:48.044375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d1afbd95863af089dd693da6c63dcf76"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:47.966250Z"/>
+<entry
+   committed-rev="101"
+   name="closeFg.m"
+   text-time="2009-05-22T17:17:48.044375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0c523ee48a5e6782abb811c10b434fd2"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:47.966250Z"/>
+</wc-entries>

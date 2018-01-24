@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/iofun/frameGrabber/@GrabTool"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="InitFrameGrabbers.m"
+   text-time="2009-05-22T17:17:39.888125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="da2605e55e53fff6cb684287ca517c07"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.372500Z"/>
+<entry
+   committed-rev="101"
+   name="GrabTool.m"
+   text-time="2009-05-22T17:17:39.888125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="63349820aa948d4a6303dc64a1fecb33"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.888125Z"/>
+<entry
+   committed-rev="101"
+   name="OpenGrabPanel.m"
+   text-time="2009-05-22T17:17:39.888125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="93523b5b6bc2a3e75ed02cf2f087ffca"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:28.888125Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="GrabPanelCB.m"
+   text-time="2009-05-22T17:17:39.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a68512758ca7dcabf39758277bc500a7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:39.872500Z"/>
+</wc-entries>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/mathfun/private"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="makeMex.m"
+   text-time="2009-05-22T18:27:55.310000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1902030b95760baf49aa6c9bbf8e8344"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:53.060000Z"/>
+<entry
+   committed-rev="101"
+   name="mexLineRegression.c"
+   text-time="2009-05-22T18:27:55.310000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="61f28029218806886852399c450eebc6"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:53.060000Z"/>
+<entry
+   committed-rev="101"
+   name="mexOpts.bat"
+   text-time="2009-05-22T18:27:55.325625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d7f8ea1437369a7c4a3305db0724e500"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:53.075625Z"/>
+<entry
+   committed-rev="101"
+   name="mexRayleighMode.c"
+   text-time="2009-05-22T18:27:55.325625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="7284fee93901c1b22eae1b520deb9239"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:53.091250Z"/>
+<entry
+   committed-rev="101"
+   name="mexLineRegression.dll"
+   text-time="2009-05-22T18:27:55.341250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="224309a26b0f2f33927f5975014a4b1f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:53.419375Z"/>
+<entry
+   committed-rev="101"
+   name="mexRayleighMode.dll"
+   text-time="2009-05-22T18:27:55.341250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="54337cf9b3a84de0082a4ef21261fdf3"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.216250Z"/>
+</wc-entries>

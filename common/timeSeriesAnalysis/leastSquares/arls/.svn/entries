@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2664"
+   name=""
+   committed-date="2008-01-23T02:52:30.871679Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/leastSquares/arls"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2664"
+   name="arlsIterEstim.m"
+   text-time="2009-05-22T18:28:53.763125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="bd6c72660c68ee18722487f8af6aa1ec"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.466250Z"/>
+<entry
+   committed-rev="2664"
+   name="arModelIdent.m"
+   text-time="2009-05-22T18:28:53.763125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="a2a5c37a31cb34c486cafa883eeb381d"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.497500Z"/>
+<entry
+   name="arlsestim1"
+   kind="dir"/>
+<entry
+   committed-rev="2664"
+   name="arCoefEstim.m"
+   text-time="2009-05-22T18:28:53.763125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="8a96dfb1313ee1d40da1d76c5ab50ae2"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.716250Z"/>
+<entry
+   committed-rev="2664"
+   name="missPointARPred.m"
+   text-time="2009-05-22T18:28:53.778750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="a0aa3c3761150804f149ce0a0666804f"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.731875Z"/>
+</wc-entries>

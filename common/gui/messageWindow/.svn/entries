@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2006"
+   name=""
+   committed-date="2006-05-26T23:56:07.620085Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/gui/messageWindow"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="displ.m"
+   text-time="2009-05-22T18:04:14.200625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e4d4f9ef846d6bd939c766781116331f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:09.856875Z"/>
+<entry
+   committed-rev="101"
+   name="displayMsg.m"
+   text-time="2009-05-22T18:04:14.200625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="35774d4c5dc1bbd713293f99f6bc0aeb"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:14.169375Z"/>
+<entry
+   committed-rev="101"
+   name="openMsgWindow.m"
+   text-time="2009-05-22T18:04:14.216250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a3a2f904b26fdd420ea58c7991f819bf"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:14.185000Z"/>
+<entry
+   committed-rev="101"
+   name="displayMsg.mat"
+   text-time="2009-05-22T18:04:14.216250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="32711f632f1c4d1049f5011f203d8038"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:14.185000Z"/>
+<entry
+   committed-rev="2006"
+   name="myMessageBox.m"
+   text-time="2009-05-22T18:04:14.216250Z"
+   committed-date="2006-05-26T23:56:07.620085Z"
+   checksum="db249b224acf583e81ff596097fd27f5"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:04:14.185000Z"/>
+</wc-entries>

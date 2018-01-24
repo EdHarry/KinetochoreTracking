@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2898"
+   name=""
+   committed-date="2008-07-31T15:09:57.514708Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/kalman/armaXMEX"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2877"
+   name="armaxKalmanInnovMEX.c"
+   text-time="2009-05-22T18:28:46.497500Z"
+   committed-date="2008-07-21T16:31:45.411166Z"
+   checksum="2d3505cc204bc35d3d94ee91e682b05e"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.419375Z"/>
+<entry
+   committed-rev="2890"
+   name="neg2LnLikelihoodXMEXcall.m"
+   text-time="2009-05-22T18:28:46.513125Z"
+   committed-date="2008-07-30T15:59:53.927694Z"
+   checksum="a6788bb12eb0c2226297da38814aebaa"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.481875Z"/>
+<entry
+   committed-rev="2877"
+   name="armaxKalmanInnovMEX.mexa64"
+   text-time="2009-05-22T18:28:46.513125Z"
+   committed-date="2008-07-21T16:31:45.411166Z"
+   checksum="cc02ab46779b7eb70c4a1c5dfb65bf67"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.669375Z"/>
+<entry
+   committed-rev="2890"
+   name="armaxFitKalmanMEX.m"
+   text-time="2009-05-22T18:28:46.528750Z"
+   committed-date="2008-07-30T15:59:53.927694Z"
+   checksum="252f7d21100b6acc0429a062be0c5a5b"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.841250Z"/>
+<entry
+   committed-rev="2664"
+   name="vectorFromParams.m"
+   text-time="2009-05-22T18:28:46.528750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="86339b37c4f24e1770a32402ca387ba2"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.841250Z"/>
+<entry
+   committed-rev="2664"
+   name="paramsFromVector.m"
+   text-time="2009-05-22T18:28:46.528750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="93d3559e428c8f314161a7db8d86396a"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.856875Z"/>
+<entry
+   committed-rev="2877"
+   name="armaxKalmanInnovMEXcall.m"
+   text-time="2009-05-22T18:28:46.544375Z"
+   committed-date="2008-07-21T16:31:45.411166Z"
+   checksum="7dbdb9a5b907cd83b3517dd7096a03ea"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.981875Z"/>
+<entry
+   committed-rev="2890"
+   name="neg2LnLikelihoodXMEX.c"
+   text-time="2009-05-22T18:28:46.544375Z"
+   committed-date="2008-07-30T15:59:53.927694Z"
+   checksum="9816a5705909e05c7d53898defe3580f"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:45.997500Z"/>
+<entry
+   committed-rev="2890"
+   name="neg2LnLikelihoodXMEX.mexa64"
+   text-time="2009-05-22T18:28:46.544375Z"
+   committed-date="2008-07-30T15:59:53.927694Z"
+   checksum="df44d4d9673b5d3493ce8ff7b90e3476"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:46.169375Z"/>
+<entry
+   committed-rev="2898"
+   name="armaxCoefKalmanMEX.m"
+   text-time="2009-05-22T18:28:46.560000Z"
+   committed-date="2008-07-31T15:09:57.514708Z"
+   checksum="16ef7e6c2ba53374eca62bbc6a56555c"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:46.481875Z"/>
+</wc-entries>

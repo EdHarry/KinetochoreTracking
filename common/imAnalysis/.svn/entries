@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3391"
+   name=""
+   committed-date="2009-05-08T00:14:20.051166Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/imAnalysis"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2631"
+   name="gridPtCoordsYX.m"
+   text-time="2009-05-22T18:28:44.560000Z"
+   committed-date="2008-01-12T01:45:14.623926Z"
+   checksum="ff69764c1ba7131f311e00d34aa70aec"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.653750Z"/>
+<entry
+   committed-rev="101"
+   name="squareIm.m"
+   text-time="2009-05-22T18:28:44.560000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="276f0531d5a09ec4d40e91a475bb261d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.669375Z"/>
+<entry
+   committed-rev="2630"
+   name="crclIntensSum.m"
+   text-time="2009-05-22T18:28:44.575625Z"
+   committed-date="2008-01-12T00:56:42.512456Z"
+   checksum="2db2f60fb76926277eaae3ba8516f1a7"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.685000Z"/>
+<entry
+   committed-rev="581"
+   name="imStackTDFilter.m"
+   text-time="2009-05-22T18:28:44.575625Z"
+   committed-date="2004-05-14T02:09:04.622583Z"
+   checksum="700ed27241e53105314e4be956307c46"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.669375Z"/>
+<entry
+   committed-rev="1615"
+   name="mpmMCaddsim.m"
+   text-time="2009-05-22T18:28:44.591250Z"
+   committed-date="2005-07-16T19:01:35.289473Z"
+   checksum="b72a895493e5769bb579c96bb8f171d8"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.778750Z"/>
+<entry
+   committed-rev="3391"
+   name="polygonScan.m"
+   text-time="2009-05-22T18:28:44.591250Z"
+   committed-date="2009-05-08T00:14:20.051166Z"
+   checksum="569a8e0ac6637decfbd72b47dd4a4c21"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.778750Z"/>
+<entry
+   committed-rev="2359"
+   name="imDataMap.m"
+   text-time="2009-05-22T18:28:44.591250Z"
+   committed-date="2007-05-08T18:58:23.601378Z"
+   checksum="7d81c94928d3523c130be22ab96f8f1b"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.966250Z"/>
+<entry
+   committed-rev="101"
+   name="imGaussBench2D.m"
+   text-time="2009-05-22T18:28:44.606875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="96a6eeef8dc65797dfe38a860b50812a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.091250Z"/>
+<entry
+   committed-rev="2658"
+   name="imResample.m"
+   text-time="2009-05-22T18:28:44.606875Z"
+   committed-date="2008-01-22T17:38:36.254988Z"
+   checksum="9d4eadad88e888c5c5c052f92c002ca0"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.075625Z"/>
+<entry
+   committed-rev="1931"
+   name="centroid3D.m"
+   text-time="2009-05-22T18:28:44.606875Z"
+   committed-date="2006-03-06T18:09:09.885633Z"
+   checksum="8d4b5bd844d25498e5080224b994f0f8"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:06.966250Z"/>
+<entry
+   committed-rev="2240"
+   name="imDataMapOverlay.m"
+   text-time="2009-05-22T18:28:44.622500Z"
+   committed-date="2006-11-28T01:23:15.030164Z"
+   checksum="2f9a3f1d32682cabf2797d899b542c29"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.278750Z"/>
+<entry
+   committed-rev="1615"
+   name="nearNeiDistProbHisto.m"
+   text-time="2009-05-22T18:28:44.622500Z"
+   committed-date="2005-07-16T19:01:35.289473Z"
+   checksum="f4dccb8bc6db0cf1dcdddc2c7376d2fb"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.106875Z"/>
+<entry
+   committed-rev="2630"
+   name="crclMask.m"
+   text-time="2009-05-22T18:28:44.622500Z"
+   committed-date="2008-01-12T00:56:42.512456Z"
+   checksum="f5d771fbaca263ad2f98d6589e59821c"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.278750Z"/>
+<entry
+   committed-rev="376"
+   name="anisotropicGaussD.m"
+   text-time="2009-05-22T18:28:44.638125Z"
+   committed-date="2004-03-17T19:57:21.690087Z"
+   checksum="67e6ec738e35a7a6617301c10cbe0888"
+   last-author="geyang"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.294375Z"/>
+<entry
+   committed-rev="101"
+   name="bresenham.m"
+   text-time="2009-05-22T18:28:44.638125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="ca6a9c8d4a92ea4d11de03b546436f9b"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.372500Z"/>
+<entry
+   committed-rev="1770"
+   name="imNoiseEstim.m"
+   text-time="2009-05-22T18:28:44.638125Z"
+   committed-date="2005-10-29T01:44:58.731343Z"
+   checksum="11fbef9616bd51872fc22a7c086cf82b"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.388125Z"/>
+<entry
+   committed-rev="2553"
+   name="arbitraryGrid.m"
+   text-time="2009-05-22T18:28:44.653750Z"
+   committed-date="2007-10-18T13:01:50.628615Z"
+   checksum="cb2ebf6bb28996521774af72f304d6d5"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.513125Z"/>
+<entry
+   committed-rev="291"
+   name="imLineDetect.m"
+   text-time="2009-05-22T18:28:44.653750Z"
+   committed-date="2004-03-01T19:49:51.802535Z"
+   checksum="130d202d5ee7bd8e6c11ec37b45b1700"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.528750Z"/>
+<entry
+   committed-rev="479"
+   name="houghTransform.m"
+   text-time="2009-05-22T18:28:44.669375Z"
+   committed-date="2004-04-14T01:13:15.954860Z"
+   checksum="b508eb7fdf35c80cc8ec1d4fd64b0116"
+   last-author="kerstens"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.653750Z"/>
+<entry
+   committed-rev="1808"
+   name="SimulateCellClusters.m"
+   text-time="2009-05-22T18:28:44.669375Z"
+   committed-date="2005-12-09T17:03:03.964983Z"
+   checksum="0930d991422c55a678cb7a05011f0ff1"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.794375Z"/>
+<entry
+   committed-rev="1956"
+   name="stamp3d.m"
+   text-time="2009-05-22T18:28:44.669375Z"
+   committed-date="2006-03-24T21:25:38.715395Z"
+   checksum="e8f5494fd1f9cebac91b173bca6202f9"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.810000Z"/>
+<entry
+   committed-rev="605"
+   name="imMinimumThreshold.m"
+   text-time="2009-05-22T18:28:44.685000Z"
+   committed-date="2004-05-21T20:30:21.770621Z"
+   checksum="a0e60801a5fc249baf7eaebf10cee699"
+   kind="file"
+   prop-time="2009-05-22T18:28:07.825625Z"/>
+<entry
+   committed-rev="1542"
+   name="clusterQuantRipley.m"
+   text-time="2009-05-22T18:28:44.685000Z"
+   committed-date="2005-06-02T19:52:22.103536Z"
+   checksum="8c7452d9ddda451976c8fa6d0b4333d7"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.044375Z"/>
+<entry
+   committed-rev="1543"
+   name="evalParaRipley.m"
+   text-time="2009-05-22T18:28:44.685000Z"
+   committed-date="2005-06-02T19:53:17.571231Z"
+   checksum="0001900d433513bfbab65bb3e54d9bec"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.263125Z"/>
+<entry
+   committed-rev="1037"
+   name="ImMultSeries.m"
+   text-time="2009-05-22T18:28:44.700625Z"
+   committed-date="2004-10-07T01:22:43.989787Z"
+   checksum="78667071004ca5a63eec04c186866cbc"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.278750Z"/>
+<entry
+   committed-rev="613"
+   name="imSubtractBackgroundVariance.m"
+   text-time="2009-05-22T18:28:44.700625Z"
+   committed-date="2004-05-22T00:36:20.351892Z"
+   checksum="1ef86e355e2d4ac11caec51892da3fc0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.403750Z"/>
+<entry
+   committed-rev="1348"
+   name="cropStack.m"
+   text-time="2009-05-22T18:28:44.700625Z"
+   committed-date="2005-02-14T22:59:45.446315Z"
+   checksum="f181efb634377a49ae7de2429c6c1361"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.403750Z"/>
+<entry
+   committed-rev="101"
+   name="dintensity.m"
+   text-time="2009-05-22T18:28:44.716250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5b096633414075a0ddfd0ab28c7f3603"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.544375Z"/>
+<entry
+   committed-rev="451"
+   name="nrm.m"
+   text-time="2009-05-22T18:28:44.716250Z"
+   committed-date="2004-04-06T21:10:04.079377Z"
+   checksum="c6722976776d217f6d03d6493229ac2d"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.560000Z"/>
+<entry
+   committed-rev="101"
+   name="centroid2D.m"
+   text-time="2009-05-22T18:28:44.716250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="cdbcce9fa405c6dd53e7137334066a8f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.560000Z"/>
+<entry
+   committed-rev="1559"
+   name="riseTimeThresh.m"
+   text-time="2009-05-22T18:28:44.731875Z"
+   committed-date="2005-06-10T01:02:16.290839Z"
+   checksum="b1c6502fd18a9e6c4e2ef7a463f1b474"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:08.575625Z"/>
+<entry
+   name="ScatterTrack"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="segmentIntersectRect.m"
+   text-time="2009-05-22T18:28:44.731875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5a3031b0709dc19820afbf9a2e3231dd"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.013125Z"/>
+<entry
+   committed-rev="3391"
+   name="drawpoly.m"
+   text-time="2009-05-22T18:28:44.731875Z"
+   committed-date="2009-05-08T00:14:20.051166Z"
+   checksum="9297502203eff087779abf44ff761987"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:33.997500Z"/>
+<entry
+   committed-rev="101"
+   name="imshift.m"
+   text-time="2009-05-22T18:28:44.747500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="66803218bad8345ce7deacd7864f6ad8"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.028750Z"/>
+<entry
+   committed-rev="2985"
+   name="imIntegrator.m"
+   text-time="2009-05-22T18:28:44.747500Z"
+   committed-date="2008-10-13T21:40:46.230723Z"
+   checksum="5659ea38b4d3bff34bcf67a5f688e38b"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.075625Z"/>
+<entry
+   committed-rev="562"
+   name="imFFT.m"
+   text-time="2009-05-22T18:28:44.763125Z"
+   committed-date="2004-05-08T01:30:50.512075Z"
+   checksum="fb08b76143f57eaf29ab3b6c64f2bfce"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.091250Z"/>
+<entry
+   committed-rev="649"
+   name="imClusterSeg.m"
+   text-time="2009-05-22T18:28:44.778750Z"
+   committed-date="2004-06-11T21:24:08.700982Z"
+   checksum="ba56269fef9e77dcd176cd3d6564290b"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.356875Z"/>
+<entry
+   committed-rev="101"
+   name="cropImage.m"
+   text-time="2009-05-22T18:28:44.763125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5c08b75a5e3229774c9dc38f20a36ce9"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.200625Z"/>
+<entry
+   committed-rev="3240"
+   name="swapMaskValues.m"
+   text-time="2009-05-22T18:28:44.763125Z"
+   committed-date="2009-03-30T14:34:18.307431Z"
+   checksum="7770f86e57116b2e3041f4f01a5fd1b7"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.185000Z"/>
+<entry
+   committed-rev="491"
+   name="imSelCurve.m"
+   text-time="2009-05-22T18:28:44.778750Z"
+   committed-date="2004-04-17T00:14:21.077061Z"
+   checksum="f95ca351dc7693ea2606918fb355765c"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.372500Z"/>
+<entry
+   committed-rev="101"
+   name="imOverlayPointMap.m"
+   text-time="2009-05-22T18:28:44.794375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a02a7289cfa9c1f40000bd6eabc96faa"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.388125Z"/>
+<entry
+   committed-rev="101"
+   name="imOverlayOriMap.m"
+   text-time="2009-05-22T18:28:44.778750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="aefcf484fc186518a85405f75418d848"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:34.388125Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="1272"
+   name="vecFldInterpAnisoA.m"
+   text-time="2009-05-22T18:28:44.794375Z"
+   committed-date="2005-01-04T03:13:56.552711Z"
+   checksum="232ff043eaa087bdab56371991cbbaed"
+   last-author="geyang"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.122500Z"/>
+<entry
+   committed-rev="1057"
+   name="clusterQuantRipley_Besag.m"
+   text-time="2009-05-22T18:28:44.794375Z"
+   committed-date="2004-10-12T21:07:41.286051Z"
+   checksum="8a67889f2d0b573ddfb50f95be3b4504"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.106875Z"/>
+<entry
+   committed-rev="580"
+   name="imVarianceImage.m"
+   text-time="2009-05-22T18:28:44.810000Z"
+   committed-date="2004-05-13T22:22:52.545327Z"
+   checksum="0a98d91deb6f8dab299aa9aa0cdaed50"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.247500Z"/>
+<entry
+   committed-rev="101"
+   name="imcropnint.m"
+   text-time="2009-05-22T18:28:44.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="80587288f8ef00dbd859070d75ecdcb6"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.263125Z"/>
+<entry
+   committed-rev="101"
+   name="lineFilter1d.m"
+   text-time="2009-05-22T18:28:44.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="4f8e045e3fe4ab29e1bd77024f88511d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.263125Z"/>
+<entry
+   name="trackfun"
+   kind="dir"/>
+<entry
+   committed-rev="1056"
+   name="beadDpCalibration.m"
+   text-time="2009-05-22T18:28:44.825625Z"
+   committed-date="2004-10-12T21:04:59.430973Z"
+   checksum="e9eea06da49399e77d310615d8fc07d0"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:42.888125Z"/>
+<entry
+   committed-rev="101"
+   name="crossImage.m"
+   text-time="2009-05-22T18:28:44.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="04378bff9a1f704f00062efcc5b5c794"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:42.903750Z"/>
+<entry
+   committed-rev="2445"
+   name="mkRGDualChannelImg.m"
+   text-time="2009-05-22T18:28:44.825625Z"
+   committed-date="2007-07-26T17:59:53.182272Z"
+   checksum="d4a4f3eb665bcd20a979d92c454fe290"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:28:42.888125Z"/>
+<entry
+   committed-rev="1615"
+   name="numPointsinMpm.m"
+   text-time="2009-05-22T18:28:44.841250Z"
+   committed-date="2005-07-16T19:01:35.289473Z"
+   checksum="30b9826faebf1d9809bcb4db2642549f"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:42.919375Z"/>
+<entry
+   committed-rev="101"
+   name="imFindCentroid.m"
+   text-time="2009-05-22T18:28:44.841250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0ddc7388743f98e9776762f206d27a9e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:42.935000Z"/>
+<entry
+   committed-rev="1873"
+   name="clusterQuantRipleyMC.m"
+   text-time="2009-05-22T18:28:44.841250Z"
+   committed-date="2006-02-09T02:00:42.524686Z"
+   checksum="c4ca6dcf5714df47a679afd7558a1470"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.278750Z"/>
+<entry
+   committed-rev="1628"
+   name="readstack.m"
+   text-time="2009-05-22T18:28:44.856875Z"
+   committed-date="2005-08-10T16:31:28.604991Z"
+   checksum="515305e5c9bc3e9de1d658a79e9b4cc8"
+   last-author="kerstens"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.278750Z"/>
+<entry
+   committed-rev="1628"
+   name="readstackSlider.m"
+   text-time="2009-05-22T18:28:44.856875Z"
+   committed-date="2005-08-10T16:31:28.604991Z"
+   checksum="311dc404367494935a212d02e23eb8e5"
+   last-author="kerstens"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.388125Z"/>
+<entry
+   committed-rev="101"
+   name="isinside.m"
+   text-time="2009-05-22T18:28:44.856875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9cf4708a1d664d2c1a727af768d02bdf"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.403750Z"/>
+<entry
+   committed-rev="101"
+   name="hanningStack.m"
+   text-time="2009-05-22T18:28:44.872500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="f131f075638ed04441aa2e280432950c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.653750Z"/>
+<entry
+   committed-rev="101"
+   name="canny.m"
+   text-time="2009-05-22T18:28:44.872500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="56dd094e7bf45b69bd84c5436a9dc40a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.528750Z"/>
+<entry
+   committed-rev="523"
+   name="imLineExtract.m"
+   text-time="2009-05-22T18:28:44.872500Z"
+   committed-date="2004-04-23T03:08:48.389024Z"
+   checksum="3f5fc591505a227506d7bd150490e5f0"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.419375Z"/>
+<entry
+   committed-rev="605"
+   name="imSubtractBackgroundRegression.m"
+   text-time="2009-05-22T18:28:44.888125Z"
+   committed-date="2004-05-21T20:30:21.770621Z"
+   checksum="ef3cc58fa3852ffe763ef083fe118ab6"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.669375Z"/>
+<entry
+   committed-rev="101"
+   name="imaffine.m"
+   text-time="2009-05-22T18:28:44.888125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="92f1f2f1ed4cb9e9a9235a15f98dd38b"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.685000Z"/>
+<entry
+   committed-rev="101"
+   name="hanning.m"
+   text-time="2009-05-22T18:28:44.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="065393aa9e0c9c0966606a1e7719706c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.794375Z"/>
+<entry
+   committed-rev="101"
+   name="imOverlayMask.m"
+   text-time="2009-05-22T18:28:44.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="30141d383136dd78209cd4fb7dcc9065"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.810000Z"/>
+<entry
+   committed-rev="101"
+   name="mergeImages.m"
+   text-time="2009-05-22T18:28:44.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="68f686e2474f1e2c8e4262fb153a3d41"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.825625Z"/>
+<entry
+   committed-rev="2628"
+   name="tileSquaresWithIndex.m"
+   text-time="2009-05-22T18:28:44.919375Z"
+   committed-date="2008-01-12T00:44:11.567489Z"
+   checksum="e75a5cdddc2809ea1b37ddfe44630e6e"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.841250Z"/>
+<entry
+   committed-rev="2271"
+   name="imInterp.m"
+   text-time="2009-05-22T18:28:44.919375Z"
+   committed-date="2007-02-02T19:20:48.528764Z"
+   checksum="7f9fa1a211c27b8b69431415df3379d4"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.950625Z"/>
+<entry
+   committed-rev="335"
+   name="sortEdgePixels.m"
+   text-time="2009-05-22T18:28:44.919375Z"
+   committed-date="2004-03-12T03:06:25.773936Z"
+   checksum="1b6402df60d81226e9b52a3d9d4d4006"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:28:43.950625Z"/>
+<entry
+   committed-rev="1099"
+   name="calculatedIndifference.m"
+   text-time="2009-05-22T18:28:44.935000Z"
+   committed-date="2004-10-22T22:04:05.441617Z"
+   checksum="d63087cb7731b8482e34a8125b209934"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.231875Z"/>
+<entry
+   committed-rev="101"
+   name="ImageProfile.m"
+   text-time="2009-05-22T18:28:44.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="177d168e8f8d47b92906d97f028dbe30"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.263125Z"/>
+<entry
+   committed-rev="101"
+   name="mkColorImg.m"
+   text-time="2009-05-22T18:28:44.935000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="27487b443bfe7c74723a97a8f87c28f1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.278750Z"/>
+<entry
+   committed-rev="101"
+   name="intersectSegments.m"
+   text-time="2009-05-22T18:28:44.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="dc6bd9fee3a6fe0d2d5ec01f0defd105"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.356875Z"/>
+<entry
+   committed-rev="2003"
+   name="pushstamp3d.m"
+   text-time="2009-05-22T18:28:44.950625Z"
+   committed-date="2006-05-25T20:24:37.920832Z"
+   checksum="483844d3a232d1e09cd9224a91ed1ab4"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.356875Z"/>
+<entry
+   committed-rev="101"
+   name="bwExtractCrds.m"
+   text-time="2009-05-22T18:28:44.950625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9adf7ea5d72724acb8de558345f89efe"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.372500Z"/>
+<entry
+   committed-rev="3143"
+   name="cropChannels.m"
+   text-time="2009-05-22T18:28:44.966250Z"
+   committed-date="2009-02-27T01:06:50.141875Z"
+   checksum="b24724c45594d5ded5287685ac3a7f05"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.388125Z"/>
+<entry
+   committed-rev="1273"
+   name="vecFldInterpAnisoB.m"
+   text-time="2009-05-22T18:28:44.966250Z"
+   committed-date="2005-01-04T03:37:57.105361Z"
+   checksum="33ed57ba16aa3f343fdd010eede218c8"
+   last-author="geyang"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.513125Z"/>
+<entry
+   committed-rev="101"
+   name="lineHough.m"
+   text-time="2009-05-22T18:28:44.981875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1a84fbd1600b64263b07ffa70679f9e7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.528750Z"/>
+<entry
+   committed-rev="2981"
+   name="orderConnectedPixels.m"
+   text-time="2009-05-22T18:28:44.997500Z"
+   committed-date="2008-10-10T22:52:59.340714Z"
+   checksum="46f514bf02bc772077da5d8db64a850b"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:28:44.544375Z"/>
+</wc-entries>

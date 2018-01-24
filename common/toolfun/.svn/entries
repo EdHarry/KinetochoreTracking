@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3426"
+   name=""
+   committed-date="2009-05-21T17:15:50.217176Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/toolfun"
+   last-author="zmaffeo"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="3129"
+   name="dirUnix2PC.m"
+   text-time="2009-05-22T18:20:46.060000Z"
+   committed-date="2009-02-20T16:42:37.698906Z"
+   checksum="cce53c966dd50dd5fa6ea65ab9a80e9a"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:19:13.528750Z"/>
+<entry
+   committed-rev="2969"
+   name="dbcc.m"
+   text-time="2009-05-22T18:20:46.075625Z"
+   committed-date="2008-10-01T20:56:23.102490Z"
+   checksum="c9736f755646ebb3316939c50f6c1ef2"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:19:14.185000Z"/>
+<entry
+   committed-rev="101"
+   name="meaninmatrix.m"
+   text-time="2009-05-22T18:20:46.075625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1e002280bf1d31900e4e153ad5b6c09f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:14.200625Z"/>
+<entry
+   committed-rev="2417"
+   name="getFilenameBody.m"
+   text-time="2009-05-22T18:20:46.075625Z"
+   committed-date="2007-07-15T17:49:59.400436Z"
+   checksum="8319f17145e7780a8381a4b7ea214a93"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:19:14.200625Z"/>
+<entry
+   committed-rev="101"
+   name="toggleDebuggingMode.m"
+   text-time="2009-05-22T18:20:46.091250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="139a745409107904445300031f183f8a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:14.200625Z"/>
+<entry
+   committed-rev="101"
+   name="neighbours.m"
+   text-time="2009-05-22T18:20:46.091250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="dcb0f68509a485786fb2ba6cd9c87259"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:14.216250Z"/>
+<entry
+   committed-rev="1772"
+   name="missingIndices.m"
+   text-time="2009-05-22T18:20:46.091250Z"
+   committed-date="2005-11-01T00:21:56.277600Z"
+   checksum="d41da93bac79e68c9d6044ec93a77c53"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:19:23.247500Z"/>
+<entry
+   committed-rev="1918"
+   name="dbstopIfLasterror.m"
+   text-time="2009-05-22T18:20:46.106875Z"
+   committed-date="2006-02-25T02:12:10.197303Z"
+   checksum="a9b4d6bbd7ae362a1a4132ba43098017"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:19:23.247500Z"/>
+<entry
+   committed-rev="2786"
+   name="requiredFunctions.m"
+   text-time="2009-05-22T18:20:46.106875Z"
+   committed-date="2008-04-17T14:23:37.077555Z"
+   checksum="80acf3b3f44c19db49b5a82e58785052"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:19:23.263125Z"/>
+<entry
+   committed-rev="3129"
+   name="getDriveName.m"
+   text-time="2009-05-22T18:20:46.106875Z"
+   committed-date="2009-02-20T16:42:37.698906Z"
+   checksum="a49e8aa4c4da3aa82eed05e23c5fec74"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:19:23.263125Z"/>
+<entry
+   committed-rev="2806"
+   name="repeatEntries.m"
+   text-time="2009-05-22T18:20:46.122500Z"
+   committed-date="2008-05-05T19:18:10.166950Z"
+   checksum="25821affc08dde6e4bf561b3ac71f9f4"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:19:51.325625Z"/>
+<entry
+   committed-rev="101"
+   name="toggleBwOverlay.m"
+   text-time="2009-05-22T18:20:46.138125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5f002506e7f9077d19168a24b0ccbf84"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:19:51.325625Z"/>
+<entry
+   committed-rev="2736"
+   name="cameraEvaluation.m"
+   text-time="2009-05-22T18:20:46.138125Z"
+   committed-date="2008-03-04T18:29:16.578722Z"
+   checksum="fc79d693fba391d30a08849a2e904fc7"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:19:51.341250Z"/>
+<entry
+   committed-rev="3163"
+   name="practiceDataArray.m"
+   text-time="2009-05-22T18:20:46.138125Z"
+   committed-date="2009-03-15T01:19:38.509782Z"
+   checksum="cd8b8d51163f96f0628758067ebc7218"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:20:28.435000Z"/>
+<entry
+   committed-rev="3129"
+   name="isCurveClockwise.m"
+   text-time="2009-05-22T18:20:46.153750Z"
+   committed-date="2009-02-20T16:42:37.698906Z"
+   checksum="6d9baa7e82c9eb9f3cdb0b4bbf0b60cb"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:20:28.435000Z"/>
+<entry
+   committed-rev="1748"
+   name="dirPC2Unix.m"
+   text-time="2009-05-22T18:20:46.153750Z"
+   committed-date="2005-10-19T16:52:37.156541Z"
+   checksum="c287ea4bc0c97dc86a14edcfbd45ffaf"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:20:28.450625Z"/>
+<entry
+   committed-rev="1749"
+   name="rmExtraFilesep.m"
+   text-time="2009-05-22T18:20:46.169375Z"
+   committed-date="2005-10-19T16:54:57.782490Z"
+   checksum="3a94cb7534152a98dd524302b3cf5862"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:20:29.497500Z"/>
+<entry
+   committed-rev="2807"
+   name="nowString.m"
+   text-time="2009-05-22T18:20:46.169375Z"
+   committed-date="2008-05-06T14:03:34.915737Z"
+   checksum="8d18313407d195340326bce98715b26e"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:29.481875Z"/>
+<entry
+   committed-rev="2246"
+   name="getSubsequenceOfFiles.m"
+   text-time="2009-05-22T18:20:46.169375Z"
+   committed-date="2006-12-04T22:55:52.469527Z"
+   checksum="da2e76643d7038dad94d9071d20938e2"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:20:29.481875Z"/>
+<entry
+   committed-rev="1004"
+   name="movingAverage.m"
+   text-time="2009-05-22T18:20:46.153750Z"
+   committed-date="2004-09-27T17:25:00.674166Z"
+   checksum="2856df712d2a4f3a7fe4df62edb0fd56"
+   last-author="kerstens"
+   kind="file"
+   prop-time="2009-05-22T18:20:28.450625Z"/>
+<entry
+   committed-rev="1806"
+   name="normACfunc.m"
+   text-time="2009-05-22T18:20:46.185000Z"
+   committed-date="2005-12-07T23:05:40.822793Z"
+   checksum="4e70d3c2b22dc73e5bbda4a2852f16ae"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:34.669375Z"/>
+<entry
+   committed-rev="2902"
+   name="checkDuplicateFiles.m"
+   text-time="2009-05-22T18:20:46.185000Z"
+   committed-date="2008-08-02T15:32:48.240995Z"
+   checksum="3148fdf23c5d59f408d98c200a485ee6"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:29.497500Z"/>
+<entry
+   committed-rev="3255"
+   name="gencodetemplate.m"
+   text-time="2009-05-22T18:20:46.185000Z"
+   committed-date="2009-04-07T14:48:04.451667Z"
+   checksum="a5e747823aa40debcc74005be333d896"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:34.669375Z"/>
+<entry
+   committed-rev="3129"
+   name="spy3d.m"
+   text-time="2009-05-22T18:20:46.200625Z"
+   committed-date="2009-02-20T16:42:37.698906Z"
+   checksum="fa0eb8b9d734941cd1cc54ac25b0e930"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:20:34.685000Z"/>
+<entry
+   committed-rev="2246"
+   name="getNamedFiles.m"
+   text-time="2009-05-22T18:20:46.200625Z"
+   committed-date="2006-12-04T22:55:52.469527Z"
+   checksum="1ad2f381fbfa4c1bfdbb97e349079aa5"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:20:39.372500Z"/>
+<entry
+   committed-rev="3159"
+   name="progressText.m"
+   text-time="2009-05-22T18:20:46.216250Z"
+   committed-date="2009-03-12T02:19:12.307831Z"
+   checksum="95846e3d61dbf6c4ac5d5678095b14df"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:39.388125Z"/>
+<entry
+   committed-rev="101"
+   name="togglePermStatus.m"
+   text-time="2009-05-22T18:20:46.200625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="83647c3501ed8d3dff69d8712f55f176"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:20:39.388125Z"/>
+<entry
+   committed-rev="3193"
+   name="calcFilterParms.m"
+   text-time="2009-05-22T18:20:46.216250Z"
+   committed-date="2009-03-18T17:55:01.935861Z"
+   checksum="80754de8f94004c7aaa28ab139e0e0a0"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:39.403750Z"/>
+<entry
+   committed-rev="2798"
+   name="catStruct.m"
+   text-time="2009-05-22T18:20:46.216250Z"
+   committed-date="2008-04-25T15:05:25.848070Z"
+   checksum="5bc3325784eeb5544eb625048eca05f2"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:41.997500Z"/>
+<entry
+   committed-rev="101"
+   name="repeatingIndices.m"
+   text-time="2009-05-22T18:20:46.231875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b3b1daaab9ecc54f511432fd6ab4db91"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:20:41.997500Z"/>
+<entry
+   committed-rev="3158"
+   name="samdir.m"
+   text-time="2009-05-22T18:20:46.231875Z"
+   committed-date="2009-03-12T01:23:01.790679Z"
+   checksum="a1c76c7a0e4cfb7cbf2eeeede70c6292"
+   last-author="sylvain"
+   kind="file"
+   prop-time="2009-05-22T18:20:42.013125Z"/>
+<entry
+   committed-rev="3426"
+   name="test.m"
+   text-time="2009-05-22T18:20:46.231875Z"
+   committed-date="2009-05-21T17:15:50.217176Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="zmaffeo"
+   kind="file"
+   prop-time="2009-05-22T18:20:42.013125Z"/>
+<entry
+   committed-rev="2219"
+   name="countEntries.m"
+   text-time="2009-05-22T18:20:46.247500Z"
+   committed-date="2006-11-09T17:27:25.421847Z"
+   checksum="b14e86fb877ee457cd0262699f76622b"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:20:46.044375Z"/>
+</wc-entries>

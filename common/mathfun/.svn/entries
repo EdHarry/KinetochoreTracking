@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3392"
+   name=""
+   committed-date="2009-05-08T12:56:03.724400Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/mathfun"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="1527"
+   name="chiSquareTest.m"
+   text-time="2009-05-22T18:27:57.075625Z"
+   committed-date="2005-05-21T01:22:40.127588Z"
+   checksum="23b3cf238d2c3198d6bf87c7fc7d2b2f"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.622500Z"/>
+<entry
+   committed-rev="2398"
+   name="GaussMask3D.m"
+   text-time="2009-05-22T18:27:57.091250Z"
+   committed-date="2007-07-06T14:56:27.347979Z"
+   checksum="d025bb6b595f74bbf824cb598dab4933"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.653750Z"/>
+<entry
+   committed-rev="3022"
+   name="fit1Line2Lines.m"
+   text-time="2009-05-22T18:27:57.106875Z"
+   committed-date="2008-11-05T22:55:23.645728Z"
+   checksum="5f14d0e7ef2b4e9b7a09ae3bccc1f7cc"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.685000Z"/>
+<entry
+   committed-rev="101"
+   name="bsum2bvec.m"
+   text-time="2009-05-22T18:27:57.091250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b2f1146509fda5b2d36e876f47efa375"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.669375Z"/>
+<entry
+   committed-rev="1113"
+   name="nonLinearFit.m"
+   text-time="2009-05-22T18:27:57.091250Z"
+   committed-date="2004-10-26T16:53:05.423887Z"
+   checksum="9e0bed6dc6462be6de9cec2f3709b6f0"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.653750Z"/>
+<entry
+   committed-rev="1632"
+   name="perpVector.m"
+   text-time="2009-05-22T18:27:57.106875Z"
+   committed-date="2005-08-16T23:10:43.348909Z"
+   checksum="0d4e5642e328402ee17d94e950ba9dbd"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.935000Z"/>
+<entry
+   committed-rev="2754"
+   name="meanSquaredDisplacement.m"
+   text-time="2009-05-22T18:27:57.106875Z"
+   committed-date="2008-03-22T01:34:37.562927Z"
+   checksum="9a71fb6f6f4fafca19f635e8327b1e0d"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.950625Z"/>
+<entry
+   committed-rev="2558"
+   name="detectOutliers.m"
+   text-time="2009-05-22T18:27:57.122500Z"
+   committed-date="2007-11-04T01:12:27.552748Z"
+   checksum="0175c45306d73b2375cb6b446c0c9ef1"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.075625Z"/>
+<entry
+   committed-rev="572"
+   name="confProbFromQuantile.m"
+   text-time="2009-05-22T18:27:57.122500Z"
+   committed-date="2004-05-11T18:54:04.893527Z"
+   checksum="6da5f2b0a2beabadc6da2ad3896996cc"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.966250Z"/>
+<entry
+   committed-rev="572"
+   name="quantileFromConfProb.m"
+   text-time="2009-05-22T18:27:57.122500Z"
+   committed-date="2004-05-11T18:54:04.893527Z"
+   checksum="2458ffdcc004bf98e76d7a0f899c8b25"
+   kind="file"
+   prop-time="2009-05-22T18:27:18.950625Z"/>
+<entry
+   committed-rev="2536"
+   name="GaussFitND.m"
+   text-time="2009-05-22T18:27:57.138125Z"
+   committed-date="2007-09-27T00:57:14.414676Z"
+   checksum="0cdf6f18dccd93e33d7fa52d5b7ab018"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.606875Z"/>
+<entry
+   committed-rev="2994"
+   name="normList.m"
+   text-time="2009-05-22T18:27:57.138125Z"
+   committed-date="2008-10-14T17:27:07.347677Z"
+   checksum="b57dad6c4c5a11f0200b7757e8f80592"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.091250Z"/>
+<entry
+   committed-rev="2511"
+   name="Gauss2D.m"
+   text-time="2009-05-22T18:27:57.138125Z"
+   committed-date="2007-08-30T23:22:04.272236Z"
+   checksum="9f5fc4c8a3f86f494f818b49b7d14f24"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.622500Z"/>
+<entry
+   committed-rev="2157"
+   name="frequencyTable.m"
+   text-time="2009-05-22T18:27:57.153750Z"
+   committed-date="2006-09-13T20:11:43.224321Z"
+   checksum="5d10b1d8e4d5489206e7953a093cd5df"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.841250Z"/>
+<entry
+   committed-rev="2130"
+   name="calcCumDistrExpo.m"
+   text-time="2009-05-22T18:27:57.153750Z"
+   committed-date="2006-08-25T16:12:23.862626Z"
+   checksum="b93be919cbabaf807d87732143633046"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.856875Z"/>
+<entry
+   committed-rev="101"
+   name="clipNegative.m"
+   text-time="2009-05-22T18:27:57.153750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="f1fbc4061261a2bff8c89c92f228d8db"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.872500Z"/>
+<entry
+   committed-rev="2378"
+   name="contHisto.m"
+   text-time="2009-05-22T18:27:57.169375Z"
+   committed-date="2007-06-30T14:13:27.445941Z"
+   checksum="4602d562cecd56ed7b3177f8a47898ee"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.872500Z"/>
+<entry
+   committed-rev="101"
+   name="feqZero.m"
+   text-time="2009-05-22T18:27:57.169375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="7a365eeb699fa17657291587494d2614"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:19.888125Z"/>
+<entry
+   committed-rev="101"
+   name="cumhist.m"
+   text-time="2009-05-22T18:27:57.185000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="f21c030377b0bc835d537055f43f472d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:20.044375Z"/>
+<entry
+   committed-rev="101"
+   name="modeFinder.m"
+   text-time="2009-05-22T18:27:57.185000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b923706ad7dbcacf04004488a26bab1d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:20.044375Z"/>
+<entry
+   committed-rev="2332"
+   name="singleFluoroAnalysis.m"
+   text-time="2009-05-22T18:27:57.185000Z"
+   committed-date="2007-04-11T20:54:49.195063Z"
+   checksum="9654c773d7010bc93ab8291a583b31b3"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:20.372500Z"/>
+<entry
+   committed-rev="385"
+   name="lsIterRefn.m"
+   text-time="2009-05-22T18:27:57.200625Z"
+   committed-date="2004-03-18T23:45:35.543845Z"
+   checksum="641b2c6e2dd1c5884b9b463bde75d35d"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:20.388125Z"/>
+<entry
+   committed-rev="2827"
+   name="GaussMask2D.m"
+   text-time="2009-05-22T18:27:57.200625Z"
+   committed-date="2008-05-26T03:28:59.736081Z"
+   checksum="3b60c9ba7ad418c12c56ab7c521a9fd2"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:20.513125Z"/>
+<entry
+   committed-rev="101"
+   name="rotate2D.m"
+   text-time="2009-05-22T18:27:57.200625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c41d03bfe641bf7224ef7de6762daaf0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:20.528750Z"/>
+<entry
+   committed-rev="2689"
+   name="fitHistWithGaussians.m"
+   text-time="2009-05-22T18:27:57.216250Z"
+   committed-date="2008-02-13T18:22:54.846996Z"
+   checksum="9b32dccf07098c7dd4a904583527a8f2"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:20.903750Z"/>
+<entry
+   committed-rev="2536"
+   name="GaussFitND_gradient.m"
+   text-time="2009-05-22T18:27:57.216250Z"
+   committed-date="2007-09-27T00:57:14.414676Z"
+   checksum="f19275c83cd2fdeb6ae68eb9c82fbe62"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:21.185000Z"/>
+<entry
+   committed-rev="2832"
+   name="linearLeastMedianSquares.m"
+   text-time="2009-05-22T18:27:57.216250Z"
+   committed-date="2008-05-30T22:06:03.357789Z"
+   checksum="46d67961d8d934722f92fd0495cb9f2a"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:21.200625Z"/>
+<entry
+   committed-rev="2380"
+   name="clusterTendencyVAT.m"
+   text-time="2009-05-22T18:27:57.231875Z"
+   committed-date="2007-06-30T14:19:51.851898Z"
+   checksum="079d2967e9c209198fab661ab859f32a"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:21.622500Z"/>
+<entry
+   committed-rev="2095"
+   name="groupData.m"
+   text-time="2009-05-22T18:27:57.231875Z"
+   committed-date="2006-08-03T15:35:51.405383Z"
+   checksum="fe9e6471234aba5657f37bf1cf8d65d0"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:21.622500Z"/>
+<entry
+   committed-rev="2993"
+   name="chi2correlation.m"
+   text-time="2009-05-22T18:27:57.247500Z"
+   committed-date="2008-10-14T14:23:15.869285Z"
+   checksum="02d0de67e4023c7d6d3a6b7969535e8e"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.091250Z"/>
+<entry
+   committed-rev="2689"
+   name="distMat2.m"
+   text-time="2009-05-22T18:27:57.247500Z"
+   committed-date="2008-02-13T18:22:54.846996Z"
+   checksum="1ae88e2ce9a47ed101543049df83eb78"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:21.638125Z"/>
+<entry
+   committed-rev="1471"
+   name="lineRegression.m"
+   text-time="2009-05-22T18:27:57.247500Z"
+   committed-date="2005-04-21T14:10:08.339156Z"
+   checksum="e3d1a3435c332faf0c2ed332a98409c1"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.106875Z"/>
+<entry
+   committed-rev="101"
+   name="Gauss2D1.m"
+   text-time="2009-05-22T18:27:57.263125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="94764473b067e4aa8e5a137efccaf100"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.122500Z"/>
+<entry
+   committed-rev="2629"
+   name="dist2Pt.m"
+   text-time="2009-05-22T18:27:57.263125Z"
+   committed-date="2008-01-12T00:52:02.503079Z"
+   checksum="49a03a1037337e92bad654492c9d1e2e"
+   last-author="kathomps"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.122500Z"/>
+<entry
+   committed-rev="101"
+   name="dogauss1d.m"
+   text-time="2009-05-22T18:27:57.278750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3fb6e27bd024f8097de05d79417229c4"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.403750Z"/>
+<entry
+   committed-rev="101"
+   name="hessian.m"
+   text-time="2009-05-22T18:27:57.278750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="29bc272886bc1bb1aca06b224be09cc5"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.388125Z"/>
+<entry
+   committed-rev="2594"
+   name="leastMedianSquares.m"
+   text-time="2009-05-22T18:27:57.263125Z"
+   committed-date="2007-11-29T12:14:35.433346Z"
+   checksum="2940db9d0e6370cca0bbd40a3cda4648"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.388125Z"/>
+<entry
+   committed-rev="1770"
+   name="myLscov.m"
+   text-time="2009-05-22T18:27:57.294375Z"
+   committed-date="2005-10-29T01:44:58.731343Z"
+   checksum="1df4009be0eba00770dba3ab517cfbae"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.669375Z"/>
+<entry
+   committed-rev="101"
+   name="whereZeros.m"
+   text-time="2009-05-22T18:27:57.294375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="453ae1da675926a2728950d8d147f103"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.685000Z"/>
+<entry
+   committed-rev="2007"
+   name="distMat.m"
+   text-time="2009-05-22T18:27:57.294375Z"
+   committed-date="2006-05-28T00:06:59.650547Z"
+   checksum="506e849ac1b919bf1fc32efd73d28a6b"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.685000Z"/>
+<entry
+   committed-rev="1770"
+   name="GaussGrad3D.m"
+   text-time="2009-05-22T18:27:57.310000Z"
+   committed-date="2005-10-29T01:44:58.731343Z"
+   checksum="87d3fd2c6bd1337fbbd967b246467965"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.903750Z"/>
+<entry
+   committed-rev="101"
+   name="locmin2d.m"
+   text-time="2009-05-22T18:27:57.310000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="517c4fa6bf3adf0ebd58047d50fa80a7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:22.700625Z"/>
+<entry
+   committed-rev="101"
+   name="biquadfit.m"
+   text-time="2009-05-22T18:27:57.310000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="6025409a2aa10a2e80123d5ceed47252"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:52.966250Z"/>
+<entry
+   name="linearAssignment"
+   kind="dir"/>
+<entry
+   committed-rev="2531"
+   name="locmax2d.m"
+   text-time="2009-05-22T18:27:57.325625Z"
+   committed-date="2007-09-20T16:16:43.175610Z"
+   checksum="62ec4d5d7da059ef0d4dfe0a5c7a9274"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:52.966250Z"/>
+<entry
+   committed-rev="3239"
+   name="robustExponentialFit2.m"
+   text-time="2009-05-22T18:27:57.325625Z"
+   committed-date="2009-03-30T14:26:50.868867Z"
+   checksum="ae7267b21037edbea5c3fa68a21b9df9"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:52.981875Z"/>
+<entry
+   committed-rev="728"
+   name="psf2D.m"
+   text-time="2009-05-22T18:27:57.325625Z"
+   committed-date="2004-07-15T00:09:02.185020Z"
+   checksum="bd5e45f5e5608b368d805cc0b72137c7"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:27:52.997500Z"/>
+<entry
+   committed-rev="2254"
+   name="weightedStats.m"
+   text-time="2009-05-22T18:27:57.341250Z"
+   committed-date="2007-01-20T03:03:44.553332Z"
+   checksum="3ec26ec7fc448eab0476a384018b1b25"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:52.997500Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="1733"
+   name="lsRandomFit.m"
+   text-time="2009-05-22T18:27:57.341250Z"
+   committed-date="2005-10-11T21:22:01.302683Z"
+   checksum="46db74f658c860c7ccf145e2ed811f41"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.356875Z"/>
+<entry
+   committed-rev="1986"
+   name="deltaCoordinates.m"
+   text-time="2009-05-22T18:27:57.341250Z"
+   committed-date="2006-05-08T21:14:10.270249Z"
+   checksum="120c74aefe0ff0b806a55e1200cfc99c"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.356875Z"/>
+<entry
+   committed-rev="101"
+   name="rot3vec.m"
+   text-time="2009-05-22T18:27:57.356875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="188443825d44b21ed0d1513b09e524b0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.372500Z"/>
+<entry
+   committed-rev="3390"
+   name="addBorder.m"
+   text-time="2009-05-22T18:27:57.356875Z"
+   committed-date="2009-05-07T22:47:05.260370Z"
+   checksum="e85d026770d36764bb529637dd5d6251"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.388125Z"/>
+<entry
+   committed-rev="385"
+   name="solveIterRefn.m"
+   text-time="2009-05-22T18:27:57.372500Z"
+   committed-date="2004-03-18T23:45:35.543845Z"
+   checksum="e0406b38499f4232819b686d9acbf9d2"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.513125Z"/>
+<entry
+   committed-rev="3392"
+   name="fastGauss3D.m"
+   text-time="2009-05-22T18:27:57.372500Z"
+   committed-date="2009-05-08T12:56:03.724400Z"
+   checksum="f8798b993fb5a6d660602314d435728a"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.403750Z"/>
+<entry
+   committed-rev="101"
+   name="perpxy.m"
+   text-time="2009-05-22T18:27:57.356875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="22706fb680103c43fd88d922ca5f9368"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.388125Z"/>
+<entry
+   committed-rev="1806"
+   name="randSphere.m"
+   text-time="2009-05-22T18:27:57.372500Z"
+   committed-date="2005-12-07T23:05:40.822793Z"
+   checksum="b4a8399fbbd94fe304fed46f84ebfa27"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.544375Z"/>
+<entry
+   committed-rev="709"
+   name="ode5.m"
+   text-time="2009-05-22T18:27:57.388125Z"
+   committed-date="2004-07-08T20:50:51.650357Z"
+   checksum="2dc59e4a90c34b67c3b7e596d25d7829"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.685000Z"/>
+<entry
+   committed-rev="101"
+   name="ellipsoidRadius.m"
+   text-time="2009-05-22T18:27:57.388125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="afefd649ff4b58f5eca940889703ef41"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.544375Z"/>
+<entry
+   committed-rev="2378"
+   name="isApproxEqual.m"
+   text-time="2009-05-22T18:27:57.403750Z"
+   committed-date="2007-06-30T14:13:27.445941Z"
+   checksum="02320ccb25b9bd0d88572356364dece4"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.700625Z"/>
+<entry
+   committed-rev="101"
+   name="meanNNDist.m"
+   text-time="2009-05-22T18:27:57.403750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3952eea46fdbe766b54d7d607673708f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.747500Z"/>
+<entry
+   committed-rev="2812"
+   name="discriminationMatrix.m"
+   text-time="2009-05-22T18:27:57.403750Z"
+   committed-date="2008-05-06T22:45:59.455150Z"
+   checksum="e17520a01c829f3bbd58441cfaf1d67c"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.856875Z"/>
+<entry
+   committed-rev="101"
+   name="heaviside.m"
+   text-time="2009-05-22T18:27:57.419375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="53f0da5885145c06099fc634311ce621"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.919375Z"/>
+<entry
+   committed-rev="101"
+   name="biquad.m"
+   text-time="2009-05-22T18:27:57.419375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c146cc7c1b40b96096c11d06f6c75a3c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.935000Z"/>
+<entry
+   name="emClustering"
+   kind="dir"/>
+<entry
+   committed-rev="1770"
+   name="GaussGrad2D.m"
+   text-time="2009-05-22T18:27:57.419375Z"
+   committed-date="2005-10-29T01:44:58.731343Z"
+   checksum="1a1b70a3cf2f8aba77119a0b98114899"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.966250Z"/>
+<entry
+   committed-rev="2827"
+   name="Gauss2DBorder.m"
+   text-time="2009-05-22T18:27:57.435000Z"
+   committed-date="2008-05-26T03:28:59.736081Z"
+   checksum="47f6a16334c41e91c32eeb0290069388"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:55.981875Z"/>
+<entry
+   committed-rev="101"
+   name="locmin1d.m"
+   text-time="2009-05-22T18:27:57.435000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a6ab7106ac9cd14af5a4823b60b6b066"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.435000Z"/>
+<entry
+   committed-rev="101"
+   name="locmax1d.m"
+   text-time="2009-05-22T18:27:57.435000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="01616a95d5fd42d8ed1b171900393722"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.435000Z"/>
+<entry
+   committed-rev="2398"
+   name="loc_max3Df.m"
+   text-time="2009-05-22T18:27:57.450625Z"
+   committed-date="2007-07-06T14:56:27.347979Z"
+   checksum="d4ef03e7d53d96183ce48e9fd5191aac"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.481875Z"/>
+<entry
+   committed-rev="3030"
+   name="robustMean.m"
+   text-time="2009-05-22T18:27:57.450625Z"
+   committed-date="2008-11-18T20:32:23.420110Z"
+   checksum="997c734eb1ca217e61a3d958306c119b"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.481875Z"/>
+<entry
+   committed-rev="1621"
+   name="wraparound.m"
+   text-time="2009-05-22T18:27:57.450625Z"
+   committed-date="2005-07-27T00:08:17.370443Z"
+   checksum="009cd6496957f62d47558134e8c2f4d1"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.497500Z"/>
+<entry
+   committed-rev="2902"
+   name="splitModes.m"
+   text-time="2009-05-22T18:27:57.466250Z"
+   committed-date="2008-08-02T15:32:48.240995Z"
+   checksum="648a522ba3f40adf1e918302608f792c"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.622500Z"/>
+<entry
+   committed-rev="101"
+   name="rot3.m"
+   text-time="2009-05-22T18:27:57.466250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="359eb8397442d3c5a62c7cfe424d72fa"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.638125Z"/>
+<entry
+   committed-rev="3061"
+   name="robustExponentialFit.m"
+   text-time="2009-05-22T18:27:57.466250Z"
+   committed-date="2008-11-26T20:08:41.596796Z"
+   checksum="358e82df323ec9a10c2a972f3ffaf051"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.653750Z"/>
+<entry
+   committed-rev="2030"
+   name="isEven.m"
+   text-time="2009-05-22T18:27:57.481875Z"
+   committed-date="2006-06-15T23:53:51.067932Z"
+   checksum="434770d164123ea250d4d8740f8ab672"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.653750Z"/>
+<entry
+   committed-rev="3260"
+   name="roundOddOrEven.m"
+   text-time="2009-05-22T18:27:57.481875Z"
+   committed-date="2009-04-09T20:31:20.394494Z"
+   checksum="fa0cb595269e7f5edcf9e26ccd7b61db"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.747500Z"/>
+<entry
+   committed-rev="2297"
+   name="calcCumDistrNGauss.m"
+   text-time="2009-05-22T18:27:57.481875Z"
+   committed-date="2007-03-17T02:12:39.602107Z"
+   checksum="b18f8911c4c5339942370e9a369c19b8"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.747500Z"/>
+<entry
+   committed-rev="1686"
+   name="GaussListND.m"
+   text-time="2009-05-22T18:27:57.497500Z"
+   committed-date="2005-09-01T21:59:54.401410Z"
+   checksum="60781e255deaa2783bcc42a2fc87a39b"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.763125Z"/>
+<entry
+   committed-rev="2883"
+   name="cutFirstHistMode.m"
+   text-time="2009-05-22T18:27:57.497500Z"
+   committed-date="2008-07-23T14:42:35.252574Z"
+   checksum="20de8726d5f92b3cabf90f610fcc4a8c"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.919375Z"/>
+<entry
+   committed-rev="101"
+   name="gauss1d.m"
+   text-time="2009-05-22T18:27:57.497500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="13af77520fe0f58c477a33d45b26170f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.919375Z"/>
+<entry
+   committed-rev="2179"
+   name="randStatisticCorrected.m"
+   text-time="2009-05-22T18:27:57.528750Z"
+   committed-date="2006-09-30T00:58:57.337173Z"
+   checksum="5836f34d5ffeaa225848224dfee27425"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.935000Z"/>
+<entry
+   committed-rev="101"
+   name="getRayleighMode.m"
+   text-time="2009-05-22T18:27:57.528750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b7cad1fb2cec204e40f4ce9af2938ef7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:56.935000Z"/>
+<entry
+   committed-rev="1357"
+   name="Gauss3D.m"
+   text-time="2009-05-22T18:27:57.528750Z"
+   committed-date="2005-02-18T23:29:01.036269Z"
+   checksum="133d79f09f1266821ea0e03cc0ac54c2"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:57.028750Z"/>
+<entry
+   committed-rev="101"
+   name="distMatVectors.m"
+   text-time="2009-05-22T18:27:57.544375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="7be2b0d11d4d0c9ae3b7ea2c34e38d40"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:57.044375Z"/>
+<entry
+   committed-rev="2130"
+   name="fitHistWithExponential.m"
+   text-time="2009-05-22T18:27:57.544375Z"
+   committed-date="2006-08-25T16:12:23.862626Z"
+   checksum="c9a7ec67e37055a5f49d1129a9a5d9c6"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:27:57.060000Z"/>
+<entry
+   committed-rev="709"
+   name="findNextModZero.m"
+   text-time="2009-05-22T18:27:57.685000Z"
+   committed-date="2004-07-08T20:50:51.650357Z"
+   checksum="a47e84f2406afe85fccebebe3098aaa3"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:27:57.060000Z"/>
+</wc-entries>

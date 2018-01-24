@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2378"
+   name=""
+   committed-date="2007-06-30T14:13:27.445941Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/gui"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   name="PanelLayouts"
+   kind="dir"/>
+<entry
+   name="serviceTools"
+   kind="dir"/>
+<entry
+   committed-rev="2378"
+   name="selectRois.m"
+   text-time="2009-05-22T18:03:39.591250Z"
+   committed-date="2007-06-30T14:13:27.445941Z"
+   checksum="6e5d14298a87feebb9c33dd3ef7dbd00"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:18:31.169375Z"/>
+<entry
+   committed-rev="1924"
+   name="myQuestdlg.m"
+   text-time="2009-05-22T18:03:39.591250Z"
+   committed-date="2006-03-01T02:04:16.604917Z"
+   checksum="03ab24c5600dfd51061101e3034d214e"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:18:32.247500Z"/>
+<entry
+   name="viewPanel"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="mywaitbar.m"
+   text-time="2009-05-22T18:03:39.606875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a2502c58bcfc23bcb4571dd3bc16fb98"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:32.247500Z"/>
+<entry
+   committed-rev="639"
+   name="createBlankGui.m"
+   text-time="2009-05-22T18:16:08.763125Z"
+   committed-date="2004-06-08T01:18:10.096203Z"
+   checksum="f1af6eca4c2152403332dc441a12fabf"
+   last-author="aponti"
+   kind="file"
+   prop-time="2009-05-22T18:04:09.841250Z"/>
+<entry
+   name="messageWindow"
+   kind="dir"/>
+<entry
+   name="ssdTrackPanel"
+   kind="dir"/>
+</wc-entries>

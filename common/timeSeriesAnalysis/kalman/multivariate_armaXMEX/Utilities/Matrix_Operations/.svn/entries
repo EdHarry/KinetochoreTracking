@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3002"
+   name=""
+   committed-date="2008-10-22T00:46:12.835594Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/kalman/multivariate_armaXMEX/Utilities/Matrix_Operations"
+   last-author="peihsin"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2820"
+   name="leftdiv.h"
+   text-time="2009-05-22T18:28:49.341250Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="a98426a2edb3cee74b991161d60000e3"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.216250Z"/>
+<entry
+   committed-rev="2820"
+   name="matrixTranspose.c"
+   text-time="2009-05-22T18:28:49.356875Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="acc27e5523f0bed122288a561bf76713"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.231875Z"/>
+<entry
+   committed-rev="2820"
+   name="matrixMultiply.c"
+   text-time="2009-05-22T18:28:49.356875Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="ef552b90ee342caeae0eec9eb1512bd1"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.247500Z"/>
+<entry
+   committed-rev="2820"
+   name="matOps.h"
+   text-time="2009-05-22T18:28:49.372500Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="68d5ab2562f29abbdb87df9d3d637f71"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.263125Z"/>
+<entry
+   committed-rev="2820"
+   name="matrixMultiplyConst.c"
+   text-time="2009-05-22T18:28:49.372500Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="9e382f89b6181b2f7d6f0a1a90306043"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.263125Z"/>
+<entry
+   committed-rev="2820"
+   name="matrixSubtract.c"
+   text-time="2009-05-22T18:28:49.372500Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="f726b641a5141bd1048249563d8189ac"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.310000Z"/>
+<entry
+   committed-rev="2820"
+   name="matrixAdd.c"
+   text-time="2009-05-22T18:28:49.388125Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="f57022fb51ee3519d1eb666a3274638a"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.310000Z"/>
+<entry
+   committed-rev="3002"
+   name="leftdiv.c"
+   text-time="2009-05-22T18:28:49.388125Z"
+   committed-date="2008-10-22T00:46:12.835594Z"
+   checksum="90ba08dc988eaf0d71b1f4fdac583eda"
+   last-author="peihsin"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.325625Z"/>
+</wc-entries>

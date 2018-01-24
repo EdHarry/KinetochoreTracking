@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1722"
+   name=""
+   committed-date="2005-09-27T22:09:21.757155Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/LevelSet"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="683"
+   name="lsGetDistanceFctVec.m"
+   text-time="2009-05-22T17:18:02.153750Z"
+   committed-date="2004-06-21T23:33:49.852290Z"
+   checksum="ad603c69ee5c410095613fe6e21a6e59"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:55.747500Z"/>
+<entry
+   committed-rev="723"
+   name="lsSecondDifference.m"
+   text-time="2009-05-22T17:18:02.153750Z"
+   committed-date="2004-07-13T01:02:45.609170Z"
+   checksum="df2e48bb4cececb5754680273ba4c1f0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.075625Z"/>
+<entry
+   committed-rev="1109"
+   name="lsOutputfcn.m"
+   text-time="2009-05-22T17:18:02.169375Z"
+   committed-date="2004-10-25T19:20:36.699618Z"
+   checksum="dc55343fcf5726b3f421eb6c32fba46e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.091250Z"/>
+<entry
+   committed-rev="782"
+   name="lsGetDistanceFct.m"
+   text-time="2009-05-22T17:18:02.169375Z"
+   committed-date="2004-08-17T20:01:28.760020Z"
+   checksum="4c74bb8c653a3e06fa5fb56090068b55"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.075625Z"/>
+<entry
+   committed-rev="1722"
+   name="lsH.m"
+   text-time="2009-05-22T17:18:02.153750Z"
+   committed-date="2005-09-27T22:09:21.757155Z"
+   checksum="cf4b1c4a19acb2426e23ac3943540770"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.075625Z"/>
+<entry
+   committed-rev="1722"
+   name="lsGenerateGridLines.m"
+   text-time="2009-05-22T17:18:02.185000Z"
+   committed-date="2005-09-27T22:09:21.757155Z"
+   checksum="ef5675286315a4627275350891543dcc"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.419375Z"/>
+<entry
+   committed-rev="1078"
+   name="lsGetVelocityFct.m"
+   text-time="2009-05-22T17:18:02.169375Z"
+   committed-date="2004-10-19T21:12:32.975894Z"
+   checksum="fd88e3d1dd41398b99952d22fe7e352c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.419375Z"/>
+<entry
+   committed-rev="741"
+   name="lsGradient.m"
+   text-time="2009-05-22T17:18:02.200625Z"
+   committed-date="2004-07-23T23:48:25.826690Z"
+   checksum="48662ec3237722770cce47e0038c2ddc"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.419375Z"/>
+<entry
+   committed-rev="1052"
+   name="lsGradient2o.m"
+   text-time="2009-05-22T17:18:02.216250Z"
+   committed-date="2004-10-09T00:21:38.402657Z"
+   checksum="0609f3ffb0d1907135e7fe44f78ad90a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.966250Z"/>
+<entry
+   committed-rev="782"
+   name="lsGetGridIntersections.m"
+   text-time="2009-05-22T17:18:02.216250Z"
+   committed-date="2004-08-17T20:01:28.760020Z"
+   checksum="20381f708b6ce100d6b8570dae51b71e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.981875Z"/>
+<entry
+   committed-rev="649"
+   name="lsGenerateGrid.m"
+   text-time="2009-05-22T17:18:02.216250Z"
+   committed-date="2004-06-11T21:24:08.700982Z"
+   checksum="06ee5e4e350e7370dea1fece84ea099f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.981875Z"/>
+<entry
+   committed-rev="741"
+   name="lsIntegrateVelocity.m"
+   text-time="2009-05-22T17:18:02.231875Z"
+   committed-date="2004-07-23T23:48:25.826690Z"
+   checksum="4cfc162a8183ffdc0ea860bcad35fe90"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:56.981875Z"/>
+<entry
+   committed-rev="1722"
+   name="lsLineMatching.m"
+   text-time="2009-05-22T17:18:02.231875Z"
+   committed-date="2005-09-27T22:09:21.757155Z"
+   checksum="54df7d9617a0e277223d69130246e85a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:58.935000Z"/>
+<entry
+   committed-rev="666"
+   name="remove_multiple_entries.m"
+   text-time="2009-05-22T17:18:02.231875Z"
+   committed-date="2004-06-17T18:18:22.314684Z"
+   checksum="58b8f298d54af65e5a2cff8a3d37efe0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:57.231875Z"/>
+<entry
+   committed-rev="793"
+   name="lsEvents.m"
+   text-time="2009-05-22T17:18:02.247500Z"
+   committed-date="2004-08-23T23:47:04.107172Z"
+   checksum="d208338d8498d8b570613a8e03a0c1ef"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:58.935000Z"/>
+<entry
+   committed-rev="1111"
+   name="lsFastMarching.m"
+   text-time="2009-05-22T17:18:02.247500Z"
+   committed-date="2004-10-25T23:12:31.761614Z"
+   checksum="b8d2c7323c7e77d41ac4387839afbc45"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:58.935000Z"/>
+<entry
+   committed-rev="1078"
+   name="lsGetZeroLevel.m"
+   text-time="2009-05-22T17:18:02.247500Z"
+   committed-date="2004-10-19T21:12:32.975894Z"
+   checksum="251852172bcfb143d95aa23628b7cff7"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:58.950625Z"/>
+<entry
+   committed-rev="683"
+   name="lsFindTrailPoints.m"
+   text-time="2009-05-22T17:18:02.263125Z"
+   committed-date="2004-06-21T23:33:49.852290Z"
+   checksum="fbf05fadb21be3be49cba90c57a393ae"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:59.778750Z"/>
+<entry
+   committed-rev="1722"
+   name="lsLoadData.m"
+   text-time="2009-05-22T17:18:02.263125Z"
+   committed-date="2005-09-27T22:09:21.757155Z"
+   checksum="384037c7bff7dec3a2eac82a1705b550"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:59.778750Z"/>
+<entry
+   committed-rev="683"
+   name="lsGetTrailPointsVal.m"
+   text-time="2009-05-22T17:18:02.263125Z"
+   committed-date="2004-06-21T23:33:49.852290Z"
+   checksum="21998e00f841c0674ea3b3b899b53280"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:59.794375Z"/>
+<entry
+   committed-rev="782"
+   name="lsIntersectApproxSplineLine.m"
+   text-time="2009-05-22T17:18:02.278750Z"
+   committed-date="2004-08-17T20:01:28.760020Z"
+   checksum="c99efd053ef8d801fcb15cad014e4cb9"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:17:59.794375Z"/>
+<entry
+   committed-rev="710"
+   name="lsSolveConvection.m"
+   text-time="2009-05-22T17:18:02.278750Z"
+   committed-date="2004-07-08T20:55:45.260090Z"
+   checksum="89c2dda8e6fdbd52c7bad91f79862a4c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:00.856875Z"/>
+<entry
+   committed-rev="723"
+   name="lsCurvature.m"
+   text-time="2009-05-22T17:18:02.278750Z"
+   committed-date="2004-07-13T01:02:45.609170Z"
+   checksum="41c239ae7bc636837935aa189eaae5d8"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:00.856875Z"/>
+<entry
+   committed-rev="1078"
+   name="getClosestPt.m"
+   text-time="2009-05-22T17:18:02.294375Z"
+   committed-date="2004-10-19T21:12:32.975894Z"
+   checksum="ce62033ab54843c5745fb919b9181218"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:00.872500Z"/>
+<entry
+   committed-rev="782"
+   name="lsIntersectSplineLine.m"
+   text-time="2009-05-22T17:18:02.294375Z"
+   committed-date="2004-08-17T20:01:28.760020Z"
+   checksum="d02896c23147187c6845050f5e2ed671"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:00.872500Z"/>
+<entry
+   committed-rev="649"
+   name="lsSetZeroLevel.m"
+   text-time="2009-05-22T17:18:02.294375Z"
+   committed-date="2004-06-11T21:24:08.700982Z"
+   checksum="cd7c9cde2377225fe9acd142c5fcd592"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:02.122500Z"/>
+<entry
+   committed-rev="649"
+   name="lsIntersectMaskLine.m"
+   text-time="2009-05-22T17:18:02.310000Z"
+   committed-date="2004-06-11T21:24:08.700982Z"
+   checksum="bb0e9b5639fe6cc42e71b208ff00281b"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:02.138125Z"/>
+<entry
+   committed-rev="1078"
+   name="ls_dis_interpolate.m"
+   text-time="2009-05-22T17:18:02.310000Z"
+   committed-date="2004-10-19T21:12:32.975894Z"
+   checksum="ec9830e73cbb742c138633ecf34d3ca3"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:02.138125Z"/>
+</wc-entries>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2915"
+   name=""
+   committed-date="2008-08-18T22:01:08.456900Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/kalman/multivariate_armaXMEX/Utilities/Carma_Utilities"
+   last-author="peihsin"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2820"
+   name="levinsonDurbinExpoAR.c"
+   text-time="2009-05-22T18:28:49.528750Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="f8a2ce902ec819207beecc09bfd8e021"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.419375Z"/>
+<entry
+   committed-rev="2820"
+   name="inverseLevinsonDurbinExpoMA.c"
+   text-time="2009-05-22T18:28:49.544375Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="f6182abdddd1eef250f622707a8c9531"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.450625Z"/>
+<entry
+   committed-rev="2905"
+   name="carmaUtils.h"
+   text-time="2009-05-22T18:28:49.544375Z"
+   committed-date="2008-08-06T21:52:48.821124Z"
+   checksum="981601ae86704e3dd16fe8aa5a03b937"
+   last-author="peihsin"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.466250Z"/>
+<entry
+   committed-rev="2914"
+   name="paramsFromVector.c"
+   text-time="2009-05-22T18:28:49.544375Z"
+   committed-date="2008-08-14T23:23:50.789743Z"
+   checksum="03f1d9fc63187720fc384ea706de86ce"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.481875Z"/>
+<entry
+   committed-rev="2915"
+   name="vectorFromParams.c"
+   text-time="2009-05-22T18:28:49.560000Z"
+   committed-date="2008-08-18T22:01:08.456900Z"
+   checksum="e98f0dd2ea00ce99b6fe883830e2f764"
+   last-author="peihsin"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.481875Z"/>
+<entry
+   committed-rev="2820"
+   name="levinsonDurbinExpoMA.c"
+   text-time="2009-05-22T18:28:49.560000Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="13e84f6b2251832ff6748a631870d867"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.497500Z"/>
+<entry
+   committed-rev="2820"
+   name="inverseLevinsonDurbinExpoAR.c"
+   text-time="2009-05-22T18:28:49.560000Z"
+   committed-date="2008-05-21T22:44:28.003768Z"
+   checksum="b4811c1898a65ad0913bb9b3bd7a9c22"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:49.513125Z"/>
+</wc-entries>

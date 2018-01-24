@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3423"
+   name=""
+   committed-date="2009-05-18T20:48:30.077837Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/trackWithGapClosing"
+   last-author="kjaqaman"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   name="postprocessing"
+   kind="dir"/>
+<entry
+   name="Kalman"
+   kind="dir"/>
+<entry
+   name="simulation"
+   kind="dir"/>
+<entry
+   committed-rev="2249"
+   name="checkCandsStatus.m"
+   text-time="2009-05-22T18:28:05.778750Z"
+   committed-date="2006-12-21T01:22:26.172821Z"
+   checksum="747ee8fe01ddcb1b91ff12eb4b184f22"
+   last-author="kjaqaman"
+   kind="file"
+   prop-time="2009-05-22T18:28:03.950625Z"/>
+<entry
+   committed-rev="3396"
+   name="trackObj.m"
+   text-time="2009-05-22T18:28:05.794375Z"
+   committed-date="2009-05-11T14:38:41.911522Z"
+   checksum="e115d0e86ecbe0d33fe7bf9c40cba91c"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:28:04.325625Z"/>
+<entry
+   name="pureBrownian"
+   kind="dir"/>
+</wc-entries>

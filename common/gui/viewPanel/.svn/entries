@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2291"
+   name=""
+   committed-date="2007-03-09T23:23:47.770099Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/gui/viewPanel"
+   last-author="jdorn"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuFileFnc.m"
+   text-time="2009-05-22T18:03:39.450625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5c1a9a10a91ab190244a7134dc2dfeed"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:32.278750Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanelShowImg.m"
+   text-time="2009-05-22T18:03:39.466250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="05aeba0148fe063af06ffead4acc88ea"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:32.278750Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuPixelFnc.m"
+   text-time="2009-05-22T18:03:39.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="09bccc7db9cecc5dcfee04c16fdc4b82"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:33.013125Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanel.m"
+   text-time="2009-05-22T18:03:39.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9346230e607e0f456f9450db71389cdf"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:33.013125Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuZoomFnc.m"
+   text-time="2009-05-22T18:03:39.481875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1efe9e137eff168ff55b59170970eab6"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:33.028750Z"/>
+<entry
+   committed-rev="101"
+   name="findUiViewPanel.m"
+   text-time="2009-05-22T18:03:39.497500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="f9a392acc7e812f4453e8e254895a2d8"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:34.544375Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuScaleFnc.m"
+   text-time="2009-05-22T18:03:39.497500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="2b13697036a9350540c04c5d11c2764e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:34.544375Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanelSelectPt.m"
+   text-time="2009-05-22T18:03:39.497500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9706929440b340e344958e82ea1409d1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:34.544375Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuSSDFnc.m"
+   text-time="2009-05-22T18:03:39.513125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3b39cb178328505120daab239ef8e85e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:34.560000Z"/>
+<entry
+   committed-rev="101"
+   name="readTiffOptions.m"
+   text-time="2009-05-22T18:03:39.513125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a93126f5e40671af88724a264ab90e07"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:34.560000Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanelGetDflt.m"
+   text-time="2009-05-22T18:03:39.513125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="68377706283a1fc2909ab15abb547506"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:34.560000Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanelCreateFnc.m"
+   text-time="2009-05-22T18:03:39.513125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="709e1a39d15c4d7724bf13c064ca1881"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:34.575625Z"/>
+<entry
+   committed-rev="2291"
+   name="uiViewMenuSaveFnc.m"
+   text-time="2009-05-22T18:03:39.528750Z"
+   committed-date="2007-03-09T23:23:47.770099Z"
+   checksum="358cd0b611c4ad5e080c8fc1e91aa1c0"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T17:18:44.247500Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanelSelectSegm.m"
+   text-time="2009-05-22T18:03:39.528750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="85f28ef3bd42b712f786480e4d512498"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:44.247500Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuToolsFnc.m"
+   text-time="2009-05-22T18:03:39.528750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a72933596053c9c7f1eb025447f7bc33"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:44.263125Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuProfileFnc.m"
+   text-time="2009-05-22T18:03:39.544375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="2790b81fee8facafb482496600577c4d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:44.263125Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuOpenFnc.m"
+   text-time="2009-05-22T18:03:39.544375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3b7ce1577222fb12cb30d6dfb31a00be"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:44.278750Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanelSelectRect.m"
+   text-time="2009-05-22T18:03:39.544375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="7cb5bd838326be2564d86611225b325a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:44.278750Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuAnalyzeFnc.m"
+   text-time="2009-05-22T18:03:39.560000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="7580900da8ed68fe797752283ee6a5a1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:23:10.513125Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuAcqFnc.m"
+   text-time="2009-05-22T18:03:39.560000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0319143c4f90509ea8155c8352317ad6"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:23:10.513125Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanelPixCursAnim.m"
+   text-time="2009-05-22T18:03:39.560000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="c3ff09d51d2576ca83c9051d2d08aedf"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:23:10.513125Z"/>
+<entry
+   committed-rev="101"
+   name="modifyTiffOptions.m"
+   text-time="2009-05-22T18:03:39.575625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="93d7292bf0ce01bc457d28562280e6a5"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:23:10.528750Z"/>
+<entry
+   committed-rev="101"
+   name="CallGetStackBoundaries.m"
+   text-time="2009-05-22T18:03:39.575625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9ab7a7dd3bb10481f752c74a1b6b20e3"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:23:10.528750Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewPanel.mat"
+   text-time="2009-05-22T18:04:09.794375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="a8ce5475fadcd990aa846bbbf08ccf19"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:08.310000Z"/>
+<entry
+   committed-rev="101"
+   name="uiSetTiffOptions.m"
+   text-time="2009-05-22T18:04:09.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="6dfabcf39f6fb751b8005fb1df9fae5c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:08.310000Z"/>
+<entry
+   committed-rev="101"
+   name="queryUiViewPanel.m"
+   text-time="2009-05-22T18:04:09.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="2782a7cc69439ba2524d31a3c93e3ddb"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:08.325625Z"/>
+<entry
+   committed-rev="101"
+   name="uiProfDeleteFcn.m"
+   text-time="2009-05-22T18:04:09.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="04f3d177f6d28aecfc285c1c56aa57ae"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:09.778750Z"/>
+<entry
+   committed-rev="101"
+   name="GetStackBoundaries.m"
+   text-time="2009-05-22T18:04:09.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="8c69e9068e81dbeaae6fd6716786fe4c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:09.778750Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuZoomOutFnc.m"
+   text-time="2009-05-22T18:04:09.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="23d5d1c887ccc7ed8ecd5a73ce1ae99e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:09.778750Z"/>
+<entry
+   committed-rev="101"
+   name="uiViewMenuColorFnc.m"
+   text-time="2009-05-22T18:04:09.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="cea915d8fc1642dd0da51bdf82b3797d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:04:09.794375Z"/>
+</wc-entries>

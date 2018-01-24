@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/gui/serviceTools/@Scale"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="Scale.m"
+   text-time="2009-05-22T17:18:20.669375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="918ae4cca7bcfa4c4de2c473a932fccf"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:09.935000Z"/>
+<entry
+   committed-rev="101"
+   name="ScaleCB.m"
+   text-time="2009-05-22T17:18:20.685000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="f5138587389d029c4a1b368f3e2a4702"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:09.935000Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="SetScale.m"
+   text-time="2009-05-22T17:18:20.685000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="380bea9acf9c94812a87a6024d8f2f5c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:20.669375Z"/>
+</wc-entries>

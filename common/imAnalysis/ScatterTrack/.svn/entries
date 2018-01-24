@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1843"
+   name=""
+   committed-date="2006-01-17T21:57:08.516715Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/imAnalysis/ScatterTrack"
+   last-author="dloerke"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="1843"
+   name="ManuscriptDraft1_011306.doc"
+   text-time="2009-05-22T18:28:33.997500Z"
+   committed-date="2006-01-17T21:57:08.516715Z"
+   checksum="b121deb1911358b441ac9537dd76c3d4"
+   last-author="dloerke"
+   kind="file"
+   prop-time="2009-05-22T18:28:33.950625Z"/>
+</wc-entries>

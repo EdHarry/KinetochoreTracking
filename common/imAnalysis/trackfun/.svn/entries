@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="186"
+   name=""
+   committed-date="2004-02-14T03:58:46.833797Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/imAnalysis/trackfun"
+   last-author="lji"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="changePropagatorType.m"
+   text-time="2009-05-22T18:28:42.794375Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1120989ee3dd71e569f6c69f0e8b33a1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.310000Z"/>
+<entry
+   committed-rev="163"
+   name="showMFrameTraj.m"
+   text-time="2009-05-22T18:28:42.794375Z"
+   committed-date="2004-02-13T16:45:43.121652Z"
+   checksum="a2226e678021b1178edf4504245fabd7"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.372500Z"/>
+<entry
+   committed-rev="101"
+   name="ssdMatch1d.m"
+   text-time="2009-05-22T18:28:42.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9e32e8ce38791c78c06abaed5477459c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.372500Z"/>
+<entry
+   name="@PatMatcher"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="setPropagatorParams.m"
+   text-time="2009-05-22T18:28:42.810000Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="b8250ab4bbe21641f52d52933d6d49ba"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.653750Z"/>
+<entry
+   committed-rev="101"
+   name="getPropagatorNextPos.m"
+   text-time="2009-05-22T18:28:42.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d406524c19a7deaa289fadcc98b8a7ec"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.669375Z"/>
+<entry
+   committed-rev="101"
+   name="deletePropagator.m"
+   text-time="2009-05-22T18:28:42.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="abea4207e0a14089d077210ec0eeab26"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.685000Z"/>
+<entry
+   committed-rev="101"
+   name="initPropagator.m"
+   text-time="2009-05-22T18:28:42.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="e7a57b7471a4542b0cdf9dc03869b58c"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.685000Z"/>
+<entry
+   committed-rev="101"
+   name="ssdMatch.m"
+   text-time="2009-05-22T18:28:42.825625Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="acf8c875f444f5d7f557222eb5228ce1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.700625Z"/>
+<entry
+   committed-rev="101"
+   name="plotSSDTrackData.m"
+   text-time="2009-05-22T18:28:42.841250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1068df568e3eaad63f31ae3030995ab1"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.825625Z"/>
+<entry
+   committed-rev="186"
+   name="mFrameTrajBuild.m"
+   text-time="2009-05-22T18:28:42.841250Z"
+   committed-date="2004-02-14T03:58:46.833797Z"
+   checksum="915c48136e99d373fef99e8a1bffedab"
+   last-author="lji"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.841250Z"/>
+<entry
+   committed-rev="101"
+   name="setPropagatorPosEstimate.m"
+   text-time="2009-05-22T18:28:42.841250Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="80d85b216701eb7b105bfd30aa375e5f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.841250Z"/>
+<entry
+   committed-rev="101"
+   name="cctrack.m"
+   text-time="2009-05-22T18:28:42.856875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="3aa26e688a400023f720059569a48e8d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.856875Z"/>
+<entry
+   committed-rev="101"
+   name="isPropagatorType.m"
+   text-time="2009-05-22T18:28:42.856875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9a0abb8f92a8157abd2c107fb0410b90"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.872500Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="getPropagatorType.m"
+   text-time="2009-05-22T18:28:42.856875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="de99fae8715ffe8926b992a8edb1ba9d"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:42.763125Z"/>
+<entry
+   committed-rev="101"
+   name="getPropagatorParams.m"
+   text-time="2009-05-22T18:28:42.872500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1df9a99be02df9e5025a57a184b6dde0"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:42.778750Z"/>
+</wc-entries>

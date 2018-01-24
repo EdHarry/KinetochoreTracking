@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/gui/PanelLayouts"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="ScaleOptions.mat"
+   text-time="2009-05-22T17:18:08.872500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="9dd3ca4771681e2f957baa669ff4bc4e"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:06.841250Z"/>
+<entry
+   committed-rev="101"
+   name="ImageAdjustTool.m"
+   text-time="2009-05-22T17:18:08.888125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="720f4d3e05b6495642e5b834c9c2a148"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:07.872500Z"/>
+<entry
+   committed-rev="101"
+   name="grabPanel.m"
+   text-time="2009-05-22T17:18:08.888125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="594ff120c714d2cd32ffec36d7de5ab9"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:07.888125Z"/>
+<entry
+   committed-rev="101"
+   name="grabPanel.mat"
+   text-time="2009-05-22T17:18:08.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="5f673e28c622c394fe20367e6b7e0799"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:07.888125Z"/>
+<entry
+   committed-rev="101"
+   name="ImageAdjustTool.mat"
+   text-time="2009-05-22T17:18:08.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="54bbfb512c193e03d1f8a53edd5e71e4"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:08.856875Z"/>
+<entry
+   committed-rev="101"
+   name="ScaleOptions.m"
+   text-time="2009-05-22T17:18:08.903750Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0fe2bf89fe49594459365653138de1e3"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T17:18:08.872500Z"/>
+</wc-entries>

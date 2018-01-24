@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3105"
+   name=""
+   committed-date="2009-01-21T21:16:01.619462Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   name="kalman"
+   kind="dir"/>
+<entry
+   name="innovMLE"
+   kind="dir"/>
+<entry
+   name="misc"
+   kind="dir"/>
+<entry
+   name="leastSquares"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2664"
+   name=""
+   committed-date="2008-01-23T02:52:30.871679Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/misc/sxcFiles"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2664"
+   name="diffSignSampDataS.sxc"
+   text-time="2009-05-22T18:28:51.919375Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="4b7de6bea4c7ee0bbc765b6d4caffdd2"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.356875Z"/>
+<entry
+   committed-rev="2664"
+   name="turnPointSampDataL.sxc"
+   text-time="2009-05-22T18:28:51.919375Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="472d585c30585831b6fe840764459f2e"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.528750Z"/>
+<entry
+   committed-rev="2664"
+   name="turnPointSampDataS.sxc"
+   text-time="2009-05-22T18:28:51.919375Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="52c947657856c83d2a48f923dfa3e254"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.685000Z"/>
+<entry
+   committed-rev="2664"
+   name="diffSignSampDataL.sxc"
+   text-time="2009-05-22T18:28:51.935000Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="fbda5b597f35093bb35048e7402cb26a"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:51.888125Z"/>
+</wc-entries>

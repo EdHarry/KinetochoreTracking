@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2664"
+   name=""
+   committed-date="2008-01-23T02:52:30.871679Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/timeSeriesAnalysis/leastSquares/arls/arlsestim1"
+   last-author="helliott"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="2664"
+   name="arlsestim1.m"
+   text-time="2009-05-22T18:28:53.622500Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="adb957c558ba163646f07b33de67810b"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.575625Z"/>
+<entry
+   committed-rev="2664"
+   name="arlsestim1Const.m"
+   text-time="2009-05-22T18:28:53.638125Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="a366e5527b1e6d4076851c2964d8cee8"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.591250Z"/>
+<entry
+   committed-rev="2664"
+   name="arlsestim1Obj.m"
+   text-time="2009-05-22T18:28:53.653750Z"
+   committed-date="2008-01-23T02:52:30.871679Z"
+   checksum="168fea43b060fd48658504cff1f980b8"
+   last-author="helliott"
+   kind="file"
+   prop-time="2009-05-22T18:28:53.606875Z"/>
+</wc-entries>

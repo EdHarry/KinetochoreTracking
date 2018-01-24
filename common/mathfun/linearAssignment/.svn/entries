@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3322"
+   name=""
+   committed-date="2009-04-28T16:29:47.710167Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/mathfun/linearAssignment"
+   last-author="zmaffeo"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="3253"
+   name="mexLap.mexw64"
+   text-time="2009-05-22T18:27:52.888125Z"
+   committed-date="2009-04-06T21:19:52.270761Z"
+   checksum="7c13456479fa4c5bdd6a0ff059386b0f"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:23.294375Z"/>
+<entry
+   committed-rev="1560"
+   name="mexLap.dll"
+   text-time="2009-05-22T18:27:52.888125Z"
+   committed-date="2005-06-10T01:38:27.637996Z"
+   checksum="4307261a074dcfbdf108fab4a94b33df"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:23.310000Z"/>
+<entry
+   committed-rev="3281"
+   name="mexLap.mexmaci64"
+   text-time="2009-05-22T18:27:52.888125Z"
+   committed-date="2009-04-15T21:57:53.983198Z"
+   checksum="c8ef91bdb32b16d6e2c6ff6bee5b9c05"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:23.528750Z"/>
+<entry
+   committed-rev="2566"
+   name="lap.m"
+   text-time="2009-05-22T18:27:52.903750Z"
+   committed-date="2007-11-13T03:22:38.924169Z"
+   checksum="08577b479b8f1dc963e98496367d6819"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:23.919375Z"/>
+<entry
+   committed-rev="3217"
+   name="mexLap.cpp"
+   text-time="2009-05-22T18:27:52.903750Z"
+   committed-date="2009-03-24T19:17:38.815938Z"
+   checksum="319a318e2670a2da68715adf7c5d5345"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:24.200625Z"/>
+<entry
+   committed-rev="3218"
+   name="mexLap.mexmaci"
+   text-time="2009-05-22T18:27:52.919375Z"
+   committed-date="2009-03-24T19:46:09.113843Z"
+   checksum="8e5acf365bc5935dd6dc164a52c01b1a"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:24.216250Z"/>
+<entry
+   committed-rev="2751"
+   name="mexLap2.cpp"
+   text-time="2009-05-22T18:27:52.919375Z"
+   committed-date="2008-03-14T19:02:18.022578Z"
+   checksum="1e45a385ae4807a32d514f1617795626"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:24.528750Z"/>
+<entry
+   committed-rev="1560"
+   name="mexLap.mexglx"
+   text-time="2009-05-22T18:27:52.919375Z"
+   committed-date="2005-06-10T01:38:27.637996Z"
+   checksum="34af3fd0612989e86c4c679f25cd39ab"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:24.810000Z"/>
+<entry
+   committed-rev="3322"
+   name="mexLap.mexa64"
+   text-time="2009-05-22T18:27:52.935000Z"
+   committed-date="2009-04-28T16:29:47.710167Z"
+   checksum="b7abd1293cc062fa899b97f597e3d8f5"
+   last-author="zmaffeo"
+   kind="file"
+   prop-time="2009-05-22T18:27:24.997500Z"/>
+<entry
+   committed-rev="3255"
+   name="msvcr80.dll"
+   text-time="2009-05-22T18:27:52.950625Z"
+   committed-date="2009-04-07T14:48:04.451667Z"
+   checksum="465cebd7da2ceaba5e552fc9118a1415"
+   last-author="jdorn"
+   kind="file"
+   prop-time="2009-05-22T18:27:52.622500Z"/>
+</wc-entries>

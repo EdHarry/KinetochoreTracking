@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3395"
+   name=""
+   committed-date="2009-05-08T22:20:56.793908Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/mex"
+   last-author="peihsin"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="mexCalls"
+   kind="dir"/>
+<entry
+   name="fminsimplex"
+   kind="dir"/>
+<entry
+   name="mexCreateSparseDistanceMatrix"
+   kind="dir"/>
+<entry
+   name="mexCreateDiffMatrix"
+   kind="dir"/>
+<entry
+   name="mexCreateDistanceMatrix"
+   kind="dir"/>
+<entry
+   name="mexDataConverters"
+   kind="dir"/>
+</wc-entries>

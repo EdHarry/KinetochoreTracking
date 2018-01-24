@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2004-02-09T23:48:10.589728Z"
+   url="https://lccb-svn.scripps.edu/matlab/projects/common/main/imAnalysis/trackfun/private"
+   last-author="machacek"
+   kind="dir"
+   uuid="0bcb941b-74d1-0310-bb26-e6636707f451"
+   revision="3427"/>
+<entry
+   committed-rev="101"
+   name="setIDPropPosEstimate.m"
+   text-time="2009-05-22T18:28:42.731875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="1a1adfccf88380234c8466b12a69e27a"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:38.903750Z"/>
+<entry
+   committed-rev="101"
+   name="mexSSDHandler.c"
+   text-time="2009-05-22T18:28:42.731875Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="0eedbcfa5dc764443cdf19f9e9814a74"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:39.060000Z"/>
+<entry
+   committed-rev="101"
+   name="mexSSDHandler.h"
+   text-time="2009-05-22T18:28:42.747500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="d1c780bd7605745997c79395b17fbd31"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:39.075625Z"/>
+<entry
+   committed-rev="101"
+   name="set2PTOSCIPropPosEstimate.m"
+   text-time="2009-05-22T18:28:42.747500Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="02df381b3602c9a0257d0195014dc988"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:39.091250Z"/>
+<entry
+   committed-rev="101"
+   name="mexSSDHandler.dll"
+   text-time="2009-05-22T18:28:42.763125Z"
+   committed-date="2004-02-09T23:48:10.589728Z"
+   checksum="4f7cf05b49966c5e53dd64d99f4e922f"
+   last-author="machacek"
+   kind="file"
+   prop-time="2009-05-22T18:28:42.700625Z"/>
+</wc-entries>
